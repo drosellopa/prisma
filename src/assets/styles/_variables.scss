@@ -1,12 +1,53 @@
-@use "sass:color";
-
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
+$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+// Only two weights are self-hosted (see _dependencies.scss): 400 for body
+// copy, 600 for every title.
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+
+// Wide tracking reserved for H1/H2 only.
+$letter-spacing-heading: 0.15em;
+
+// ---------------------------------------------------------------------------
+// Paleta de marca — extreta per mostreig de píxels del logotip (el degradat
+// del triangle va del cian al blau, el wordmark "PRISMA" és blau marí).
+// ---------------------------------------------------------------------------
+$color-brand-cyan: #00d8f8; // punta del triangle — ús decoratiu/degradats només (1.6:1 sobre blanc)
+$color-brand-sky: #00a8e8; // ús decoratiu/icones grans (2.7:1 sobre blanc)
+$color-brand-blue: #0068d0; // blau primari — AA per a text normal (5.4:1 sobre blanc)
+$color-brand-royal: #0040b0; // hover/active del primari (8.9:1 sobre blanc)
+$color-brand-indigo: #0838a8; // variant del degradat, ús decoratiu
+$color-brand-navy: #082858; // wordmark del logotip — AAA (14.4:1 sobre blanc)
+
+// Escala neutra (no ve del logotip; necessària per a fons, vores i text de suport).
+$color-neutral-white: #ffffff;
+$color-neutral-50: #f5f7fa;
+$color-neutral-100: #e8ecf1;
+$color-neutral-300: #c3cbd6;
+$color-neutral-500: #6b7684;
+$color-neutral-700: #3a4250;
+$color-neutral-900: #1a1f28;
+
+// Tokens semàntics — la resta de components han de fer servir aquests, no
+// els colors de marca/neutres directament.
+$color-primary: $color-brand-blue;
+$color-primary-hover: $color-brand-royal;
+$color-primary-active: $color-brand-indigo;
+$color-text-heading: $color-brand-navy;
+$color-text-body: $color-neutral-900;
+$color-text-muted: $color-neutral-500;
+$color-border: $color-neutral-100;
+$color-background: $color-neutral-white;
+$color-background-alt: $color-neutral-50;
 
 $mqMinWidth: 420px;
+
+// El menú inline només apareix a partir d'aquí; per sota, menú de calaix
+// (hamburguesa). 1024px cobreix les tablets en horitzontal com a "mòbil/tablet".
+$breakpoint-nav-desktop: 1024px;
+
+$header-height: 72px;
+$nav-drawer-width: 300px;

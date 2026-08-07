@@ -1,0 +1,90 @@
+@use "sass:color";
+@use "../variables";
+
+// Breakpoint propi del hero: per sota, la imatge de fons queda massa
+// retallada per conviure amb el contingut, així que es mostra molt atenuada
+// a pantalla completa; per sobre, es retira cap a la dreta i el contingut
+// queda a l'esquerra amb un degradat de transició.
+$hero-image-breakpoint: 768px;
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-color: variables.$color-background;
+  // El header és fixed i el body ja reserva el seu espai (padding-top): el
+  // hero cancel·la aquest espai pujant per sota seu, i el recupera com a
+  // padding intern, perquè la imatge de fons es vegi a través de la part
+  // transparent del header.
+  margin-top: calc(-1 * #{variables.$header-height});
+  padding-top: variables.$header-height;
+}
+
+.hero__background {
+  position: absolute;
+  inset: 0;
+  background-image: url("../images/hero_back.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  opacity: 0.16;
+
+  @media (min-width: $hero-image-breakpoint) {
+    opacity: 1;
+  }
+}
+
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,
+      variables.$color-background 0%,
+      color.change(variables.$color-background, $alpha: 0.85) 60%,
+      color.change(variables.$color-background, $alpha: 0.55) 100%);
+
+  @media (min-width: $hero-image-breakpoint) {
+    background: linear-gradient(90deg,
+        variables.$color-background 0%,
+        variables.$color-background 38%,
+        color.change(variables.$color-background, $alpha: 0.85) 55%,
+        color.change(variables.$color-background, $alpha: 0) 75%);
+  }
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 4rem 1.25rem;
+
+  @media (min-width: $hero-image-breakpoint) {
+    padding-block: clamp(4rem, 12vw, 7rem);
+    min-height: clamp(420px, 60vh, 640px);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.hero__content {
+  max-width: 36rem;
+}
+
+.hero__title {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.hero__tagline {
+  margin: 0 0 1.5rem;
+  color: variables.$color-primary;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+}
+
+.hero__lead {
+  margin: 0 0 2rem;
+  color: variables.$color-text-muted;
+  font-size: 1rem;
+  line-height: 1.6;
+}

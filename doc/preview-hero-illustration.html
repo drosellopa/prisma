@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<title>Previsualització il·lustració hero</title>
+<style>
+  body{margin:0;font-family:Arial,sans-serif;background:#EEF1F5;padding:2rem;}
+  .row{display:flex;flex-wrap:wrap;gap:1.5rem;max-width:1100px;margin:0 auto;}
+  .box{flex:1;min-width:320px;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(20,30,50,0.1);}
+  .box__label{background:#fff;padding:0.7rem 1rem;font-size:0.8rem;color:#5B6472;font-weight:600;}
+  .box__stage{padding:2rem;display:flex;align-items:center;justify-content:center;height:340px;}
+  .stage--navy{background:linear-gradient(135deg,#0A1F44,#1565C0 55%,#29B6F6);}
+  .stage--white{background:#fff;}
+  .box__stage img{width:260px;height:260px;}
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="box">
+      <div class="box__label">Sobre el gradient del hero (com quedaria a la web)</div>
+      <div class="box__stage stage--navy"><img src="hero-illustration.svg" alt=""></div>
+    </div>
+    <div class="box">
+      <div class="box__label">Sobre fons blanc (com a element aïllat)</div>
+      <div class="box__stage stage--white"><img src="hero-illustration.svg" alt=""></div>
+    </div>
+  </div>
+</body>
+</html>

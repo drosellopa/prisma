@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CFPI Prisma — Opcions d'estil</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Segoe UI',Arial,sans-serif;
+    background:#EEF1F5;
+    color:#1B2430;
+    padding:2.5rem 1.25rem;
+  }
+  .intro{max-width:900px;margin:0 auto 2.5rem;}
+  .intro h1{font-size:1.6rem;margin-bottom:0.5rem;}
+  .intro p{color:#5B6472;font-size:0.95rem;}
+  .options{
+    max-width:1300px;margin:0 auto;
+    display:grid;grid-template-columns:1fr;gap:2.5rem;
+  }
+  @media(min-width:920px){.options{grid-template-columns:1fr 1fr;}}
+
+  .option{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(20,30,50,0.08);}
+  .option__label{padding:1.1rem 1.4rem 0.9rem;border-bottom:1px solid #E2E8F0;}
+  .option__label .tag{
+    display:inline-block;font-size:0.7rem;font-weight:700;letter-spacing:0.06em;
+    text-transform:uppercase;color:#1565C0;background:#E7F3FE;
+    padding:0.25rem 0.6rem;border-radius:999px;margin-bottom:0.5rem;
+  }
+  .option__label h2{font-size:1.15rem;margin-bottom:0.3rem;}
+  .option__label p{font-size:0.85rem;color:#5B6472;}
+
+  .frame{position:relative;}
+  .frame__bar{
+    height:26px;background:#E7E9EC;display:flex;align-items:center;gap:5px;padding:0 10px;
+  }
+  .frame__bar span{width:8px;height:8px;border-radius:50%;background:#C9CDD3;}
+
+  /* ============ 1. INSTITUCIONAL CLASSIC ============ */
+  .style-1{background:#FFFFFF;color:#0A2540;font-family:Georgia,'Times New Roman',serif;padding:1.6rem 1.6rem 1.8rem;}
+  .style-1__nav{display:flex;justify-content:space-between;align-items:center;font-family:Arial,sans-serif;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#0A2540;border-bottom:1px solid #D8DEE6;padding-bottom:0.9rem;margin-bottom:1.6rem;}
+  .style-1__eyebrow{font-family:Arial,sans-serif;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:#8A7B4E;margin-bottom:0.6rem;}
+  .style-1 h3{font-size:1.55rem;font-weight:400;line-height:1.3;margin-bottom:0.7rem;}
+  .style-1 p{font-family:Arial,sans-serif;font-size:0.85rem;color:#43506B;line-height:1.6;max-width:340px;margin-bottom:1.1rem;}
+  .style-1__btn{font-family:Arial,sans-serif;font-size:0.78rem;font-weight:700;color:#0A2540;border-bottom:2px solid #8A7B4E;padding-bottom:3px;display:inline-block;}
+  .style-1__block{margin-top:1.6rem;border:1px solid #D8DEE6;padding:1rem;display:flex;gap:1rem;align-items:center;}
+  .style-1__swatch{width:34px;height:34px;background:#0A2540;flex-shrink:0;}
+  .style-1__block b{font-family:Arial,sans-serif;font-size:0.78rem;display:block;margin-bottom:2px;}
+  .style-1__block span{font-family:Arial,sans-serif;font-size:0.75rem;color:#5B6472;}
+
+  /* ============ 2. MODERN DINAMIC ============ */
+  .style-2{background:linear-gradient(135deg,#0A1F44,#1565C0 55%,#29B6F6);color:#fff;padding:1.6rem;font-family:'Segoe UI',Arial,sans-serif;}
+  .style-2__nav{display:flex;justify-content:space-between;align-items:center;font-size:0.72rem;font-weight:700;margin-bottom:1.6rem;}
+  .style-2__pill{background:#4FC3F7;color:#0A1F44;font-size:0.65rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:999px;display:inline-block;margin-bottom:0.7rem;}
+  .style-2 h3{font-size:1.5rem;font-weight:800;line-height:1.25;margin-bottom:0.6rem;}
+  .style-2 p{font-size:0.85rem;color:#DCEBFC;max-width:320px;margin-bottom:1.1rem;}
+  .style-2__btn{background:#fff;color:#0A1F44;font-size:0.78rem;font-weight:700;padding:0.6rem 1.1rem;border-radius:999px;display:inline-block;}
+  .style-2__cards{display:flex;gap:0.7rem;margin-top:1.6rem;}
+  .style-2__card{background:rgba(255,255,255,0.14);border-radius:12px;padding:0.8rem;flex:1;}
+  .style-2__card b{font-size:0.75rem;display:block;margin-bottom:2px;}
+  .style-2__card span{font-size:0.68rem;color:#DCEBFC;}
+
+  /* ============ 3. EDITORIAL HUMA ============ */
+  .style-3{background:#FBF7F1;color:#2B2620;padding:1.6rem;font-family:'Segoe UI',Arial,sans-serif;}
+  .style-3__nav{display:flex;justify-content:space-between;align-items:center;font-size:0.72rem;font-weight:600;color:#6B5F4E;border-bottom:1px solid #E7DFD1;padding-bottom:0.9rem;margin-bottom:1.6rem;}
+  .style-3__eyebrow{font-size:0.72rem;font-weight:600;color:#B35A3A;margin-bottom:0.6rem;}
+  .style-3 h3{font-family:Georgia,serif;font-size:1.65rem;font-weight:400;line-height:1.3;color:#2B2620;margin-bottom:0.7rem;}
+  .style-3 p{font-size:0.85rem;color:#6B5F4E;line-height:1.65;max-width:330px;margin-bottom:1.2rem;}
+  .style-3__btn{font-size:0.78rem;font-weight:600;color:#2B2620;text-decoration:underline;text-underline-offset:4px;}
+  .style-3__photo{margin-top:1.5rem;height:90px;background:linear-gradient(120deg,#E7DFD1,#D8CBB4);border-radius:6px;display:flex;align-items:flex-end;padding:0.7rem;}
+  .style-3__photo span{font-size:0.68rem;color:#6B5F4E;background:#FBF7F1;padding:0.25rem 0.55rem;border-radius:4px;}
+
+  /* ============ 4. MINIMAL SUIS ============ */
+  .style-4{background:#fff;color:#111417;padding:1.6rem;font-family:Arial,Helvetica,sans-serif;}
+  .style-4__nav{display:flex;justify-content:space-between;align-items:center;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:2rem;}
+  .style-4__grid{display:grid;grid-template-columns:1fr;gap:1.2rem;}
+  .style-4__eyebrow{width:22px;height:4px;background:#1E5EFF;margin-bottom:0.8rem;}
+  .style-4 h3{font-size:1.5rem;font-weight:700;line-height:1.25;letter-spacing:-0.01em;margin-bottom:0.7rem;}
+  .style-4 p{font-size:0.85rem;color:#5A5F66;max-width:320px;margin-bottom:1.1rem;}
+  .style-4__btn{font-size:0.78rem;font-weight:700;color:#fff;background:#111417;padding:0.6rem 1.1rem;display:inline-block;}
+  .style-4__rule{height:1px;background:#E2E5E9;margin:1.4rem 0;}
+  .style-4__row{display:flex;justify-content:space-between;font-size:0.75rem;color:#5A5F66;}
+  .style-4__row b{color:#111417;font-weight:700;}
+
+</style>
+</head>
+<body>
+
+<div class="intro">
+  <h1>CFPI Prisma — 4 direccions d'estil per triar</h1>
+  <p>Mateixa marca, mateix contingut, quatre personalitats diferents. Tria la que més s'ajusti (o digue'm quins elements combinar) i construeixo la landing completa sobre aquesta base.</p>
+</div>
+
+<div class="options">
+
+  <div class="option">
+    <div class="option__label">
+      <span class="tag">Opció 1</span>
+      <h2>Institucional clàssic</h2>
+      <p>Seriós i formal, com una web d'administració pública o universitat. Serif per als títols, blau marí + un toc daurat, línies fines, sense arrodoniments.</p>
+    </div>
+    <div class="frame">
+      <div class="frame__bar"><span></span><span></span><span></span></div>
+      <div class="style-1">
+        <div class="style-1__nav"><span>PRISMA</span><span>Menú</span></div>
+        <div class="style-1__eyebrow">Sistema FPCAT</div>
+        <h3>Centre de Formació Professional Integrada</h3>
+        <p>Formació professional integrada en serveis socioculturals i a la comunitat.</p>
+        <span class="style-1__btn">Descobreix els serveis</span>
+        <div class="style-1__block">
+          <div class="style-1__swatch"></div>
+          <div><b>Projecte de Centre</b><span>Document institucional de referència</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option">
+    <div class="option__label">
+      <span class="tag">Opció 2</span>
+      <h2>Modern i dinàmic</h2>
+      <p>El que ja has vist: gradient blau/cian, targetes arrodonides, tipografia gruixuda. Look de startup educativa, molt visual.</p>
+    </div>
+    <div class="frame">
+      <div class="frame__bar"><span></span><span></span><span></span></div>
+      <div class="style-2">
+        <div class="style-2__nav"><span>PRISMA</span><span>☰</span></div>
+        <span class="style-2__pill">Decret 137/2023</span>
+        <h3>Formació integrada, un sol projecte</h3>
+        <p>Sis centres treballant junts per a persones i empreses.</p>
+        <span class="style-2__btn">Descobreix els serveis</span>
+        <div class="style-2__cards">
+          <div class="style-2__card"><b>Orientació</b><span>Acompanyament</span></div>
+          <div class="style-2__card"><b>Formació</b><span>Itineraris</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option">
+    <div class="option__label">
+      <span class="tag">Opció 3</span>
+      <h2>Editorial humà</h2>
+      <p>Fons crema càlid, tipografia serif elegant per als titulars, blocs tipus fotografia, molt espai en blanc. Transmet proximitat i vessant social, no tan corporatiu.</p>
+    </div>
+    <div class="frame">
+      <div class="frame__bar"><span></span><span></span><span></span></div>
+      <div class="style-3">
+        <div class="style-3__nav"><span>Prisma</span><span>Menú</span></div>
+        <div class="style-3__eyebrow">Serveis a les persones</div>
+        <h3>Formació que acompanya tota una vida</h3>
+        <p>Orientació, acreditació i formació al servei de les persones i el territori.</p>
+        <span class="style-3__btn">Coneix els centres</span>
+        <div class="style-3__photo"><span>Imatge / equip Prisma</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option">
+    <div class="option__label">
+      <span class="tag">Opció 4</span>
+      <h2>Minimal suís</h2>
+      <p>Fons blanc net, tipografia sans molt marcada, un sol blau d'accent utilitzat amb molta mesura, línies fines, zero decoració. Look "tech" seriós i molt llegible.</p>
+    </div>
+    <div class="frame">
+      <div class="frame__bar"><span></span><span></span><span></span></div>
+      <div class="style-4">
+        <div class="style-4__nav"><span>PRISMA</span><span>MENÚ</span></div>
+        <div class="style-4__eyebrow"></div>
+        <h3>Formació professional integrada</h3>
+        <p>Sis centres. Un sol itinerari per a persones i empreses.</p>
+        <span class="style-4__btn">Descobreix els serveis →</span>
+        <div class="style-4__rule"></div>
+        <div class="style-4__row"><span>Centres membres</span><b>06</b></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

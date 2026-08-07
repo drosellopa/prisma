@@ -1,0 +1,50 @@
+@use "../variables";
+
+.cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.875rem 1.75rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-family: variables.$font-family-sans-serif;
+  font-weight: variables.$font-weight-semibold;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+
+  &:focus-visible {
+    outline: 2px solid variables.$color-primary;
+    outline-offset: 2px;
+  }
+}
+
+.cta-button--primary {
+  border-color: variables.$color-primary;
+  background-color: variables.$color-primary;
+  color: variables.$color-neutral-white;
+
+  &:hover {
+    border-color: variables.$color-primary-hover;
+    background-color: variables.$color-primary-hover;
+  }
+}
+
+.cta-button--secondary {
+  border-color: variables.$color-text-heading;
+  background-color: transparent;
+  color: variables.$color-text-heading;
+
+  &:hover {
+    border-color: variables.$color-primary;
+    color: variables.$color-primary;
+  }
+}

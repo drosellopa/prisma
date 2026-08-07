@@ -1,0 +1,1239 @@
+[Normal] NORMES D’ORGANITZACIÓ I FUNCIONAMENT DEL CENTRE (MODEL PER A CENTRES DE FORMACIÓ PROFESSIONAL PER A L’OCUPACIÓ)
+[Normal] 1. DISPOSICIONS GENERALS
+[Normal (Web)] 1.1. Objecte de les Normes d’organització i funcionament
+[Normal (Web)] Les presents Normes d’organització i funcionament del centre, d’ara endavant NOFC, tenen per objecte regular els criteris bàsics d’organització, funcionament, convivència i desenvolupament de l’activitat formativa de [nom del centre].
+[Normal (Web)] Les NOFC constitueixen el marc intern de referència per a les persones que participen en les activitats del centre i estableixen les responsabilitats, els procediments i les pautes de funcionament necessàries per garantir:
+[Normal (Web)] La qualitat de les accions formatives.
+[Normal (Web)] El correcte desenvolupament dels processos d’informació, selecció, inscripció, acollida, formació, avaluació i acreditació.
+[Normal (Web)] Els drets i deures de les persones participants.
+[Normal (Web)] Les funcions i responsabilitats del personal formador, tècnic, administratiu i directiu.
+[Normal (Web)] La convivència, el respecte, la igualtat de tracte i la no-discriminació.
+[Normal (Web)] L’ús adequat dels espais, les instal·lacions, els equipaments i els recursos del centre.
+[Normal (Web)] El compliment de les obligacions derivades de les convocatòries, autoritzacions, acreditacions o programes en què participi el centre.
+[Normal (Web)] La transparència, la traçabilitat, la qualitat i la millora contínua de l’activitat formativa.
+[Normal (Web)] 1.2. Àmbit d’aplicació
+[Normal (Web)] Aquestes normes són aplicables a totes les persones que desenvolupen o participen en activitats vinculades al centre, incloent-hi:
+[Normal (Web)] Les persones participants en les accions formatives.
+[Normal (Web)] El personal formador, tutor, orientador o expert.
+[Normal (Web)] El personal tècnic, administratiu i de serveis.
+[Normal (Web)] Les persones responsables de la direcció, coordinació i gestió del centre.
+[Normal (Web)] Les empreses, entitats i professionals que col·laborin en el desenvolupament de les activitats formatives.
+[Normal (Web)] Qualsevol altra persona que accedeixi a les instal·lacions o utilitzi els recursos del centre en el marc d’una activitat autoritzada.
+[Normal (Web)] Les NOFC són aplicables a les activitats presencials, virtuals o mixtes, així com a les activitats desenvolupades fora de les instal·lacions del centre, incloses les visites, les activitats complementàries i els períodes de formació pràctica en empresa o organisme equiparat.
+[Normal (Web)] 1.3. Principis generals de funcionament
+[Normal (Web)] L’organització i el funcionament del centre es regeixen pels principis següents:
+[Normal (Web)] Qualitat i adequació de la formació a les necessitats de les persones, les empreses i el mercat de treball.
+[Normal (Web)] Igualtat d’oportunitats, accessibilitat universal i no-discriminació.
+[Normal (Web)] Respecte a la dignitat, la intimitat i els drets de totes les persones.
+[Normal (Web)] Orientació a l’aprenentatge, a la qualificació professional, a l’ocupabilitat i al desenvolupament professional.
+[Normal (Web)] Participació activa i responsabilitat de les persones participants.
+[Normal (Web)] Professionalitat, coordinació i millora contínua de l’equip del centre.
+[Normal (Web)] Transparència en la informació, els criteris d’accés, l’avaluació i la certificació.
+[Normal (Web)] Confidencialitat i protecció de les dades personals.
+[Normal (Web)] Prevenció de riscos laborals i protecció de la seguretat i la salut.
+[Normal (Web)] Compliment de la normativa i de les condicions establertes en cada programa, convocatòria, autorització o acreditació.
+[Normal (Web)] 1.4. Marc normatiu
+[Normal (Web)] Les activitats del centre s’han d’ajustar a la normativa vigent que sigui aplicable en funció de la naturalesa de cada actuació formativa.
+[Normal (Web)] El marc normatiu de referència inclou, entre d’altres:
+[Normal (Web)] La normativa reguladora del Sistema de Formació Professional.
+[Normal (Web)] La normativa reguladora de la formació professional per a l’ocupació.
+[Normal (Web)] La normativa aplicable als certificats professionals i a les especialitats formatives.
+[Normal (Web)] La normativa i les instruccions del Servei Públic d’Ocupació de Catalunya i dels altres organismes promotors o finançadors.
+[Normal (Web)] Les bases reguladores, convocatòries, resolucions i guies de gestió aplicables a cada programa.
+[Normal (Web)] La normativa laboral, de prevenció de riscos laborals, igualtat, accessibilitat, protecció de dades i protecció de les persones consumidores i usuàries que sigui aplicable.
+[Normal (Web)] La normativa específica corresponent a les instal·lacions, equipaments o sectors professionals en què s’imparteixi la formació.
+[Normal (Web)] La relació de normativa aplicable podrà actualitzar-se sense necessitat de modificar la totalitat de les NOFC.
+[Normal (Web)] 1.5. Elaboració i actualització
+[Normal (Web)] Correspon a la direcció o a la titularitat del centre impulsar l’elaboració i l’actualització de les NOFC.
+[Normal (Web)] En la seva elaboració podran participar les persones responsables de les diferents àrees del centre, especialment les responsables de formació, coordinació, orientació, qualitat, administració i prevenció de riscos laborals.
+[Normal (Web)] Les NOFC es revisaran periòdicament i, en tot cas, quan es produeixin:
+[Normal (Web)] Canvis normatius rellevants.
+[Normal (Web)] Modificacions substancials en l’organització del centre.
+[Normal (Web)] Nous requeriments dels organismes competents.
+[Normal (Web)] Incidències o resultats d’avaluació que aconsellin modificar els procediments interns.
+[Normal (Web)] Canvis en les activitats, especialitats o modalitats formatives desenvolupades pel centre.
+[Normal (Web)] 1.6. Aprovació
+[Normal (Web)] Les NOFC i les seves modificacions han de ser aprovades formalment per la titularitat o per l’òrgan de govern competent de l’entitat.
+[Normal (Web)] L’acord d’aprovació ha d’identificar, com a mínim:
+[Normal (Web)] La versió del document.
+[Normal (Web)] La data d’aprovació.
+[Normal (Web)] La data d’entrada en vigor.
+[Normal (Web)] L’òrgan o la persona responsable de l’aprovació.
+[Normal (Web)] La data prevista de revisió.
+[Normal (Web)] Quan el centre formi part d’una entitat amb diferents seus o establiments, es podrà aprovar un model comú, sens perjudici que cada centre incorpori les adaptacions específiques necessàries.
+[Normal (Web)] 1.7. Difusió i accessibilitat
+[Normal (Web)] Les NOFC han d’estar a disposició de les persones participants i del personal del centre.
+[Normal (Web)] El centre facilitarà informació sobre els seus continguts principals durant el procés d’acollida i podrà publicar-les o posar-les a disposició mitjançant:
+[Normal (Web)] El web o la plataforma virtual del centre.
+[Normal (Web)] El tauler d’informació.
+[Normal (Web)] La documentació d’acollida.
+[Normal (Web)] La secretaria o el servei d’atenció a les persones participants.
+[Normal (Web)] Els canals interns de comunicació amb el personal.
+[Normal (Web)] El desconeixement de les normes no eximeix del seu compliment, sempre que el centre hagi garantit adequadament la seva informació, difusió i accessibilitat.
+[Normal] 2. IDENTITAT, FINALITATS I MODEL FORMATIU DEL CENTRE
+[Normal] 2.1. Missió
+[Normal] El centre té com a missió contribuir al desenvolupament professional de les persones al llarg de la vida mitjançant una oferta de formació professional de qualitat, connectada amb les necessitats del teixit productiu i orientada a la millora de l'ocupabilitat, la qualificació i la competitivitat de les empreses.
+[Normal] La seva activitat s'adreça tant a persones ocupades com desocupades, així com a empreses, administracions i altres organitzacions que participen en el desenvolupament del talent professional.
+[Normal] 2.2. Visió
+[Normal] El centre aspira a consolidar-se com una organització de referència en el seu àmbit professional, reconeguda per la qualitat de la seva oferta formativa, la capacitat d'innovació metodològica, la proximitat amb les empreses i la contribució al desenvolupament econòmic i social del territori.
+[Normal] 2.3. Valors
+[Normal] L'activitat del centre es desenvolupa d'acord amb els valors següents:
+[List Paragraph] Orientació a les persones.
+[List Paragraph] Qualitat i millora contínua.
+[List Paragraph] Igualtat d'oportunitats i inclusió.
+[List Paragraph] Professionalitat i responsabilitat.
+[List Paragraph] Innovació i aprenentatge permanent.
+[List Paragraph] Col·laboració amb les empreses i els agents del territori.
+[List Paragraph] Transparència i bon govern.
+[List Paragraph] Sostenibilitat i responsabilitat social.
+[Normal] 2.4. Model formatiu
+[Normal] El centre desenvolupa un model de formació professional orientat a l'adquisició, actualització i acreditació de competències professionals.
+[Normal] Aquest model es basa en els principis següents:
+[List Paragraph] Aprenentatge centrat en la persona.
+[List Paragraph] Metodologies actives i contextualitzades.
+[List Paragraph] Desenvolupament de competències professionals, personals i transversals.
+[List Paragraph] Vinculació permanent amb les necessitats del mercat de treball.
+[List Paragraph] Incorporació de recursos tecnològics i digitals.
+[List Paragraph] Aprenentatge pràctic i experiencial.
+[List Paragraph] Orientació professional durant tot l'itinerari formatiu.
+[List Paragraph] Avaluació contínua dels aprenentatges.
+[Normal] 2.5. Activitat del centre
+[Normal] El centre podrà desenvolupar, entre d'altres, les activitats següents:
+[List Paragraph] Certificats professionals.
+[List Paragraph] Especialitats formatives.
+[List Paragraph] Formació subvencionada.
+[List Paragraph] Formació programada per les empreses.
+[List Paragraph] Formació a mida.
+[List Paragraph] Accions d'orientació professional.
+[List Paragraph] Acreditació de competències professionals.
+[List Paragraph] Projectes d'innovació, experimentació i transferència de coneixement.
+[Normal] La relació concreta d'activitats podrà variar anualment en funció de les autoritzacions, convocatòries o programes en què participi el centre.
+[Normal] 2.6. Relació amb les empreses i el territori
+[Normal] El centre promou una col·laboració estable amb empreses, organitzacions empresarials, administracions públiques, agents socials i altres entitats amb la finalitat de:
+[List Paragraph] Detectar necessitats formatives.
+[List Paragraph] Adequar l'oferta a l'evolució dels sectors productius.
+[List Paragraph] Facilitar experiències d'aprenentatge en entorns professionals.
+[List Paragraph] Afavorir la inserció laboral de les persones participants.
+[List Paragraph] Impulsar iniciatives conjuntes d'innovació i desenvolupament del talent.
+[Normal] 2.7. Compromís amb la qualitat
+[Normal] El centre desenvolupa la seva activitat d'acord amb els principis de qualitat, eficàcia, eficiència i millora contínua.
+[Normal] Per aquest motiu disposarà dels procediments necessaris per:
+[List Paragraph] Planificar l'activitat formativa.
+[List Paragraph] Fer el seguiment de les accions desenvolupades.
+[List Paragraph] Mesurar els resultats.
+[List Paragraph] Analitzar la satisfacció de les persones participants, del personal formador i de les empreses.
+[List Paragraph] Implantar accions de millora.
+[Normal] Els resultats d'aquest procés alimentaran la planificació anual i la revisió periòdica dels processos interns del centre.
+[Normal] 3. GOVERNANÇA, ORGANITZACIÓ I RESPONSABILITATS
+[Normal] 3.1. Principis d'organització
+[Normal] L'organització del centre s'estructura d'acord amb els principis de responsabilitat, eficiència, coordinació, qualitat, transparència i millora contínua.
+[Normal] L'estructura organitzativa té per finalitat garantir:
+[List Paragraph] La qualitat de les activitats formatives.
+[List Paragraph] El compliment dels requisits establerts pels organismes competents.
+[List Paragraph] Una adequada atenció a les persones participants.
+[List Paragraph] La coordinació entre tots els professionals del centre.
+[List Paragraph] La correcta gestió dels recursos humans, materials i econòmics.
+[List Paragraph] La relació estable amb les empreses, les administracions i els agents del territori.
+[Normal] L'organització interna podrà adaptar-se a les característiques, dimensions i volum d'activitat de cada centre, sempre que quedin garantides les funcions essencials definides en aquestes normes.
+[Normal] 3.2. Òrgans de govern
+[Normal] El govern del centre correspon a la titularitat i a la direcció.
+[Normal] Segons les dimensions del centre, aquestes funcions podran ser assumides per una mateixa persona o distribuir-se entre diferents responsables.
+[Normal] Correspon als òrgans de govern:
+[List Paragraph] Definir l'estratègia del centre.
+[List Paragraph] Aprovar la planificació anual.
+[List Paragraph] Assignar recursos.
+[List Paragraph] Garantir el compliment de la normativa.
+[List Paragraph] Aprovar les polítiques internes.
+[List Paragraph] Vetllar pel sistema de qualitat.
+[List Paragraph] Aprovar aquestes NOFC i les seves modificacions.
+[Normal] 3.3. Direcció del centre
+[Normal] La direcció és la màxima responsable de l'organització i del funcionament ordinari del centre.
+[Normal] Entre les seves funcions destaquen:
+[List Paragraph] Representar institucionalment el centre.
+[List Paragraph] Dirigir i coordinar l'activitat formativa.
+[List Paragraph] Organitzar els recursos humans i materials.
+[List Paragraph] Garantir el compliment de les convocatòries i dels requisits dels organismes finançadors.
+[List Paragraph] Impulsar la qualitat i la innovació.
+[List Paragraph] Aprovar la programació de les activitats formatives.
+[List Paragraph] Resoldre les incidències organitzatives.
+[List Paragraph] Vetllar per la seguretat i el benestar de les persones participants.
+[List Paragraph] Promoure la relació amb empreses i institucions.
+[Normal] 3.4. Coordinació de la formació
+[Normal] El centre podrà designar una persona responsable de la coordinació de la formació.
+[Normal] Les seves funcions seran:
+[List Paragraph] Planificar l'oferta formativa.
+[List Paragraph] Coordinar els equips docents.
+[List Paragraph] Supervisar el desenvolupament de les accions formatives.
+[List Paragraph] Garantir la coherència metodològica.
+[List Paragraph] Coordinar els processos d'avaluació.
+[List Paragraph] Organitzar els horaris.
+[List Paragraph] Assignar espais i recursos.
+[List Paragraph] Coordinar les incidències acadèmiques.
+[Normal] 3.5. Coordinació d'orientació professional
+[Normal] Quan el centre disposi d'aquest servei, designarà una persona responsable de coordinar-lo.
+[Normal] Les seves funcions inclouen:
+[List Paragraph] Informació inicial.
+[List Paragraph] Acollida.
+[List Paragraph] Diagnosi professional.
+[List Paragraph] Elaboració dels itineraris.
+[List Paragraph] Acompanyament durant la formació.
+[List Paragraph] Suport a la inserció laboral.
+[List Paragraph] Coordinació amb els serveis públics d'ocupació.
+[List Paragraph] Coordinació amb els serveis d'acreditació de competències.
+[List Paragraph] Seguiment de la trajectòria de les persones participants.
+[Normal] 3.6. Coordinació de la relació amb les empreses
+[Normal] El centre podrà designar una persona responsable de la relació amb les empreses.
+[Normal] Entre les seves funcions hi ha:
+[List Paragraph] Captació d'empreses col·laboradores.
+[List Paragraph] Organització de les pràctiques formatives.
+[List Paragraph] Seguiment de les estades.
+[List Paragraph] Coordinació amb tutors d'empresa.
+[List Paragraph] Identificació de necessitats formatives.
+[List Paragraph] Detecció d'oportunitats d'inserció laboral.
+[Normal] 3.7. Responsable de qualitat
+[Normal] El centre designarà una persona responsable del sistema de qualitat.
+[Normal] Les seves funcions seran:
+[List Paragraph] Coordinar el sistema de qualitat.
+[List Paragraph] Gestionar els indicadors.
+[List Paragraph] Coordinar les auditories.
+[List Paragraph] Gestionar les incidències.
+[List Paragraph] Promoure la millora contínua.
+[List Paragraph] Elaborar els informes de seguiment.
+[Normal] 3.8. Equip de coordinació
+[Normal] La direcció podrà constituir un equip de coordinació format pels responsables de les diferents àrees del centre.
+[Normal] Aquest equip actuarà com a òrgan intern de coordinació i seguiment.
+[Normal] Es reunirà periòdicament per:
+[List Paragraph] Fer el seguiment de la programació.
+[List Paragraph] Analitzar incidències.
+[List Paragraph] Coordinar les activitats.
+[List Paragraph] Compartir informació.
+[List Paragraph] Impulsar millores.
+[Normal] 3.9. Equip formador
+[Normal] L'equip formador està integrat pel conjunt de professionals que desenvolupen activitats docents, tutorials, d'orientació o d'acompanyament.
+[List Paragraph] Correspon a l'equip formador:
+[List Paragraph] Desenvolupar les activitats formatives.
+[List Paragraph] Avaluar els aprenentatges.
+[List Paragraph] Fer el seguiment de les persones participants.
+[List Paragraph] Coordinar-se amb la resta de professionals del centre.
+[List Paragraph] Participar en les activitats de millora.
+[List Paragraph] Col·laborar en l'actualització dels materials didàctics.
+[List Paragraph] Vetllar per un clima d'aprenentatge positiu.
+[Normal] 3.10. Personal tècnic, administratiu i de serveis
+[Normal] El personal tècnic i administratiu dona suport al conjunt de processos del centre.
+[Normal] Les seves funcions inclouen, entre d'altres:
+[List Paragraph] Informació i atenció a les persones usuàries.
+[List Paragraph] Gestió administrativa.
+[List Paragraph] Suport a les convocatòries.
+[List Paragraph] Gestió documental.
+[List Paragraph] Suport logístic.
+[List Paragraph] Manteniment dels equipaments.
+[List Paragraph] Suport als sistemes d'informació.
+[Normal] 3.11. Persones responsables de programes o projectes
+[Normal] Quan el centre desenvolupi programes específics, podrà designar responsables de projecte.
+[Normal] Les seves funcions seran definides per la direcció en funció dels objectius, la durada i les característiques de cada actuació.
+[Normal] 3.12. Coordinació amb el Centre de Formació Professional Integrada
+[Normal] Quan el centre actuï com a centre col·laborador d'un Centre de Formació Professional Integrada, designarà una persona interlocutora amb el CFPI.
+[Normal] Aquesta persona actuarà com a referent operatiu per garantir:
+[List Paragraph] La coordinació de les activitats compartides.
+[List Paragraph] L'intercanvi d'informació.
+[List Paragraph] El seguiment dels acords establerts.
+[List Paragraph] La participació en els espais de coordinació.
+[List Paragraph] L'aplicació dels procediments comuns que estableixi el CFPI.
+[Normal] La designació d'aquesta figura no altera l'autonomia organitzativa del centre ni les responsabilitats pròpies de la seva direcció.
+[Normal] 4. ORGANITZACIÓ DE L'ACTIVITAT FORMATIVA
+[Normal] 4.1. Principis generals
+[Normal] L'activitat formativa del centre s'organitza per garantir una experiència d'aprenentatge de qualitat, adaptada a les necessitats de les persones participants i alineada amb els objectius dels diferents programes, convocatòries i especialitats formatives.
+[Normal] L'organització de cada acció formativa haurà de garantir:
+[List Paragraph] La coherència entre els objectius, els continguts, la metodologia i l'avaluació.
+[List Paragraph] La disponibilitat dels recursos humans, materials i tecnològics necessaris.
+[List Paragraph] El compliment dels requisits establerts pels organismes competents.
+[List Paragraph] La igualtat d'oportunitats en l'accés i el desenvolupament de la formació.
+[List Paragraph] L'accessibilitat i l'atenció a la diversitat de les persones participants.
+[Normal] 4.2. Programació de les accions formatives
+[Normal] Cada acció formativa disposarà d'una programació que definirà, com a mínim:
+[List Paragraph] Objectius d'aprenentatge.
+[List Paragraph] Competències professionals a desenvolupar.
+[List Paragraph] Resultats d'aprenentatge, quan siguin aplicables.
+[List Paragraph] Continguts.
+[List Paragraph] Durada.
+[List Paragraph] Calendari.
+[List Paragraph] Horaris.
+[List Paragraph] Modalitat d'impartició.
+[List Paragraph] Recursos didàctics.
+[List Paragraph] Sistema d'avaluació.
+[List Paragraph] Professorat o personal formador responsable.
+[Normal] Quan la normativa específica ho exigeixi, la programació s'ajustarà als currículums, certificats professionals, especialitats formatives o altres documents oficials de referència.
+[Normal] 4.3. Modalitats de formació
+[Normal] El centre podrà impartir accions formatives en les modalitats autoritzades en cada moment.
+[Normal] Entre d'altres:
+[List Paragraph] Presencial.
+[List Paragraph] Virtual.
+[List Paragraph] Aula virtual.
+[List Paragraph] Teleformació.
+[List Paragraph] Híbrida.
+[Normal] L'organització de cada modalitat garantirà els requisits tècnics, metodològics i de seguiment establerts per la normativa aplicable.
+[Normal] 4.4. Organització dels grups
+[Normal] Les persones participants s'organitzaran en grups formatius d'acord amb les característiques de cada programa.
+[Normal] La composició dels grups podrà tenir en compte, entre d'altres:
+[List Paragraph] El perfil professional.
+[List Paragraph] Els requisits d'accés.
+[List Paragraph] El nivell competencial inicial.
+[List Paragraph] Les necessitats específiques de suport.
+[List Paragraph] Els criteris establerts per cada convocatòria.
+[Normal] La direcció del centre podrà reorganitzar els grups quan existeixin motius pedagògics, organitzatius o derivats del compliment dels requisits normatius.
+[Normal] 4.5. Organització del personal formador
+[Normal] La direcció assignarà el personal formador tenint en compte:
+[List Paragraph] Les qualificacions professionals requerides.
+[List Paragraph] L'experiència docent i professional.
+[List Paragraph] Els requisits exigits pels organismes competents.
+[List Paragraph] Les necessitats de cada acció formativa.
+[Normal] El personal formador coordinarà la seva activitat amb la resta de professionals del centre per garantir la coherència metodològica i el correcte desenvolupament dels itineraris formatius.
+[Normal] 4.6. Metodologia
+[Normal] El centre promourà metodologies actives orientades al desenvolupament de competències professionals.
+[Normal] Sempre que sigui possible, les activitats d'aprenentatge incorporaran:
+[List Paragraph] Resolució de casos.
+[List Paragraph] Simulacions.
+[List Paragraph] Aprenentatge basat en projectes.
+[List Paragraph] Aprenentatge col·laboratiu.
+[List Paragraph] Situacions reals o simulades de treball.
+[List Paragraph] Recursos digitals.
+[List Paragraph] Entorns professionals.
+[Normal] La metodologia s'adaptarà a les característiques de les persones participants i als objectius de cada acció formativa.
+[Normal] 4.7. Recursos d'aprenentatge
+[Normal] El centre garantirà la disponibilitat dels recursos necessaris per al desenvolupament de la formació.
+[Normal] Aquests recursos podran incloure:
+[List Paragraph] Aules.
+[List Paragraph] Tallers.
+[List Paragraph] Laboratoris.
+[List Paragraph] Plataformes virtuals.
+[List Paragraph] Equipaments especialitzats.
+[List Paragraph] Materials didàctics.
+[List Paragraph] Programari específic.
+[List Paragraph] Equips de protecció individual, quan siguin necessaris.
+[Normal] Les persones participants hauran de fer-ne un ús responsable i adequat.
+[Normal] 4.8. Tutoria i seguiment
+[Normal] Cada acció formativa disposarà d'una persona responsable del seguiment de les persones participants.
+[Normal] Aquest seguiment inclourà, entre d'altres:
+[List Paragraph] L'acollida inicial.
+[List Paragraph] El seguiment de l'assistència.
+[List Paragraph] El seguiment de l'aprenentatge.
+[List Paragraph] La detecció de dificultats.
+[List Paragraph] La coordinació amb el personal formador.
+[List Paragraph] La derivació als serveis d'orientació quan sigui necessari.
+[Normal] Aquest seguiment podrà ser assumit pel personal docent, pel personal orientador o per altres professionals designats pel centre.
+[Normal] 4.9. Coordinació docent
+[Normal] El personal formador mantindrà espais periòdics de coordinació per garantir:
+[List Paragraph] La coherència dels continguts.
+[List Paragraph] El seguiment dels grups.
+[List Paragraph] L'intercanvi de bones pràctiques.
+[List Paragraph] L'anàlisi de les incidències.
+[List Paragraph] L'avaluació dels resultats.
+[Normal] La periodicitat i el format d'aquestes reunions seran determinats per la direcció del centre.
+[Normal] 4.10. Millora de l'activitat formativa
+[Normal] El desenvolupament de les accions formatives serà objecte d'un procés continu de seguiment i millora.
+[Normal] El centre podrà analitzar, entre d'altres:
+[List Paragraph] Els indicadors d'assistència.
+[List Paragraph] Els resultats d'aprenentatge.
+[List Paragraph] Les taxes de certificació.
+[List Paragraph] Les insercions laborals.
+[List Paragraph] La satisfacció de les persones participants.
+[List Paragraph] La satisfacció del personal formador.
+[List Paragraph] La satisfacció de les empreses col·laboradores.
+[Normal] Els resultats obtinguts serviran per actualitzar la programació, les metodologies i els procediments interns del centre.
+[Normal] 5. ACCÉS, ADMISSIÓ I INCORPORACIÓ DE LES PERSONES PARTICIPANTS
+[Normal] 5.1. Principis generals
+[Normal] L'accés a les activitats formatives del centre es regirà pels principis d'igualtat d'oportunitats, transparència, objectivitat, no-discriminació i adequació del perfil de les persones participants als objectius de cada acció formativa.
+[Normal] Els processos d'informació, selecció i admissió s'ajustaran a la normativa aplicable en cada convocatòria, programa o línia de finançament.
+[Normal] Quan l'activitat no estigui sotmesa a una regulació específica, el centre establirà els criteris d'accés garantint la igualtat de tracte i la màxima transparència.
+[Normal] 5.2. Informació a les persones interessades
+[Normal] Abans de formalitzar la seva incorporació, les persones interessades rebran informació suficient sobre:
+[List Paragraph] Els objectius de la formació.
+[List Paragraph] El perfil professional al qual s'adreça.
+[List Paragraph] Els requisits d'accés.
+[List Paragraph] Els continguts.
+[List Paragraph] La durada.
+[List Paragraph] L'horari.
+[List Paragraph] La modalitat d'impartició.
+[List Paragraph] El sistema d'avaluació.
+[List Paragraph] Les condicions d'assistència.
+[List Paragraph] Les pràctiques formatives, si escau.
+[List Paragraph] Les certificacions o acreditacions que es poden obtenir.
+[List Paragraph] Els drets i deures de les persones participants.
+[Normal] El centre procurarà que aquesta informació sigui clara, accessible i comprensible.
+[Normal] 5.3. Procés de selecció
+[Normal] Quan el nombre de sol·licituds superi les places disponibles o la convocatòria així ho estableixi, el centre aplicarà un procés de selecció objectiu.
+[Normal] Els criteris podran tenir en compte, entre d'altres:
+[List Paragraph] Els requisits establerts per la convocatòria.
+[List Paragraph] El perfil professional.
+[List Paragraph] L'experiència laboral.
+[List Paragraph] La formació prèvia.
+[List Paragraph] El nivell competencial.
+[List Paragraph] La situació laboral.
+[List Paragraph] La motivació i disponibilitat per seguir l'acció formativa.
+[Normal] Quan sigui necessari, el centre podrà realitzar entrevistes, proves de nivell o altres mecanismes previstos a la normativa.
+[Normal] 5.4. Formalització de la incorporació
+[Normal] L'admissió definitiva requerirà la presentació de la documentació exigida per la normativa aplicable.
+[Normal] El centre verificarà el compliment dels requisits abans de formalitzar la incorporació.
+[Normal] La persona participant haurà de facilitar informació veraç i comunicar qualsevol modificació que pugui afectar la seva participació en l'acció formativa.
+[Normal] 5.5. Sessió d'acollida
+[Normal] Abans de l'inici de la formació, o durant els primers dies, el centre realitzarà una sessió d'acollida.
+[Normal] Aquesta sessió tindrà com a finalitat facilitar la incorporació de les persones participants i inclourà, com a mínim:
+[List Paragraph] Presentació del centre.
+[List Paragraph] Presentació de l'equip professional.
+[List Paragraph] Funcionament general.
+[List Paragraph] Calendari i horaris.
+[List Paragraph] Normes bàsiques de convivència.
+[List Paragraph] Sistema d'assistència i avaluació.
+[List Paragraph] Recursos disponibles.
+[List Paragraph] Serveis d'orientació i suport.
+[List Paragraph] Procediments de comunicació.
+[List Paragraph] Informació sobre prevenció de riscos i emergències.
+[Normal] 5.6. Diagnosi inicial
+[Normal] Quan les característiques del programa ho aconsellin, el centre podrà realitzar una diagnosi inicial de la persona participant.
+[Normal] Aquesta diagnosi podrà incloure:
+[List Paragraph] Situació professional.
+[List Paragraph] Expectatives.
+[List Paragraph] Competències prèvies.
+[List Paragraph] Necessitats de suport.
+[List Paragraph] Competències digitals.
+[List Paragraph] Competències transversals.
+[List Paragraph] Objectius professionals.
+[Normal] La informació obtinguda servirà exclusivament per adequar l'acompanyament i el procés formatiu.
+[Normal] 5.7. Itinerari personalitzat
+[Normal] Quan la naturalesa del programa ho permeti, el centre facilitarà un itinerari personalitzat de desenvolupament professional.
+[Normal] Aquest itinerari podrà incorporar:
+[List Paragraph] Accions formatives.
+[List Paragraph] Orientació professional.
+[List Paragraph] Formació pràctica en empresa.
+[List Paragraph] Acreditació de competències.
+[List Paragraph] Derivació a altres recursos del sistema de formació professional.
+[List Paragraph] Accions de suport a la inserció laboral.
+[Normal] 5.8. Igualtat d'oportunitats i inclusió
+[Normal] El centre adoptarà les mesures organitzatives raonables per facilitar la participació de totes les persones.
+[Normal] Sempre que sigui possible i compatible amb la normativa aplicable, es podran establir adaptacions destinades a facilitar la participació de persones amb necessitats específiques de suport.
+[Normal] Aquestes adaptacions no podran alterar els resultats d'aprenentatge ni els requisits d'acreditació establerts per la normativa.
+[Normal] 5.9. Custòdia de la documentació
+[Normal] La documentació aportada durant el procés d'admissió serà tractada d'acord amb la normativa vigent en matèria de protecció de dades personals.
+[Normal] El centre conservarà la documentació durant els terminis legalment establerts i adoptarà les mesures necessàries per garantir-ne la confidencialitat, la integritat i la traçabilitat.
+[Normal] 6. SEGUIMENT, AVALUACIÓ I ACREDITACIÓ DELS APRENENTATGES
+[Normal] 6.1. Finalitat
+[Normal] L'avaluació té per objectiu comprovar el grau d'assoliment de les competències, els coneixements, les habilitats i els resultats d'aprenentatge previstos en cada acció formativa.
+[Normal] L'avaluació constitueix també una eina de seguiment, millora contínua i orientació de les persones participants durant el seu procés d'aprenentatge.
+[Normal] 6.2. Principis generals
+[Normal] L'avaluació es desenvoluparà d'acord amb els principis següents:
+[List Paragraph] Objectivitat.
+[List Paragraph] Transparència.
+[List Paragraph] Equitat.
+[List Paragraph] Traçabilitat.
+[List Paragraph] Coherència amb els objectius de la formació.
+[List Paragraph] Adequació als criteris establerts per la normativa aplicable.
+[Normal] Les persones participants seran informades, a l'inici de cada acció formativa, dels criteris i procediments d'avaluació.
+[Normal] 6.3. Sistema d'avaluació
+[Normal] El sistema d'avaluació s'ajustarà a la normativa reguladora de cada programa o especialitat formativa.
+[Normal] Segons la naturalesa de la formació, podrà incloure:
+[List Paragraph] Activitats pràctiques.
+[List Paragraph] Exercicis individuals.
+[List Paragraph] Treballs.
+[List Paragraph] Resolució de casos.
+[List Paragraph] Observació directa.
+[List Paragraph] Simulacions professionals.
+[List Paragraph] Proves escrites.
+[List Paragraph] Proves orals.
+[List Paragraph] Projectes.
+[List Paragraph] Evidències desenvolupades durant les pràctiques.
+[Normal] La ponderació de les diferents activitats quedarà recollida en la programació de cada acció formativa.
+[Normal] 6.4. Seguiment de l'aprenentatge
+[Normal] El personal formador farà un seguiment continu de l'evolució de les persones participants.
+[Normal] Aquest seguiment permetrà:
+[List Paragraph] Detectar dificultats d'aprenentatge.
+[List Paragraph] Proposar mesures de suport.
+[List Paragraph] Reforçar els aprenentatges.
+[List Paragraph] Facilitar la superació de les dificultats detectades.
+[Normal] Quan sigui necessari, es coordinarà amb els serveis d'orientació del centre.
+[Normal] 6.5. Evidències d'avaluació
+[Normal] Les activitats utilitzades per avaluar els aprenentatges hauran de generar evidències suficients que permetin justificar la qualificació o el resultat obtingut.
+[Normal] El centre conservarà aquestes evidències durant els terminis establerts per la normativa aplicable.
+[Normal] 6.6. Comunicació dels resultats
+[Normal] Les persones participants tindran dret a conèixer els resultats del seu procés d'avaluació.
+[Normal] El personal formador facilitarà informació sobre:
+[List Paragraph] El grau d'assoliment dels objectius.
+[List Paragraph] Els aspectes de millora.
+[List Paragraph] Les activitats pendents, si escau.
+[List Paragraph] Les possibilitats de recuperació o continuïtat previstes a la normativa.
+[Normal] 6.7. Revisió dels resultats
+[Normal] Les persones participants podran sol·licitar la revisió dels resultats obtinguts d'acord amb el procediment establert pel centre i amb la normativa aplicable.
+[Normal] La resolució correspondrà a la direcció o a la persona que aquesta designi.
+[Normal] 6.8. Certificació
+[Normal] Una vegada finalitzada l'acció formativa, el centre tramitarà la certificació o acreditació corresponent d'acord amb la normativa específica del programa.
+[Normal] La certificació estarà condicionada al compliment dels requisits establerts en cada convocatòria, especialment pel que fa a:
+[List Paragraph] Assistència.
+[List Paragraph] Superació de l'avaluació.
+[List Paragraph] Realització de les pràctiques, quan siguin obligatòries.
+[List Paragraph] Qualsevol altre requisit legalment establert.
+[Normal] 6.9. Integritat acadèmica
+[Normal] Les activitats d'avaluació han de reflectir el treball real de la persona participant.
+[Normal] Constitueixen incompliments greus, entre d'altres:
+[List Paragraph] La suplantació d'identitat.
+[List Paragraph] El plagi.
+[List Paragraph] La còpia durant les proves d'avaluació.
+[List Paragraph] La manipulació de documents o evidències.
+[List Paragraph] L'ús de mitjans no autoritzats.
+[Normal] Aquestes conductes podran comportar la nul·litat de l'activitat d'avaluació i l'aplicació de les mesures previstes en aquestes NOFC, sens perjudici de les conseqüències que estableixi la normativa aplicable.
+[Normal] 6.10. Millora contínua
+[Normal] Els resultats de l'avaluació seran analitzats periòdicament pel centre amb la finalitat de:
+[List Paragraph] Millorar la qualitat de les accions formatives.
+[List Paragraph] Actualitzar les metodologies.
+[List Paragraph] Detectar necessitats de formació del personal formador.
+[List Paragraph] Revisar els recursos didàctics.
+[List Paragraph] Incrementar els resultats d'aprenentatge i la satisfacció de les persones participants.
+[Normal] 7. ASSISTÈNCIA, PARTICIPACIÓ I PERMANÈNCIA EN LA FORMACIÓ
+[Normal] 7.1. Principis generals
+[Normal] L'assistència i la participació activa constitueixen un element essencial per a l'assoliment dels objectius de les accions formatives.
+[Normal] Les persones participants assumeixen el compromís de seguir regularment la formació, participar en les activitats programades i complir els requisits d'assistència establerts en la normativa aplicable.
+[Normal] El centre adoptarà les mesures necessàries per facilitar la permanència i prevenir l'abandonament prematur de la formació.
+[Normal] 7.2. Assistència
+[Normal] L'assistència serà obligatòria en els termes establerts per cada programa, convocatòria o normativa específica.
+[Normal] El centre registrarà diàriament l'assistència de les persones participants mitjançant els sistemes autoritzats.
+[Normal] Quan la formació es desenvolupi en modalitat virtual o aula virtual, es registraran també els indicadors de connexió, participació i seguiment previstos per la normativa.
+[Normal] 7.3. Puntualitat
+[Normal] Les persones participants han d'incorporar-se puntualment a les activitats formatives.
+[Normal] Els retards reiterats podran ser assimilats a absències parcials quan així ho estableixi la normativa aplicable o els criteris interns del centre.
+[Normal] 7.4. Justificació d'absències
+[Normal] Les absències s'hauran de comunicar al centre tan aviat com sigui possible.
+[Normal] Quan sigui necessari, la persona participant haurà d'aportar la documentació justificativa corresponent.
+[Normal] Tindran la consideració de causes justificades, entre d'altres:
+[List Paragraph] Malaltia o accident.
+[List Paragraph] Deures públics inajornables.
+[List Paragraph] Conciliació familiar en els supòsits previstos per la normativa.
+[List Paragraph] Entrevistes de treball o processos de selecció, quan siguin compatibles amb la convocatòria.
+[List Paragraph] Altres causes degudament acreditades i valorades pel centre.
+[Normal] La justificació de l'absència no comportarà necessàriament el seu còmput com a assistència quan la normativa estableixi límits màxims d'absentisme.7.5. Seguiment de l'assistència
+[Normal] El centre farà un seguiment continuat dels indicadors d'assistència.
+[Normal] Quan es detectin absències reiterades o risc d'abandonament, s'activaran les mesures de seguiment que podran incloure:
+[List Paragraph] Contacte amb la persona participant.
+[List Paragraph] Entrevista individual.
+[List Paragraph] Derivació al servei d'orientació.
+[List Paragraph] Elaboració d'un pla de seguiment.
+[List Paragraph] Coordinació amb l'organisme derivador, quan correspongui.
+[Normal] 7.6. Baixa voluntària
+[Normal] La persona participant podrà renunciar voluntàriament a continuar l'acció formativa.
+[Normal] Sempre que sigui possible, la renúncia es formalitzarà per escrit.
+[Normal] Abans de tramitar la baixa, el centre procurarà identificar-ne els motius i oferir, si escau, alternatives o recursos que afavoreixin la continuïtat de l'itinerari professional.
+[Normal] 7.7. Baixa d'ofici
+[Normal] El centre podrà acordar la baixa d'una persona participant quan concorrin les circumstàncies previstes en la normativa aplicable.
+[Normal] Entre d'altres:
+[List Paragraph] Superació del límit màxim d'absentisme.
+[List Paragraph] Incompliment reiterat de les normes de funcionament.
+[List Paragraph] Falsedat en la documentació aportada.
+[List Paragraph] Conductes incompatibles amb el normal desenvolupament de l'activitat formativa.
+[List Paragraph] Altres causes previstes en la convocatòria corresponent.
+[Normal] La baixa haurà de quedar degudament motivada i documentada.
+[Normal] 7.8. Recuperació de l'activitat formativa
+[Normal] Quan la normativa ho permeti, el personal formador podrà facilitar activitats de recuperació o reforç destinades a afavorir la continuïtat del procés d'aprenentatge.
+[Normal] Aquestes activitats no alteraran els requisits mínims d'assistència ni les condicions establertes per a la certificació.
+[Normal] 7.9. Prevenció de l'abandonament
+[Normal] El centre desenvoluparà actuacions preventives orientades a reduir l'abandonament prematur de la formació.
+[Normal] Aquestes actuacions podran incloure:
+[List Paragraph] Acollida inicial.
+[List Paragraph] Seguiment individualitzat.
+[List Paragraph] Tutories.
+[List Paragraph] Orientació professional.
+[List Paragraph] Coordinació amb empreses i serveis d'ocupació.
+[List Paragraph] Suport en la resolució d'incidències personals o formatives.
+[List Paragraph] Derivació a altres recursos del sistema de formació professional.
+[Normal] 7.10. Indicadors de permanència
+[Normal] El centre incorporarà els indicadors d'assistència, permanència i abandonament dins del seu sistema de qualitat.
+[Normal] Aquests indicadors seran objecte d'anàlisi periòdica amb la finalitat d'identificar oportunitats de millora i reforçar les actuacions d'acompanyament a les persones participants.
+[Normal] 8. ORIENTACIÓ PROFESSIONAL, ACOMPANYAMENT I TUTORITZACIÓ
+[Normal] 8.1. Finalitat
+[Normal] L'orientació professional constitueix una funció permanent del centre i té com a finalitat acompanyar les persones en la definició, desenvolupament i actualització del seu projecte professional al llarg de la vida.
+[Normal] Aquest acompanyament es desenvolupa de manera integrada amb els processos d'informació, admissió, formació, acreditació de competències, pràctiques en empresa i inserció laboral.
+[Normal] El centre promourà una orientació personalitzada, continuada i adaptada a les necessitats de cada persona participant.
+[Normal] 8.2. Principis d'actuació
+[Normal] L'activitat orientadora es desenvoluparà d'acord amb els principis següents:
+[List Paragraph] Centralitat de la persona.
+[List Paragraph] Igualtat d'oportunitats.
+[List Paragraph] Desenvolupament professional al llarg de la vida.
+[List Paragraph] Autonomia en la presa de decisions.
+[List Paragraph] Coordinació entre els diferents serveis del centre.
+[List Paragraph] Connexió permanent amb les necessitats del mercat de treball.
+[List Paragraph] Coordinació amb la resta de recursos del Sistema de Formació Professional i dels serveis públics d'ocupació.
+[Normal] 8.3. Àmbits de l'orientació
+[Normal] L'orientació professional podrà comprendre, entre d'altres, les actuacions següents:
+[List Paragraph] Informació sobre l'oferta formativa.
+[List Paragraph] Diagnosi inicial.
+[List Paragraph] Identificació de competències.
+[List Paragraph] Definició de l'itinerari professional.
+[List Paragraph] Assessorament sobre acreditació de competències professionals.
+[List Paragraph] Suport en els processos de qualificació i requalificació.
+[List Paragraph] Informació sobre oportunitats laborals.
+[List Paragraph] Preparació per a la inserció laboral.
+[List Paragraph] Derivació a altres recursos del sistema.
+[Normal] 8.4. Acompanyament durant la formació
+[Normal] Durant el desenvolupament de les accions formatives, el centre facilitarà un seguiment continuat de les persones participants.
+[Normal] Aquest seguiment podrà incloure:
+[List Paragraph] Entrevistes individuals.
+[List Paragraph] Tutories.
+[List Paragraph] Seguiment del progrés formatiu.
+[List Paragraph] Detecció de dificultats.
+[List Paragraph] Proposta de mesures de suport.
+[List Paragraph] Coordinació amb el personal formador.
+[List Paragraph] Coordinació amb les empreses col·laboradores quan existeixi formació pràctica.
+[Normal] 8.5. Tutorització
+[Normal] Cada acció formativa disposarà d'una persona responsable de la tutorització o seguiment de les persones participants.
+[Normal] Correspon a aquesta persona:
+[List Paragraph] Facilitar la incorporació al grup.
+[List Paragraph] Vetllar pel seguiment del procés formatiu.
+[List Paragraph] Coordinar-se amb el personal formador.
+[List Paragraph] Detectar situacions de risc d'abandonament.
+[List Paragraph] Canalitzar les incidències.
+[List Paragraph] Facilitar la comunicació entre el centre i la persona participant.
+[List Paragraph] Derivar als serveis d'orientació quan sigui necessari.
+[Normal] La funció tutorial podrà ser assumida pel personal docent, pel personal orientador o per una altra persona designada per la direcció.
+[Normal] 8.6. Itineraris professionals
+[Normal] Sempre que les característiques del programa ho permetin, el centre promourà la construcció d'itineraris professionals individualitzats.
+[Normal] Aquests itineraris podran integrar:
+[List Paragraph] Formació professional.
+[List Paragraph] Acreditació de competències.
+[List Paragraph] Formació pràctica en empresa.
+[List Paragraph] Orientació professional.
+[List Paragraph] Inserció laboral.
+[List Paragraph] Requalificació professional.
+[List Paragraph] Derivació a altres recursos del Sistema FPCAT.
+[Normal] 8.7. Coordinació amb empreses i entitats
+[Normal] El servei d'orientació mantindrà una coordinació permanent amb les empreses, els serveis públics d'ocupació, els centres de formació professional integrada i la resta d'entitats col·laboradores, amb la finalitat de facilitar la transició entre la formació i l'ocupació.
+[Normal] 8.8. Seguiment de la inserció
+[Normal] Quan les característiques dels programes ho permetin, el centre farà actuacions de seguiment de la inserció laboral i de la continuïtat formativa de les persones participants.
+[Normal] La informació obtinguda contribuirà a:
+[List Paragraph] Millorar els itineraris formatius.
+[List Paragraph] Detectar noves necessitats de qualificació.
+[List Paragraph] Avaluar l'impacte de les accions desenvolupades.
+[List Paragraph] Reforçar la relació amb les empreses i el territori.
+[Normal] 8.9. Confidencialitat
+[Normal] La informació obtinguda durant els processos d'orientació i acompanyament tindrà caràcter confidencial i serà tractada d'acord amb la normativa vigent en matèria de protecció de dades personals.
+[Normal] Només serà accessible per les persones professionals que intervinguin en el procés, en la mesura necessària per al desenvolupament de les seves funcions.
+[Normal] 9. DRETS, DEURES I COMPROMISOS DE LES PERSONES PARTICIPANTS
+[Normal] 9.1. Principis generals
+[Normal] Les relacions entre el centre i les persones participants es fonamenten en el respecte mutu, la confiança, la responsabilitat compartida i el compromís amb el procés d'aprenentatge.
+[Normal] El centre garantirà l'exercici dels drets de les persones participants i aquestes assumiran els deures necessaris per al bon desenvolupament de l'activitat formativa.
+[Normal] 9.2. Drets de les persones participants
+[Normal] Les persones participants tenen dret a:
+[List Paragraph] Rebre una informació clara, completa i comprensible sobre l'acció formativa.
+[List Paragraph] Rebre una formació de qualitat, impartida per personal qualificat.
+[List Paragraph] Ser tractades amb respecte, dignitat i sense cap tipus de discriminació.
+[List Paragraph] Desenvolupar la seva activitat formativa en un entorn segur, inclusiu i respectuós.
+[List Paragraph] Conèixer els criteris d'avaluació abans de l'inici de l'acció formativa.
+[List Paragraph] Rebre informació periòdica sobre el seu progrés.
+[List Paragraph] Accedir als serveis d'orientació i acompanyament del centre.
+[List Paragraph] Utilitzar les instal·lacions, els equipaments i els recursos del centre d'acord amb les normes establertes.
+[List Paragraph] Presentar suggeriments, queixes o reclamacions.
+[List Paragraph] Rebre la certificació corresponent quan compleixin els requisits establerts.
+[List Paragraph] Que les seves dades personals siguin tractades amb les garanties previstes per la normativa vigent.
+[Normal] 9.3. Deures de les persones participants
+[Normal] Les persones participants tenen el deure de:
+[List Paragraph] Assistir regularment a les activitats formatives.
+[List Paragraph] Participar activament en el procés d'aprenentatge.
+[List Paragraph] Respectar les normes de funcionament del centre.
+[List Paragraph] Respectar totes les persones que formen part de la comunitat del centre.
+[List Paragraph] Fer un ús correcte de les instal·lacions, els equips i els materials.
+[List Paragraph] Complir les normes de seguretat i prevenció de riscos.
+[List Paragraph] Facilitar la documentació requerida i comunicar qualsevol modificació rellevant de la seva situació.
+[List Paragraph] Col·laborar en els processos d'avaluació i seguiment.
+[List Paragraph] Respectar la confidencialitat de la informació a la qual puguin tenir accés durant les activitats formatives o les pràctiques en empresa.
+[Normal] 9.4. Compromís amb l'aprenentatge
+[Normal] La participació en una acció formativa comporta el compromís de:
+[List Paragraph] Desenvolupar una actitud activa envers l'aprenentatge.
+[List Paragraph] Respectar el ritme de treball del grup.
+[List Paragraph] Preparar les activitats proposades pel personal formador.
+[List Paragraph] Contribuir a un clima positiu de treball.
+[List Paragraph] Acceptar les orientacions del personal docent i tutor.
+[List Paragraph] Col·laborar en les activitats individuals i col·lectives.
+[Normal] 9.5. Ús responsable dels recursos
+[Normal] Les persones participants hauran de fer un ús responsable de:
+[List Paragraph] Les aules.
+[List Paragraph] Els tallers.
+[List Paragraph] Els laboratoris.
+[List Paragraph] Els equips informàtics.
+[List Paragraph] Les plataformes digitals.
+[List Paragraph] Els materials didàctics.
+[List Paragraph] Els equips de protecció individual.
+[Normal] Qualsevol ús inadequat, negligent o intencionadament perjudicial podrà donar lloc a les mesures previstes en aquestes NOFC.
+[Normal] 9.6. Ús dels recursos digitals i de la intel·ligència artificial
+[Normal] Els recursos digitals i les eines d'intel·ligència artificial poden utilitzar-se com a suport als processos d'aprenentatge, sempre que la seva utilització sigui compatible amb els objectius de l'activitat formativa i amb les instruccions del personal formador.
+[Normal] Les persones participants han de:
+[List Paragraph] Fer un ús responsable, ètic i legal d'aquestes eines.
+[List Paragraph] Respectar els drets de propietat intel·lectual.
+[List Paragraph] No presentar com a pròpies produccions generades íntegrament per eines digitals o d'intel·ligència artificial quan això sigui contrari als criteris d'avaluació establerts.
+[List Paragraph] Garantir la confidencialitat de les dades personals i de la informació empresarial que eventualment puguin introduir en aquestes plataformes.
+[Normal] El centre podrà establir criteris específics sobre la utilització d'aquestes eines en funció de la naturalesa de cada acció formativa.
+[Normal] 9.7. Igualtat, respecte i convivència
+[Normal] Totes les persones participants tenen el dret i el deure de contribuir a un entorn de convivència basat en:
+[List Paragraph] El respecte mutu.
+[List Paragraph] La igualtat efectiva entre dones i homes.
+[List Paragraph] La diversitat cultural i social.
+[List Paragraph] La inclusió.
+[List Paragraph] La no-discriminació.
+[List Paragraph] La resolució dialogada dels conflictes.
+[Normal] No s'admetrà cap conducta que comporti discriminació, assetjament, intimidació, violència o qualsevol altra vulneració dels drets fonamentals de les persones.
+[Normal] 9.8. Participació en la millora del centre
+[Normal] El centre promourà la participació activa de les persones participants en la millora dels serveis.
+[Normal] Aquesta participació podrà materialitzar-se mitjançant:
+[List Paragraph] Enquestes de satisfacció.
+[List Paragraph] Reunions de seguiment.
+[List Paragraph] Bústia de suggeriments.
+[List Paragraph] Grups de treball.
+[List Paragraph] Altres mecanismes de participació que el centre consideri adients.
+[Normal] Les aportacions recollides seran analitzades dins del sistema de qualitat del centre.
+[Normal] 10. CONVIVÈNCIA, BENESTAR I ENTORN SEGUR
+[Normal] 10.1. Finalitat
+[Normal] El centre promou un entorn de convivència basat en el respecte mutu, la responsabilitat compartida, la igualtat d'oportunitats, la inclusió i el benestar de totes les persones.
+[Normal] La convivència constitueix un element essencial per garantir un entorn d'aprenentatge segur, respectuós i orientat al desenvolupament professional.
+[Normal] Totes les persones que formen part del centre comparteixen la responsabilitat de contribuir a mantenir aquest clima de convivència.
+[Normal] 10.2. Principis de convivència
+[Normal] La convivència al centre es fonamenta en els principis següents:
+[List Paragraph] Respecte a la dignitat de totes les persones.
+[List Paragraph] Igualtat de tracte i no-discriminació.
+[List Paragraph] Corresponsabilitat.
+[List Paragraph] Resolució dialogada dels conflictes.
+[List Paragraph] Prevenció de qualsevol forma de violència.
+[List Paragraph] Respecte a la diversitat.
+[List Paragraph] Tolerància zero davant qualsevol conducta d'assetjament o discriminació.
+[Normal] 10.3. Conductes esperades
+[Normal] S'espera que totes les persones participants i professionals del centre:
+[List Paragraph] Mantinguin una actitud respectuosa.
+[List Paragraph] Utilitzin un llenguatge adequat.
+[List Paragraph] Respectin els torns de paraula.
+[List Paragraph] Col·laborin en les activitats.
+[List Paragraph] Tinguin cura dels espais comuns.
+[List Paragraph] Respectin els horaris.
+[List Paragraph] Mantinguin una actitud responsable envers la seguretat.
+[List Paragraph] Facilitin un bon clima d'aprenentatge.
+[Normal] 10.4. Igualtat i no-discriminació
+[Normal] El centre garanteix la igualtat de tracte i d'oportunitats entre totes les persones.
+[Normal] No s'admetrà cap discriminació per motiu de:
+[List Paragraph] Sexe.
+[List Paragraph] Identitat o expressió de gènere.
+[List Paragraph] Orientació sexual.
+[List Paragraph] Edat.
+[List Paragraph] Origen.
+[List Paragraph] Nacionalitat.
+[List Paragraph] Llengua.
+[List Paragraph] Religió o conviccions.
+[List Paragraph] Discapacitat.
+[List Paragraph] Situació socioeconòmica.
+[List Paragraph] Qualsevol altra circumstància personal o social protegida per la legislació vigent.
+[Normal] 10.5. Prevenció de l'assetjament
+[Normal] El centre actuarà amb diligència davant qualsevol indici de:
+[List Paragraph] Assetjament psicològic.
+[List Paragraph] Assetjament sexual.
+[List Paragraph] Assetjament per raó de sexe.
+[List Paragraph] Assetjament discriminatori.
+[List Paragraph] Violència física.
+[List Paragraph] Violència verbal.
+[List Paragraph] Ciberassetjament.
+[Normal] Les incidències es gestionaran d'acord amb els protocols interns del centre i amb la normativa vigent.
+[Normal] 10.6. Benestar emocional
+[Normal] El centre promourà un entorn que afavoreixi el benestar emocional i la salut de les persones participants.
+[Normal] Quan es detectin situacions de vulnerabilitat que puguin afectar el procés formatiu, el centre podrà oferir orientació o derivar la persona als recursos especialitzats corresponents, sempre respectant la confidencialitat i les competències de cada servei.
+[Normal] 10.7. Consum d'alcohol, drogues i altres substàncies
+[Normal] No està permès accedir o romandre al centre sota els efectes de substàncies que puguin alterar les condicions normals de convivència o comprometre la seguretat pròpia o de terceres persones.
+[Normal] Igualment, queda prohibit consumir alcohol, drogues o altres substàncies il·legals dins de les instal·lacions del centre.
+[Normal] En aquells casos en què es detectin situacions de consum problemàtic, el centre prioritzarà les actuacions preventives, d'orientació i derivació als serveis competents, sens perjudici de les mesures organitzatives que puguin resultar necessàries per garantir la seguretat.
+[Normal] 10.8. Resolució de conflictes
+[Normal] El centre afavorirà la resolució dialogada dels conflictes mitjançant procediments basats en:
+[List Paragraph] L'escolta activa.
+[List Paragraph] La mediació.
+[List Paragraph] La reparació del dany causat.
+[List Paragraph] Els acords entre les parts.
+[Normal] Quan aquestes mesures no siguin suficients o la gravetat dels fets ho exigeixi, s'aplicaran les mesures previstes al règim disciplinari.
+[Normal] 10.9. Comunicació d'incidències
+[Normal] Qualsevol persona que tingui coneixement d'una situació que pugui afectar la convivència, la seguretat o els drets de les persones ho comunicarà al personal responsable del centre.
+[Normal] El centre garantirà una gestió confidencial de les incidències i adoptarà les mesures necessàries per protegir les persones afectades.
+[Normal] 10.10. Cultura preventiva
+[Normal] El centre impulsarà actuacions periòdiques de sensibilització sobre:
+[List Paragraph] Convivència.
+[List Paragraph] Igualtat.
+[List Paragraph] Diversitat.
+[List Paragraph] Prevenció de violències.
+[List Paragraph] Salut i benestar.
+[List Paragraph] Ús responsable de les tecnologies digitals.
+[List Paragraph] Prevenció de riscos laborals.
+[Normal] Aquestes actuacions podran integrar-se dins de les activitats formatives o desenvolupar-se mitjançant accions específiques dirigides a les persones participants i al personal del centre.
+[Normal] 11. GESTIÓ D'INCIDÈNCIES I MESURES ORGANITZATIVES
+[Normal] 11.1. Finalitat
+[Normal] El present capítol regula el procediment de gestió de les incidències que puguin afectar el normal desenvolupament de les activitats del centre.
+[Normal] Les actuacions del centre es regiran pels principis de proporcionalitat, imparcialitat, audiència de les persones afectades, confidencialitat i orientació a la resolució dels conflictes.
+[Normal] Les mesures adoptades tindran preferentment un caràcter preventiu, educatiu i restauratiu.
+[Normal] 11.2. Tipologia d'incidències
+[Normal] Les incidències podran classificar-se, amb caràcter orientatiu, en tres nivells.
+[Normal] a) Incidències ordinàries
+[Normal] Són aquelles situacions que poden resoldre's directament durant el desenvolupament habitual de l'activitat formativa.
+[Normal] Entre d'altres:
+[List Paragraph] Retards puntuals.
+[List Paragraph] Interrupcions ocasionals.
+[List Paragraph] Manca puntual de material.
+[List Paragraph] Ús inadequat dels espais.
+[List Paragraph] Incompliments puntuals de les normes internes.
+[Normal] Aquestes incidències seran gestionades preferentment pel personal formador o per la persona responsable de la tutorització.
+[Normal] b) Incidències significatives
+[Normal] Són aquelles que alteren de forma reiterada o rellevant el desenvolupament normal de l'activitat.
+[Normal] Poden incloure, entre d'altres:
+[List Paragraph] Absències reiterades.
+[List Paragraph] Conductes irrespectuoses.
+[List Paragraph] Desatenció continuada.
+[List Paragraph] Deteriorament negligent dels recursos.
+[List Paragraph] Incompliment reiterat de les normes de funcionament.
+[Normal] Aquestes incidències seran valorades per la coordinació o la direcció del centre.
+[Normal] c) Incidències greus
+[Normal] Es consideraran incidències greus aquelles conductes que comprometin la seguretat, els drets de les persones o el correcte funcionament del centre.
+[Normal] Poden incloure, entre d'altres:
+[List Paragraph] Agressions físiques o verbals.
+[List Paragraph] Assetjament.
+[List Paragraph] Amenaces.
+[List Paragraph] Discriminació.
+[List Paragraph] Danys intencionats als equipaments.
+[List Paragraph] Suplantació d'identitat.
+[List Paragraph] Falsificació documental.
+[List Paragraph] Robatori.
+[List Paragraph] Consum o distribució de substàncies prohibides dins del centre.
+[List Paragraph] Qualsevol conducta que pugui constituir una infracció administrativa o penal.
+[Normal] 11.3. Actuacions davant una incidència
+[Normal] Quan es produeixi una incidència, el centre actuarà de manera gradual.
+[Normal] Sempre que sigui possible es prioritzaran les actuacions següents:
+[List Paragraph] Comunicació immediata amb la persona afectada.
+[List Paragraph] Escolta de les diferents parts.
+[List Paragraph] Aclariment dels fets.
+[List Paragraph] Cerca d'una solució consensuada.
+[List Paragraph] Adopció de mesures preventives.
+[Normal] Només quan aquestes actuacions resultin insuficients es podran adoptar mesures organitzatives addicionals.
+[Normal] 11.4. Mesures organitzatives
+[Normal] En funció de la naturalesa de la incidència, el centre podrà adoptar, entre d'altres, les mesures següents:
+[List Paragraph] Advertiment verbal.
+[List Paragraph] Advertiment escrit.
+[List Paragraph] Entrevista individual.
+[List Paragraph] Pla específic de seguiment.
+[List Paragraph] Reassignació temporal d'espais o activitats.
+[List Paragraph] Limitació temporal de l'accés a determinats equipaments.
+[List Paragraph] Suspensió temporal de la participació en activitats complementàries.
+[List Paragraph] Suspensió temporal de l'assistència a l'acció formativa quan la normativa aplicable ho permeti.
+[List Paragraph] Baixa de l'acció formativa quan concorrin les causes previstes en la normativa o en la convocatòria.
+[Normal] Les mesures adoptades hauran de ser proporcionades als fets i quedar degudament documentades.
+[Normal] 11.5. Procediment
+[Normal] Abans d'adoptar qualsevol mesura que pugui afectar la continuïtat de la persona participant, el centre garantirà:
+[List Paragraph] La descripció dels fets.
+[List Paragraph] L'audiència de la persona interessada.
+[List Paragraph] L'anàlisi de les circumstàncies concurrents.
+[List Paragraph] La motivació de la decisió.
+[List Paragraph] El registre documental de les actuacions.
+[Normal] Quan la normativa específica del programa estableixi un procediment diferent, aquest prevaldrà.
+[Normal] 11.6. Circumstàncies a valorar
+[Normal] En la valoració d'una incidència es tindran en compte, entre d'altres:
+[List Paragraph] La gravetat dels fets.
+[List Paragraph] La reiteració.
+[List Paragraph] La intencionalitat.
+[List Paragraph] Les conseqüències produïdes.
+[List Paragraph] L'actitud posterior de la persona implicada.
+[List Paragraph] La col·laboració en la resolució del conflicte.
+[List Paragraph] L'existència de circumstàncies personals especialment rellevants.
+[Normal] 11.7. Registre d'incidències
+[Normal] El centre mantindrà un registre intern de les incidències significatives i greus.
+[Normal] Aquest registre tindrà com a finalitat:
+[List Paragraph] Garantir la traçabilitat.
+[List Paragraph] Facilitar el seguiment dels casos.
+[List Paragraph] Identificar oportunitats de millora.
+[List Paragraph] Donar compliment als requisits dels sistemes de qualitat.
+[Normal] L'accés a aquesta informació quedarà limitat al personal autoritzat.
+[Normal] 11.8. Comunicació
+[Normal] Quan la naturalesa dels fets ho faci necessari, el centre podrà informar:
+[List Paragraph] L'organisme promotor de l'acció formativa.
+[List Paragraph] L'administració competent.
+[List Paragraph] L'empresa col·laboradora, quan la incidència es produeixi durant les pràctiques.
+[List Paragraph] Les autoritats competents, si els fets poguessin ser constitutius d'infracció administrativa o delicte.
+[Normal] La comunicació es farà respectant la normativa de protecció de dades personals.
+[Normal] 11.9. Revisió de les actuacions
+[Normal] Les persones afectades podran sol·licitar la revisió de les mesures adoptades mitjançant el procediment intern establert pel centre.
+[Normal] La direcció resoldrà motivadament la sol·licitud en un termini raonable.
+[Normal] 11.10. Aprenentatge organitzatiu
+[Normal] Les incidències gestionades pel centre seran objecte d'anàlisi periòdica dins del sistema de qualitat.
+[Normal] L'objectiu serà identificar les causes més freqüents, valorar l'eficàcia de les mesures adoptades i incorporar accions preventives que contribueixin a la millora contínua de l'organització.
+[Normal] 12. RELACIÓ AMB LES EMPRESES I APRENENTATGE EN ENTORNS PROFESSIONALS
+[Normal] 12.1. Finalitat
+[Normal] La col·laboració amb les empreses i les organitzacions constitueix un element essencial del model formatiu del centre.
+[Normal] La seva finalitat és facilitar l'aprenentatge en entorns professionals reals, afavorir el desenvolupament de les competències professionals i millorar la inserció laboral de les persones participants.
+[Normal] El centre promourà una relació estable amb el teixit productiu basada en la confiança, la corresponsabilitat i el benefici mutu.
+[Normal] 12.2. Àmbits de col·laboració
+[Normal] La col·laboració amb empreses podrà concretar-se, entre d'altres, en les actuacions següents:
+[List Paragraph] Formació pràctica en empresa o organisme equiparat.
+[List Paragraph] Visites tècniques.
+[List Paragraph] Conferències i sessions professionals.
+[List Paragraph] Participació de professionals en activitats formatives.
+[List Paragraph] Desenvolupament de projectes reals.
+[List Paragraph] Detecció de necessitats de qualificació.
+[List Paragraph] Prospecció d'oportunitats d'ocupació.
+[List Paragraph] Participació en processos d'innovació.
+[List Paragraph] Col·laboració en la definició o actualització dels continguts formatius.
+[Normal] 12.3. Organització de la formació pràctica
+[Normal] Quan una acció formativa incorpori un període de formació pràctica en empresa, el centre garantirà la seva planificació, seguiment i avaluació d'acord amb la normativa aplicable.
+[Normal] Abans de l'inici de les pràctiques es definiran, com a mínim:
+[List Paragraph] L'empresa o entitat col·laboradora.
+[List Paragraph] Les activitats formatives previstes.
+[List Paragraph] El calendari.
+[List Paragraph] L'horari.
+[List Paragraph] Les persones responsables del seguiment.
+[List Paragraph] Les condicions de seguretat i salut.
+[List Paragraph] Els mecanismes d'avaluació.
+[Normal] 12.4. Coordinació entre el centre i l'empresa
+[Normal] Durant el desenvolupament de les pràctiques, el centre mantindrà una coordinació permanent amb l'empresa col·laboradora.
+[Normal] Aquesta coordinació inclourà, entre d'altres:
+[List Paragraph] El seguiment del procés d'aprenentatge.
+[List Paragraph] L'atenció a les incidències.
+[List Paragraph] L'avaluació del desenvolupament de les activitats.
+[List Paragraph] El suport a la persona participant.
+[List Paragraph] L'intercanvi d'informació necessària per garantir la qualitat de l'estada.
+[Normal] 12.5. Persones responsables del seguiment
+[Normal] El centre designarà una persona responsable del seguiment de cada estada formativa.
+[Normal] L'empresa designarà igualment una persona tutora o responsable que actuarà com a referent de la persona participant durant la seva estada.
+[Normal] Ambdues persones coordinaran el seguiment del procés formatiu i compartiran la informació necessària per garantir l'assoliment dels objectius previstos.
+[Normal] 12.6. Drets i deures de les persones participants
+[Normal] Durant les pràctiques, les persones participants mantindran els drets i deures establerts en aquestes NOFC i hauran de complir, a més, les normes internes de l'empresa o entitat col·laboradora.
+[List Paragraph] En particular hauran de:
+[List Paragraph] Respectar els horaris establerts.
+[List Paragraph] Complir les instruccions de la persona responsable.
+[List Paragraph] Respectar les normes de prevenció de riscos laborals.
+[List Paragraph] Fer un ús adequat dels equips i instal·lacions.
+[List Paragraph] Mantenir la confidencialitat de la informació coneguda durant l'estada.
+[List Paragraph] Comunicar qualsevol incidència al centre.
+[Normal] 12.7. Prevenció de riscos laborals
+[Normal] Abans de l'inici de les pràctiques, les persones participants rebran la informació i la formació necessàries en matèria de prevenció de riscos laborals, d'acord amb les característiques de l'activitat a desenvolupar.
+[Normal] El centre verificarà que l'empresa compleix els requisits establerts per la normativa aplicable.
+[Normal] 12.8. Confidencialitat i protecció de dades
+[Normal] Les persones participants hauran de respectar la confidencialitat de la informació empresarial a la qual tinguin accés durant les pràctiques.
+[Normal] No podran divulgar informació tècnica, comercial o personal obtinguda durant la seva estada, llevat que existeixi autorització expressa o obligació legal.
+[Normal] Aquesta obligació es mantindrà un cop finalitzada la col·laboració.
+[Normal] 12.9. Avaluació de les pràctiques
+[Normal] Les pràctiques seran objecte de seguiment i avaluació d'acord amb els criteris establerts per la normativa específica.
+[Normal] L'avaluació tindrà en compte, entre d'altres:
+[List Paragraph] L'assoliment de les competències professionals.
+[List Paragraph] El nivell d'autonomia.
+[List Paragraph] La responsabilitat.
+[List Paragraph] L'adaptació a l'entorn professional.
+[List Paragraph] El compliment de les normes de seguretat.
+[List Paragraph] La valoració de l'empresa.
+[Normal] Els resultats formaran part del procés global d'avaluació de la persona participant quan així ho estableixi la normativa.
+[Normal] 12.10. Millora de la col·laboració amb les empreses
+[Normal] El centre avaluarà periòdicament la qualitat de la relació amb les empreses col·laboradores.
+[Normal] Per aquest motiu recollirà informació sobre:
+[List Paragraph] El grau de satisfacció de les empreses.
+[List Paragraph] La satisfacció de les persones participants.
+[List Paragraph] Les incidències detectades.
+[List Paragraph] Les oportunitats de millora.
+[List Paragraph] Les necessitats emergents del mercat de treball.
+[Normal] La informació obtinguda servirà per reforçar la qualitat dels processos de col·laboració i adequar progressivament l'oferta formativa a les necessitats del territori.
+[Normal] 13. CARTERA DE SERVEIS DEL CENTRE
+[Normal] 13.1. Finalitat
+[Normal] El centre posa a disposició de les persones, les empreses i les organitzacions una cartera de serveis orientada al desenvolupament professional, l'aprenentatge al llarg de la vida i la millora de l'ocupabilitat.
+[Normal] La cartera de serveis concreta els principals serveis que el centre ofereix, sens perjudici que aquests puguin ampliar-se o adaptar-se en funció de les autoritzacions, convocatòries, recursos disponibles o necessitats del territori.
+[Normal] 13.2. Principis de prestació dels serveis
+[Normal] Els serveis del centre es prestaran d'acord amb els principis següents:
+[List Paragraph] Orientació a les persones.
+[List Paragraph] Igualtat d'oportunitats.
+[List Paragraph] Accessibilitat.
+[List Paragraph] Professionalitat.
+[List Paragraph] Qualitat.
+[List Paragraph] Transparència.
+[List Paragraph] Confidencialitat.
+[List Paragraph] Coordinació amb la resta del Sistema de Formació Professional.
+[List Paragraph] Millora contínua.
+[Normal] 13.3. Serveis d'informació i acollida
+[Normal] El centre garantirà un servei d'informació destinat a facilitar l'accés a la formació i als diferents recursos del Sistema de Formació Professional.
+[Normal] Aquest servei comprendrà, entre d'altres:
+[List Paragraph] Informació sobre l'oferta formativa.
+[List Paragraph] Requisits d'accés.
+[List Paragraph] Procés d'inscripció i admissió.
+[List Paragraph] Possibilitats de certificació.
+[List Paragraph] Recursos disponibles.
+[List Paragraph] Derivació a altres serveis quan sigui necessari.
+[Normal] 13.4. Serveis d'orientació professional
+[Normal] El centre facilitarà serveis d'orientació professional dirigits a:
+[List Paragraph] Identificar objectius professionals.
+[List Paragraph] Construir itineraris formatius.
+[List Paragraph] Detectar necessitats de qualificació.
+[List Paragraph] Informar sobre oportunitats d'ocupació.
+[List Paragraph] Facilitar processos de requalificació.
+[List Paragraph] Donar suport a la presa de decisions professionals.
+[Normal] 13.5. Serveis de formació
+[Normal] El centre desenvoluparà accions formatives adaptades a les necessitats de les persones, de les empreses i del territori.
+[Normal] Aquestes actuacions podran incloure, entre d'altres:
+[List Paragraph] Certificats professionals.
+[List Paragraph] Especialitats formatives.
+[List Paragraph] Formació programada per les empreses.
+[List Paragraph] Formació subvencionada.
+[List Paragraph] Formació a mida.
+[List Paragraph] Microformacions.
+[List Paragraph] Jornades tècniques.
+[List Paragraph] Accions d'actualització professional.
+[Normal] 13.6. Serveis d'acompanyament
+[Normal] Durant el desenvolupament dels itineraris formatius, el centre facilitarà serveis d'acompanyament orientats a:
+[List Paragraph] Fer el seguiment del progrés.
+[List Paragraph] Detectar dificultats.
+[List Paragraph] Facilitar la permanència.
+[List Paragraph] Coordinar les diferents actuacions del centre.
+[List Paragraph] Promoure la continuïtat de l'itinerari professional.
+[Normal] 13.7. Serveis de relació amb les empreses
+[Normal] El centre promourà actuacions destinades a reforçar la col·laboració amb les empreses.
+[Normal] Entre d'altres:
+[List Paragraph] Gestió de les pràctiques.
+[List Paragraph] Prospecció empresarial.
+[List Paragraph] Detecció de necessitats formatives.
+[List Paragraph] Col·laboració en activitats formatives.
+[List Paragraph] Participació de professionals del sector.
+[List Paragraph] Difusió d'oportunitats laborals.
+[Normal] 13.8. Serveis de suport a la inserció laboral
+[Normal] Sempre que les característiques dels programes ho permetin, el centre facilitarà actuacions de suport a la inserció laboral.
+[Normal] Aquestes podran incloure:
+[List Paragraph] Orientació per a la recerca de feina.
+[List Paragraph] Preparació de processos de selecció.
+[List Paragraph] Difusió d'ofertes.
+[List Paragraph] Coordinació amb empreses.
+[List Paragraph] Coordinació amb els serveis públics d'ocupació.
+[Normal] 13.9. Serveis de suport a l'acreditació de competències
+[Normal] Quan sigui procedent, el centre informarà les persones participants sobre els procediments d'acreditació de competències professionals i facilitarà la seva derivació als recursos competents.
+[Normal] Igualment, podrà desenvolupar aquelles actuacions que li siguin atribuïdes en aquesta matèria per la normativa vigent.
+[Normal] 13.10. Atenció a les persones usuàries
+[Normal] El centre disposarà de canals accessibles perquè les persones usuàries puguin:
+[List Paragraph] Sol·licitar informació.
+[List Paragraph] Formular consultes.
+[List Paragraph] Presentar suggeriments.
+[List Paragraph] Comunicar incidències.
+[List Paragraph] Presentar queixes o reclamacions.
+[Normal] Les comunicacions seran ateses amb criteris d'objectivitat, confidencialitat i diligència.
+[Normal] 13.11. Compromisos de qualitat
+[Normal] El centre assumeix els compromisos següents en la prestació dels seus serveis:
+[List Paragraph] Oferir informació clara i actualitzada.
+[List Paragraph] Garantir un tracte respectuós i professional.
+[List Paragraph] Facilitar una orientació personalitzada.
+[List Paragraph] Desenvolupar accions formatives de qualitat.
+[List Paragraph] Vetllar pel correcte desenvolupament de les pràctiques en empresa.
+[List Paragraph] Promoure la millora contínua dels seus serveis.
+[List Paragraph] Analitzar periòdicament la satisfacció de les persones participants, les empreses i la resta d'agents col·laboradors.
+[Normal] Els resultats d'aquest seguiment s'incorporaran al sistema de qualitat del centre i serviran de base per a la definició de les actuacions de millora.
+[Normal] 14. ORGANITZACIÓ DEL FUNCIONAMENT DEL CENTRE
+[Normal] 14.1. Objecte
+[Normal] Aquest capítol regula els criteris generals de funcionament quotidià del centre, amb la finalitat de garantir una organització eficient, segura i orientada a la qualitat dels serveis que s'hi presten.
+[Normal] Les disposicions d'aquest capítol són aplicables a totes les persones que desenvolupen activitats al centre.
+[Normal] 14.2. Horaris del centre
+[Normal] La direcció establirà els horaris d'obertura i tancament del centre, així com els horaris de les activitats formatives, dels serveis d'atenció a les persones usuàries i dels serveis administratius.
+[Normal] Els horaris seran públics i es comunicaran a través dels canals habituals d'informació del centre.
+[Normal] Quan circumstàncies organitzatives o de força major ho requereixin, la direcció podrà modificar temporalment els horaris, informant-ne amb la màxima antelació possible.
+[Normal] 14.3. Accés a les instal·lacions
+[Normal] L'accés al centre quedarà limitat a les persones autoritzades.
+[Normal] Les persones participants, professionals, empreses col·laboradores, proveïdors i visitants hauran de respectar els procediments d'accés establerts pel centre.
+[Normal] La direcció podrà establir sistemes d'identificació, acreditació o registre quan les característiques de les instal·lacions o dels programes així ho requereixin.
+[Normal] 14.4. Utilització dels espais
+[Normal] Les aules, tallers, laboratoris, sales de reunions, espais comuns i la resta d'instal·lacions s'utilitzaran exclusivament per a les activitats autoritzades.
+[Normal] Les persones usuàries hauran de:
+[List Paragraph] Respectar els horaris assignats.
+[List Paragraph] Mantenir l'ordre i la neteja.
+[List Paragraph] Fer un ús responsable dels equipaments.
+[List Paragraph] Comunicar qualsevol incidència o desperfecte.
+[List Paragraph] Respectar les normes específiques de cada espai.
+[Normal] Els espais amb equipaments especialitzats podran disposar de normes específiques d'utilització.
+[Normal] 14.5. Equipaments i recursos
+[Normal] Els recursos materials del centre constitueixen un patrimoni comú al servei de l'activitat formativa.
+[Normal] Les persones usuàries hauran d'utilitzar-los exclusivament per a les activitats autoritzades i seguint les instruccions del personal responsable.
+[Normal] Quan sigui necessari, el centre podrà regular:
+[List Paragraph] El préstec de material.
+[List Paragraph] Les reserves d'espais.
+[List Paragraph] L'ús d'equipaments especialitzats.
+[List Paragraph] L'accés a programari o plataformes digitals.
+[List Paragraph] La utilització d'equips informàtics.
+[Normal] 14.6. Recursos digitals
+[Normal] El centre facilitarà els recursos digitals necessaris per al desenvolupament de les activitats formatives.
+[Normal] Les persones usuàries hauran de:
+[List Paragraph] Utilitzar-los exclusivament per a finalitats formatives o professionals relacionades amb l'activitat del centre.
+[List Paragraph] Respectar les normes de seguretat informàtica.
+[List Paragraph] Protegir les seves credencials d'accés.
+[List Paragraph] Evitar qualsevol actuació que pugui comprometre la seguretat dels sistemes d'informació.
+[Normal] La direcció podrà establir normes específiques sobre l'ús de les plataformes digitals.
+[Normal] 14.7. Comunicació interna
+[Normal] El centre utilitzarà els canals oficials de comunicació per informar sobre:
+[List Paragraph] Horaris.
+[List Paragraph] Calendaris.
+[List Paragraph] Canvis organitzatius.
+[List Paragraph] Incidències.
+[List Paragraph] Convocatòries.
+[List Paragraph] Activitats.
+[List Paragraph] Informació acadèmica.
+[Normal] Les persones participants i el personal del centre són responsables de consultar periòdicament aquests canals.
+[Normal] 14.8. Visites i persones externes
+[Normal] Les visites externes hauran de respectar els procediments d'accés establerts pel centre.
+[Normal] Quan sigui necessari, hauran d'anar acompanyades pel personal responsable.
+[Normal] L'accés a determinades instal·lacions podrà quedar restringit per motius de seguretat, confidencialitat o desenvolupament de l'activitat formativa.
+[Normal] 14.9. Conservació dels espais
+[Normal] Totes les persones usuàries tenen el deure de contribuir a la conservació dels espais, dels equipaments i del material del centre.
+[Normal] Qualsevol desperfecte, incidència o funcionament anòmal haurà de comunicar-se tan aviat com sigui possible al personal responsable.
+[Normal] Quan els danys siguin conseqüència d'un ús negligent o intencionat, el centre podrà exigir la reparació dels perjudicis ocasionats, d'acord amb la normativa aplicable.
+[Normal] 14.10. Emergències
+[Normal] El centre disposarà dels plans i protocols necessaris per actuar davant situacions d'emergència.
+[Normal] Totes les persones que desenvolupin activitats al centre hauran de seguir les instruccions del personal responsable i participar, quan correspongui, en les activitats d'informació o simulacres que s'organitzin.
+[Normal] 14.11. Sostenibilitat
+[Normal] El centre promourà un ús responsable dels recursos i incorporarà criteris de sostenibilitat en el seu funcionament ordinari.
+[Normal] Es fomentarà, entre d'altres:
+[List Paragraph] L'estalvi energètic.
+[List Paragraph] L'ús eficient de l'aigua.
+[List Paragraph] La reducció del consum de paper.
+[List Paragraph] La reutilització de materials.
+[List Paragraph] La correcta gestió dels residus.
+[List Paragraph] L'ús responsable dels recursos digitals.
+[Normal] 14.12. Millora del funcionament
+[Normal] La direcció revisarà periòdicament el funcionament dels serveis i de les instal·lacions amb l'objectiu de millorar l'eficiència, la qualitat i la satisfacció de les persones usuàries.
+[Normal] Les propostes de millora podran provenir del personal del centre, de les persones participants, de les empreses col·laboradores o dels resultats dels sistemes d'avaluació i qualitat.
+[Normal] 15. PROTECCIÓ DE DADES, INFORMACIÓ I TRANSPARÈNCIA
+[Normal] 15.1. Finalitat
+[Normal] El centre garantirà la protecció de les dades personals, la confidencialitat de la informació, la transparència en la seva actuació i la correcta gestió de la documentació derivada de la seva activitat.
+[Normal] Tots els tractaments d'informació es desenvoluparan d'acord amb la normativa vigent i amb els principis de seguretat, integritat, disponibilitat i confidencialitat.
+[Normal] 15.2. Tractament de les dades personals
+[Normal] El centre tractarà les dades personals exclusivament per al desenvolupament de les activitats formatives, administratives i de gestió que li siguin pròpies.
+[Normal] Les dades només seran utilitzades per a les finalitats previstes legalment o autoritzades per les persones interessades, quan aquesta autorització sigui necessària.
+[Normal] El tractament es realitzarà d'acord amb el Reglament (UE) 2016/679, de 27 d'abril, General de Protecció de Dades (RGPD), la Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals, i la resta de normativa aplicable.
+[Normal] 15.3. Deure de confidencialitat
+[Normal] Tot el personal del centre, així com les persones col·laboradores externes que, per raó de les seves funcions, tinguin accés a informació de caràcter personal o professional, estan obligades a mantenir-ne la confidencialitat.
+[Normal] Aquest deure s'estén també a les persones participants respecte de la informació confidencial que puguin conèixer durant les activitats formatives o les estades en empreses.
+[Normal] L'obligació de confidencialitat es mantindrà una vegada finalitzada la relació amb el centre.
+[Normal] 15.4. Accés i utilització de la informació
+[Normal] L'accés a la informació del centre quedarà limitat a les persones que el necessitin per al desenvolupament de les seves funcions.
+[Normal] El centre adoptarà les mesures tècniques i organitzatives necessàries per garantir:
+[List Paragraph] La identificació de les persones usuàries.
+[List Paragraph] El control dels accessos.
+[List Paragraph] La traçabilitat de la informació.
+[List Paragraph] La protecció davant accessos no autoritzats.
+[List Paragraph] La recuperació de la informació quan sigui necessari.
+[Normal] 15.5. Gestió documental
+[Normal] El centre disposarà d'un sistema d'organització documental que garanteixi:
+[List Paragraph] La identificació dels documents.
+[List Paragraph] El control de versions.
+[List Paragraph] La conservació dels registres.
+[List Paragraph] La localització de la informació.
+[List Paragraph] L'eliminació segura de la documentació quan finalitzi el termini legal de conservació.
+[Normal] La documentació es conservarà durant els terminis establerts per la normativa aplicable a cada programa o convocatòria.
+[Normal] 15.6. Transparència i dret a la informació
+[Normal] El centre facilitarà informació clara, actualitzada i accessible sobre els serveis que ofereix, les condicions d'accés, els procediments interns i els canals de comunicació disponibles.
+[Normal] La informació institucional es publicarà mitjançant els canals que el centre determini, garantint-ne l'actualització i la fiabilitat.
+[Normal] 15.7. Dret d'imatge
+[Normal] La captació, reproducció o difusió d'imatges, enregistraments de veu o vídeos de les persones participants, del personal o de les activitats del centre requerirà el compliment de la normativa vigent i, quan sigui necessari, el consentiment de les persones afectades.
+[Normal] El centre podrà utilitzar imatges amb finalitats informatives, divulgatives o institucionals únicament quan disposi de la base jurídica corresponent.
+[Normal] 15.8. Utilització dels sistemes d'informació
+[Normal] Les persones usuàries dels sistemes informàtics del centre hauran de:
+[List Paragraph] Utilitzar-los exclusivament per a les finalitats autoritzades.
+[List Paragraph] Protegir les seves credencials d'accés.
+[List Paragraph] Evitar la difusió d'informació confidencial.
+[List Paragraph] Comunicar qualsevol incidència de seguretat.
+[List Paragraph] Respectar les polítiques de seguretat informàtica del centre.
+[Normal] 15.9. Exercici de drets
+[Normal] Les persones interessades podran exercir els drets reconeguts per la normativa de protecció de dades personals mitjançant els canals habilitats pel centre.
+[Normal] Les sol·licituds seran tramitades dins dels terminis legalment establerts.
+[Normal] 15.10. Responsabilitat i compliment
+[Normal] La direcció del centre vetllarà pel compliment de les obligacions relatives a la protecció de dades, la gestió de la informació i la transparència, impulsant les mesures necessàries per garantir la seguretat jurídica, la confiança de les persones usuàries i el bon funcionament de l'organització.
+[Normal] 16. SEGURETAT, SALUT I PREVENCIÓ DE RISCOS
+[Normal] 16.1. Finalitat
+[Normal] El centre garantirà un entorn segur i saludable per a totes les persones que desenvolupin activitats a les seves instal·lacions o en altres espais vinculats a la seva activitat formativa.
+[Normal] La seguretat i la salut constitueixen una responsabilitat compartida entre la direcció, el personal del centre, les persones participants, les empreses col·laboradores i la resta de persones usuàries.
+[Normal] 16.2. Principis generals
+[Normal] L'activitat del centre es desenvoluparà d'acord amb els principis següents:
+[List Paragraph] Prevenció dels riscos abans que correcció de les seves conseqüències.
+[List Paragraph] Integració de la prevenció en tots els processos del centre.
+[List Paragraph] Informació i formació de totes les persones usuàries.
+[List Paragraph] Corresponsabilitat en el compliment de les mesures de seguretat.
+[List Paragraph] Millora contínua de les condicions de seguretat i salut.
+[Normal] 16.3. Compliment de les normes de seguretat
+[Normal] Totes les persones que desenvolupin activitats al centre hauran de respectar les normes de seguretat establertes per la direcció.
+[Normal] En particular, hauran de:
+[List Paragraph] Seguir les instruccions del personal responsable.
+[List Paragraph] Utilitzar correctament els equips, eines i instal·lacions.
+[List Paragraph] Fer servir els equips de protecció individual quan siguin obligatoris.
+[List Paragraph] Comunicar immediatament qualsevol situació de risc o incidència detectada.
+[List Paragraph] Abstenir-se d'utilitzar equips per als quals no hagin rebut la formació o autorització corresponent.
+[Normal] 16.4. Tallers, laboratoris i espais especialitzats
+[Normal] L'accés als tallers, laboratoris i altres espais amb riscos específics quedarà condicionat al compliment de les normes de seguretat establertes per a cada instal·lació.
+[Normal] La direcció podrà establir protocols específics sobre:
+[List Paragraph] Equipaments de protecció individual.
+[List Paragraph] Formació prèvia obligatòria.
+[List Paragraph] Supervisió de les activitats.
+[List Paragraph] Limitacions d'accés.
+[List Paragraph] Autoritzacions d'ús.
+[Normal] Les normes específiques de cada espai hauran d'estar disponibles per a totes les persones usuàries.
+[Normal] 16.5. Actuació davant accidents o incidències
+[Normal] Qualsevol accident, incident o situació que pugui afectar la seguretat haurà de comunicar-se immediatament al personal responsable del centre.
+[Normal] La direcció activarà els protocols interns corresponents i adoptarà les mesures necessàries per:
+[List Paragraph] Protegir les persones afectades.
+[List Paragraph] Garantir la seguretat de la resta de persones presents.
+[List Paragraph] Registrar els fets.
+[List Paragraph] Analitzar-ne les causes.
+[List Paragraph] Implantar mesures preventives quan sigui necessari.
+[Normal] 16.6. Emergències
+[Normal] El centre disposarà d'un Pla d'Autoprotecció o dels protocols d'emergència que siguin exigibles d'acord amb la normativa aplicable.
+[Normal] Totes les persones usuàries hauran de:
+[List Paragraph] Conèixer les vies d'evacuació.
+[List Paragraph] Respectar la senyalització de seguretat.
+[List Paragraph] Seguir les instruccions del personal responsable.
+[List Paragraph] Participar, quan correspongui, en simulacres o activitats d'informació.
+[Normal] 16.7. Salut i benestar
+[Normal] El centre promourà hàbits saludables i condicions que afavoreixin el benestar físic i emocional de les persones.
+[Normal] Quan una persona participant presenti una indisposició o una situació que pugui comprometre la seva seguretat o la de terceres persones, el personal responsable adoptarà les mesures oportunes i, si escau, activarà els serveis d'emergència o contactarà amb la persona de referència designada.
+[Normal] El centre no administrarà medicació, excepte en els supòsits previstos per la normativa o quan existeixi una autorització expressa i un protocol específic.
+[Normal] 16.8. Coordinació d'activitats empresarials
+[Normal] Quan en un mateix espai coincideixin activitats desenvolupades per diferents empreses o entitats, el centre promourà la coordinació necessària per garantir la seguretat de totes les persones presents, d'acord amb la normativa vigent.
+[Normal] Aquesta coordinació serà especialment rellevant en les actuacions de manteniment, obres, pràctiques formatives o activitats desenvolupades per empreses col·laboradores.
+[Normal] 16.9. Prevenció de riscos en les pràctiques en empresa
+[Normal] Abans de l'inici de les pràctiques formatives, el centre vetllarà perquè les persones participants hagin rebut la informació necessària sobre els riscos inherents a l'activitat que desenvoluparan.
+[Normal] La coordinació amb l'empresa col·laboradora garantirà que les pràctiques es desenvolupin en condicions adequades de seguretat i salut.
+[Normal] 16.10. Revisió i millora
+[Normal] El centre revisarà periòdicament les condicions de seguretat i salut de les seves instal·lacions i activitats.
+[Normal] Les incidències, accidents i observacions recollides serviran per identificar oportunitats de millora i actualitzar, quan sigui necessari, les mesures preventives i els protocols d'actuació.
+[Normal] 17. APROVACIÓ, VIGÈNCIA I REVISIÓ DE LES NOFC
+[Normal] 17.1. Objecte
+[Normal] Les presents Normes d'Organització i Funcionament del Centre constitueixen el marc general de referència per regular l'organització, el funcionament i les relacions internes del centre.
+[Normal] Les NOFC són d'aplicació a totes les activitats desenvolupades pel centre, sens perjudici de les especificitats que puguin derivar-se de la normativa reguladora de cada programa, convocatòria o servei.
+[Normal] 17.2. Aprovació
+[Normal] Les NOFC i les seves modificacions seran aprovades per la titularitat o per l'òrgan de govern competent de l'entitat titular del centre.
+[Normal] L'acord d'aprovació identificarà, com a mínim:
+[List Paragraph] La versió del document.
+[List Paragraph] La data d'aprovació.
+[List Paragraph] La data d'entrada en vigor.
+[List Paragraph] La persona o òrgan responsable de l'aprovació.
+[Normal] 17.3. Entrada en vigor
+[Normal] Les presents NOFC entraran en vigor en la data que determini l'acord d'aprovació.
+[Normal] A partir d'aquesta data, substituiran qualsevol altra norma interna de contingut equivalent que resulti incompatible amb el seu contingut.
+[Normal] 17.4. Difusió
+[Normal] El centre garantirà que les NOFC siguin conegudes per totes les persones que desenvolupin activitats al centre.
+[Normal] Amb aquesta finalitat, el document estarà disponible mitjançant els canals interns d'informació i es facilitarà l'accés al seu contingut a les persones participants, al personal del centre i a la resta d'agents que hi mantinguin una relació estable.
+[Normal] La direcció podrà elaborar documents de síntesi, guies o protocols específics que facilitin la comprensió i aplicació de les presents normes.
+[Normal] 17.5. Interpretació
+[Normal] Correspon a la direcció del centre interpretar les presents NOFC i resoldre els dubtes que puguin sorgir en la seva aplicació.
+[Normal] En aquells aspectes no previstos expressament, s'aplicarà la normativa vigent que resulti d'aplicació i els criteris organitzatius aprovats per la titularitat.
+[Normal] 17.6. Revisió
+[Normal] Les NOFC tindran caràcter dinàmic i seran objecte de revisió periòdica.
+[Normal] La revisió es realitzarà, com a mínim, quan concorri alguna de les circumstàncies següents:
+[List Paragraph] Modificacions legislatives o reglamentàries.
+[List Paragraph] Nous requisits dels organismes competents.
+[List Paragraph] Canvis substancials en l'organització del centre.
+[List Paragraph] Implantació de nous serveis o activitats.
+[List Paragraph] Resultats dels processos d'avaluació interna o de les actuacions de seguiment dels organismes competents.
+[List Paragraph] Necessitat d'incorporar millores derivades de l'experiència acumulada.
+[Normal] 17.7. Modificació
+[Normal] Qualsevol modificació de les NOFC seguirà el mateix procediment establert per a la seva aprovació.
+[Normal] El centre mantindrà un sistema de control de versions que permeti identificar les modificacions introduïdes, la data d'entrada en vigor i les persones responsables de la seva aprovació.
+[Normal] 17.8. Adaptació als diferents centres
+[Normal] Aquest document té la consideració de model general de referència.
+[Normal] Cada centre podrà incorporar-hi les adaptacions organitzatives necessàries derivades de:
+[List Paragraph] La seva dimensió.
+[List Paragraph] Les característiques de les activitats que desenvolupa.
+[List Paragraph] Les instal·lacions disponibles.
+[List Paragraph] Les especialitats professionals impartides.
+[List Paragraph] Les convocatòries o programes en què participi.
+[List Paragraph] La seva estructura organitzativa.
+[Normal] Aquestes adaptacions no podran contradir els principis generals establerts en les presents NOFC ni la normativa aplicable.
+[Normal] 17.9. Dret supletori
+[Normal] En tot allò no previst en aquestes NOFC serà d'aplicació la normativa vigent reguladora del Sistema de Formació Professional, de la formació professional per a l'ocupació i la resta de disposicions que resultin aplicables en funció de la naturalesa de l'activitat desenvolupada.
+[Normal] Disposició final
+[Normal] Les presents Normes d'Organització i Funcionament del Centre constitueixen el marc de referència per al desenvolupament de l'activitat del centre i han de contribuir a garantir una organització eficaç, una prestació de serveis de qualitat, un entorn segur i respectuós i una orientació permanent al desenvolupament professional de les persones al llarg de la vida.

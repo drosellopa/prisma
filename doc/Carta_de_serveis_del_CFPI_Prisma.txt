@@ -1,0 +1,136 @@
+[Normal] Carta de serveis - Prisma
+[Normal] FP Núria – Qualitat i Formació – STAF – PHRO Training – CMAP – SC2
+[Normal] 1. Presentació
+[isselectedend] El CFPI Prisma és una agrupació de centres de formació professional integrada especialitzada en serveis socioculturals i a la comunitat, constituïda d’acord amb el Decret 137/2023 i alineada amb el model del Sistema FPCAT.
+[isselectedend] L’agrupació neix amb la voluntat de construir un model cooperatiu i innovador de formació professional integrada basat en la complementarietat entre centres, la coordinació de serveis i la resposta a les necessitats emergents vinculades a l’atenció a les persones, l’acció comunitària, les cures, la intervenció socioeducativa, la salut comunitària i els serveis de proximitat.
+[isselectedend] La Carta de serveis defineix els serveis que ofereix el CFPI Prisma a les persones, empreses, entitats i administracions, així com els compromisos de qualitat, accessibilitat, innovació i millora contínua assumits per l’agrupació, en coherència amb el Projecte funcional i el model de centres de formació professional integrada.
+[Normal (Web)] El CFPI Prisma aspira a convertir-se progressivament en un espai de referència en orientació, qualificació, innovació metodològica i cooperació territorial dins l’àmbit dels serveis socioculturals i a la comunitat.
+[Normal] 2. Missió
+[isselectedend] Oferir serveis integrats de formació professional que permetin a les persones aprendre, acreditar-se, requalificar-se i progressar professionalment al llarg de la vida, i a les empreses i entitats disposar de talent qualificat i serveis de desenvolupament competencial adaptats a les necessitats dels serveis socioculturals i a la comunitat.
+[Normal (Web)] El CFPI Prisma promou un model de formació professional orientat a la inclusió, la cohesió social, la innovació metodològica i la millora de la qualitat dels serveis vinculats a l’atenció a les persones i a l’acció comunitària.
+[Normal] 3. Persones destinatàries
+[isselectedend] La Carta de serveis s’adreça a les persones, empreses, entitats i institucions que formen part de l’ecosistema dels serveis socioculturals i a la comunitat, així com a totes aquelles persones que necessiten orientar, actualitzar, acreditar o millorar la seva qualificació professional al llarg de la vida.
+[isselectedend] Són persones destinatàries del CFPI Prisma:
+[Normal (Web)] Persones joves en procés de qualificació professional.
+[Normal (Web)] Persones treballadores ocupades que volen actualitzar o millorar les seves competències.
+[Normal (Web)] Persones en situació d’atur, requalificació o transició professional.
+[Normal (Web)] Professionals dels serveis socioculturals i a la comunitat.
+[Normal (Web)] Persones amb experiència laboral que volen acreditar les seves competències professionals.
+[Normal (Web)] Empreses, fundacions, cooperatives i entitats socials.
+[Normal (Web)] Administracions públiques i serveis territorials.
+[Normal (Web)] Col·lectius en situació de vulnerabilitat o risc d’exclusió.
+[Normal (Web)] Persones que volen construir itineraris formatius i professionals vinculats a les cures, l’atenció a les persones, la intervenció socioeducativa i l’acció comunitària.
+[Normal] 4. Serveis del CFPI Prisma
+[Normal] 4.1 Servei d’orientació professional
+[Normal] Descripció
+[isselectedend] Servei d’informació, orientació i acompanyament professional basat en el model del Sistema FPCAT, orientat a la definició d’itineraris formatius i professionals personalitzats i adaptats a les necessitats de les persones al llarg de la vida.
+[Normal (Web)] El servei incorpora una perspectiva integral d’acompanyament a les trajectòries professionals vinculades especialment als serveis socioculturals i a la comunitat.
+[Normal] Actuacions principals
+[Normal] Diagnosi inicial de competències. 
+[Normal] Definició d’itineraris formatius i professionals. 
+[Normal] Informació sobre oferta formativa. 
+[Normal] Orientació per a l’acreditació de competències. 
+[Normal] Acompanyament en processos de transició professional. 
+[Normal] Derivació coordinada entre centres i serveis.
+[Normal] Suport en processos de requalificació i actualització professional.
+[Normal] Compromisos
+[Normal] Atenció personalitzada. 
+[Normal] Perspectiva inclusiva i d’igualtat d’oportunitats. 
+[Normal] Coordinació entre centres de l’agrupació. 
+[Normal] Continuïtat de l’acompanyament professional.
+[Normal] Accessibilitat i proximitat territorial. 
+[Normal] 4.2 Servei d’acreditació 
+[Normal] Descripció
+[isselectedend] Servei d’assessorament i suport als processos d’acreditació de competències professionals adquirides per experiència laboral o vies no formals de formació, especialment vinculades als serveis socioculturals i a la comunitat.
+[Normal (Web)] El servei promou la capitalització de l’experiència professional i la continuïtat formativa de les persones.
+[Normal] Actuacions principals
+[Normal] Informació sobre convocatòries. 
+[Normal] Assessorament individualitzat. 
+[Normal] Acompanyament documental. 
+[Normal] Continuïtat formativa posterior. 
+[Normal] Coordinació amb els serveis d’orientació professional.
+[Normal] Compromisos
+[Normal] Coordinació tècnica entre centres. 
+[Normal] Professionals habilitats i actualitzats. 
+[Normal] Orientació cap a la capitalització formativa. 
+[Normal] Acompanyament proper i personalitzat.
+[Normal] Impuls de la qualificació professional al llarg de la vida.
+[Normal] 4.3 Servei de formació professional
+[Normal] Descripció
+[isselectedend] Oferta integrada de formació professional vinculada principalment als serveis socioculturals i a la comunitat, especialment en els àmbits de les cures, l’atenció a les persones, la intervenció socioeducativa, l’acció comunitària, la salut comunitària i els serveis de proximitat.
+[Normal (Web)] El servei inclou graus A, B, C i D, formació contínua, microcredencials i formació a mida per a empreses i entitats.
+[Normal] Actuacions principals
+[Normal] Certificats professionals. 
+[Normal] Cicles formatius. 
+[Normal] Microcredencials. 
+[Normal] Formació bonificada. 
+[Normal] Formació virtual i híbrida. 
+[Normal] Itineraris modulars i capitalitzables. 
+[Normal] Formació adaptada a necessitats emergents del sector.
+[Normal] Accions de requalificació i actualització professional.
+[Normal] Compromisos
+[Normal] Adaptació a les necessitats del mercat laboral. 
+[Normal] Innovació metodològica. 
+[Normal] Flexibilitat d’accés i continuïtat formativa. 
+[Normal] Coordinació entre centres per garantir itineraris integrats.
+[Normal] Perspectiva inclusiva i d’igualtat d’oportunitat.
+[Normal] 4.4 Servei d’intermediació laboral
+[Normal] Descripció
+[Normal] Servei de connexió entre persones, empreses i entitats per facilitar la inserció laboral, la millora professional i la detecció de necessitats de talent dins l’àmbit dels serveis socioculturals i a la comunitat.
+[Normal] Actuacions principals
+[Normal] Borsa de treball. 
+[Normal] Prospecció empresarial i institucional. 
+[Normal] Gestió d’ofertes. 
+[Normal] Seguiment d’inserció. 
+[Normal] Suport a la formació dual. 
+[Normal] Relació amb entitats socials i administracions.
+[Normal] Detecció de necessitats professionals emergents. 
+[Normal] Compromisos
+[Normal] Relació estable amb empreses i entitats. 
+[Normal] Coordinació territorial. 
+[Normal] Seguiment de resultats d’inserció. 
+[Normal] Impuls d’itineraris de transició professional de qualitat.
+[Normal] Coordinació amb els serveis d’orientació i formació.
+[Normal] 4.5 Servei d’innovació, recerca i transferència
+[Normal] Descripció
+[isselectedend] Servei orientat al desenvolupament de metodologies innovadores, la digitalització, la detecció de necessitats formatives i la transferència de coneixement aplicada als serveis socioculturals i a la comunitat.
+[Normal (Web)] El servei promou espais de cooperació entre centres, empreses, administracions i entitats socials per impulsar la innovació aplicada als àmbits de les cures, l’atenció comunitària i la intervenció socioeducativa.
+[Normal] Actuacions principals
+[Normal] Desenvolupament de continguts digitals. 
+[Normal] Innovació metodològica. 
+[Normal] Estudis sectorials. 
+[Normal] Transferència de coneixement. 
+[Normal] Projectes col·laboratius. 
+[Normal] Compartició de bones pràctiques.
+[Normal] Desenvolupament de laboratoris d’innovació aplicada.
+[Normal] Impuls de metodologies experiencials i simulació professional.
+[Normal] Compromisos
+[Normal] Innovació aplicada. 
+[Normal] Millora contínua. 
+[Normal] Cooperació amb empreses i institucions. 
+[Normal] Transferència efectiva de coneixement entre centres.
+[Normal] Impuls de la transformació digital del sector.
+[Normal] 5. Compromisos generals de qualitat
+[Normal] El CFPI Prisma assumeix els compromisos següents:
+[Normal] Garantir una atenció professional, propera i accessible. 
+[Normal] Promoure la igualtat d’oportunitats i la inclusió. 
+[Normal] Vetllar per la qualitat i la millora contínua dels serveis. 
+[Normal] Incorporar criteris de sostenibilitat i digitalització. 
+[Normal] Garantir la confidencialitat i protecció de dades. 
+[Normal] Coordinar els serveis entre tots els centres de l’agrupació. 
+[Normal] Afavorir la cooperació estable amb empreses, entitats socials i administracions.
+[Normal] Impulsar metodologies centrades en les persones i l’aprenentatge al llarg de la vida.
+[Normal] 6. Drets i deures de les persones usuàries
+[Normal] Drets
+[Normal] Rebre informació clara i actualitzada. 
+[Normal] Accedir als serveis en condicions d’igualtat. 
+[Normal] Rebre una atenció respectuosa i professional. 
+[Normal] Presentar suggeriments i propostes de millora. 
+[Normal] Deures
+[Normal] Facilitar informació veraç. 
+[Normal] Respectar les normes de funcionament dels centres. 
+[Normal] Fer un ús adequat dels serveis i recursos. 
+[Normal] 7. Governança i coordinació
+[isselectedend] La coordinació general del CFPI Prisma correspon a FP Núria com a centre coordinador de l’agrupació.
+[isselectedend] El CFPI Prisma desenvolupa un model de governança cooperativa basat en la coordinació tècnica, la complementarietat entre centres i la presa compartida de decisions, amb l’objectiu de construir una oferta integrada i coherent de serveis de formació professional.
+[Normal (Web)] L’agrupació disposa d’un òrgan de coordinació, de comissions tècniques i del Consell de Formació i Empresa com a òrgan de participació institucional, relació amb l’entorn productiu i cooperació amb empreses, entitats socials, administracions i agents del territori.

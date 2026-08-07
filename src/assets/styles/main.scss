@@ -9,6 +9,19 @@
 @use "dependencies";
 
 /**
+ * Import base styles
+ */
+@use "base/typography";
+@use "base/utilities";
+
+/**
+ * Import components
+ */
+@use "components/header";
+@use "components/button";
+@use "components/hero";
+
+/**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */

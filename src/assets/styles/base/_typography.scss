@@ -1,0 +1,35 @@
+@use "../variables";
+
+// El header és fixed (fora del flux): sense això, saltar a una àncora
+// (menú, CTA) deixa el títol de la secció tapat darrere seu.
+html {
+  scroll-padding-top: variables.$header-height;
+}
+
+body {
+  margin: 0;
+  font-family: variables.$font-family-sans-serif;
+  font-weight: variables.$font-weight-regular;
+  color: variables.$color-text-body;
+  background-color: variables.$color-background;
+  // Compensa que el header sigui fixed: totes les seccions recuperen el
+  // seu espai normal. El hero cancel·la això expressament (vegeu _hero.scss)
+  // perquè la seva imatge de fons pugi per sota del header transparent.
+  padding-top: variables.$header-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: variables.$font-family-sans-serif;
+  font-weight: variables.$font-weight-semibold;
+  color: variables.$color-text-heading;
+}
+
+h1,
+h2 {
+  letter-spacing: variables.$letter-spacing-heading;
+}

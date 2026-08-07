@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="prismaHeroTitle prismaHeroDesc">
+  <title id="prismaHeroTitle">Il·lustració CFPI Prisma</title>
+  <desc id="prismaHeroDesc">Composició abstracta d'un prisma facetat envoltat d'una xarxa de nodes connectats, representant els sis centres del CFPI Prisma treballant en xarxa.</desc>
+  <defs>
+    <linearGradient id="facetLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1F44"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="facetRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#29B6F6"/>
+    </linearGradient>
+    <linearGradient id="facetFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#29B6F6"/>
+      <stop offset="100%" stop-color="#8DE3FF"/>
+    </linearGradient>
+  </defs>
+
+  <g opacity="0.5">
+    <line x1="300" y1="430" x2="90" y2="300" stroke="#8DE3FF" stroke-width="1.5" stroke-opacity="0.45"/>
+    <line x1="300" y1="430" x2="110" y2="460" stroke="#8DE3FF" stroke-width="1.5" stroke-opacity="0.45"/>
+    <line x1="300" y1="430" x2="230" y2="540" stroke="#8DE3FF" stroke-width="1.5" stroke-opacity="0.45"/>
+    <line x1="300" y1="430" x2="370" y2="540" stroke="#8DE3FF" stroke-width="1.5" stroke-opacity="0.45"/>
+    <line x1="300" y1="430" x2="490" y2="460" stroke="#8DE3FF" stroke-width="1.5" stroke-opacity="0.45"/>
+    <line x1="300" y1="430" x2="510" y2="300" stroke="#8DE3FF" stroke-width="1.5" stroke-opacity="0.45"/>
+    <polyline points="90,300 110,460 230,540 370,540 490,460 510,300"
+      fill="none" stroke="#8DE3FF" stroke-width="1" stroke-opacity="0.22"/>
+  </g>
+
+  <polygon points="140,380 190,430 120,430" fill="#0A1F44" opacity="0.85"/>
+  <polygon points="430,160 480,230 400,205" fill="#8DE3FF" opacity="0.85"/>
+
+  <polygon points="300,110 160,430 300,430" fill="url(#facetLeft)"/>
+  <polygon points="300,110 300,430 440,430" fill="url(#facetRight)"/>
+  <polygon points="340,260 255,430 425,430" fill="url(#facetFront)" opacity="0.92"/>
+
+  <g>
+    <circle cx="90" cy="300" r="8" fill="#EAF6FF" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="110" cy="460" r="8" fill="#EAF6FF" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="230" cy="540" r="8" fill="#EAF6FF" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="370" cy="540" r="8" fill="#EAF6FF" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="490" cy="460" r="8" fill="#EAF6FF" stroke="#1565C0" stroke-width="2"/>
+    <circle cx="510" cy="300" r="8" fill="#EAF6FF" stroke="#1565C0" stroke-width="2"/>
+  </g>
+
+  <g fill="#EAF6FF" opacity="0.55">
+    <circle cx="70" cy="180" r="3"/>
+    <circle cx="530" cy="180" r="3"/>
+    <circle cx="300" cy="60" r="3"/>
+    <circle cx="180" cy="500" r="2.5"/>
+    <circle cx="440" cy="500" r="2.5"/>
+  </g>
+</svg>

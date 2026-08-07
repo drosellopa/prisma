@@ -5,3 +5,19 @@
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
+
+/**
+ * Montserrat (self-hosted) — regular (400) and semibold (600) weights only,
+ * per the project typography rule: body copy is regular, all titles are semibold.
+ */
+@import "../../../node_modules/@fontsource/montserrat/400.css";
+@import "../../../node_modules/@fontsource/montserrat/600.css";
+
+/**
+ * @fortawesome/fontawesome-free is installed but NOT imported here: its CSS
+ * + webfont add ~174 kB for icons this project doesn't use yet. The header
+ * menu icons are inline SVG instead (see index.html). Import fontawesome.css
+ * + brands.css when real icons (e.g. social links) are needed — importing
+ * only the styles actually used keeps this in line with the performance
+ * budget in CLAUDE.md.
+ */

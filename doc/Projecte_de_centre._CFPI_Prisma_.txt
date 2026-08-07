@@ -1,0 +1,444 @@
+[Normal] PROJECTE DE CENTRE. CFPI PRISMA 
+[Normal] 1. Presentació
+[Normal] 1.1. El CFPI Prisma
+[Normal] El Centre de Formació Professional Integrada Prisma neix de la voluntat compartida de FP Núria, Qualitat i Formació, STAF, PHRO Training, CMAP i SC2 de construir un projecte comú que permeti donar una resposta més integrada, especialitzada i eficient a les necessitats de qualificació professional de les persones, les empreses i el territori.
+[Normal] Els centres que impulsen aquest projecte comparteixen una llarga trajectòria en l'àmbit de la formació professional, la qualificació i el desenvolupament del talent. Aquesta experiència, desenvolupada durant dècades en col·laboració amb les administracions públiques, les empreses, les entitats socials i els agents del territori, constitueix la base sobre la qual es construeix el CFPI Prisma.
+[Normal] La constitució del centre respon a una voluntat de transformació que va més enllà de la cooperació entre entitats. L'objectiu és configurar una nova organització capaç d'integrar serveis, compartir coneixement, generar economies d'escala i actuar de manera coordinada davant els reptes que planteja el nou model de Formació Professional al llarg de la vida.
+[Normal] En aquest sentit, el CFPI Prisma no representa únicament una agrupació de centres de formació, sinó la construcció d'un projecte institucional compartit orientat a esdevenir un referent del Sistema FPCAT en l'àmbit dels serveis socioculturals i a la comunitat.
+[Normal] 1.2. Finalitat 
+[Normal] El Projecte de Centre és el document institucional que defineix la identitat, la missió, la visió, els valors, el model organitzatiu i els principis d'actuació del CFPI Prisma.
+[Normal] La seva funció és establir el marc estratègic que orienta totes les actuacions del centre i garantir la coherència entre els diferents serveis, centres participants i òrgans de governança.
+[Normal] Es tracta d'un document de caràcter estable que defineix el model de centre i els compromisos permanents assumits per l'agrupació. Aquest marc estratègic ha de permetre que el CFPI evolucioni mantenint una identitat compartida, independentment dels canvis organitzatius o dels nous projectes que es desenvolupin al llarg del temps.
+[Normal] 1.3. Arquitectura documental 
+[Normal] El Projecte de Centre constitueix el document de referència sobre el qual s'articula el conjunt del sistema de planificació i gestió del CFPI Prisma.
+[Normal] El seu desplegament es concreta mitjançant el Projecte Funcional, que defineix les actuacions prioritàries de cada període; els plans anuals de treball, que programen les activitats i els objectius operatius; la Carta de Serveis, que estableix els compromisos assumits amb les persones usuàries i les empreses; les Normes d'Organització i Funcionament de Centre, que regulen l'organització interna; els protocols comuns de prestació dels serveis, i la resta de documents de seguiment, qualitat i avaluació.
+[Normal] Aquest conjunt documental garanteix que el CFPI disposi d'un model de governança coherent, capaç de combinar una estratègia estable amb una gestió flexible i adaptada a les necessitats canviants del Sistema FPCAT i del territori.
+[Normal] 1.4. Compromís institucional
+[Normal] Mitjançant aquest Projecte de Centre, les entitats integrants manifesten el seu compromís de construir un model de Centre de Formació Professional Integrada basat en la col·laboració, la confiança mútua, la corresponsabilitat i la millora contínua.
+[Normal] Aquest compromís es concreta en la voluntat de compartir estratègia, coneixement, recursos i capacitats per oferir una resposta integrada als reptes del desenvolupament professional de les persones, de la competitivitat de les empreses i de la cohesió social del territori.
+[Normal] El CFPI Prisma assumeix així la responsabilitat de contribuir activament al desplegament del Sistema FPCAT, promovent una formació professional de qualitat, connectada amb les necessitats del mercat de treball, orientada a les persones i compromesa amb l'aprenentatge al llarg de la vida.
+[Normal] 2. Context normatiu i institucional
+[Normal] 2.1. La transformació del sistema de formació professional
+[Normal] La formació professional està immersa en un procés de transformació profunda orientat a construir un sistema únic, integrat i al llarg de la vida, capaç de donar resposta als reptes socials, econòmics i tecnològics del país.
+[Normal] La Llei orgànica 3/2022, de 31 de març, d'ordenació i integració de la Formació Professional, estableix un nou model que supera la tradicional separació entre la formació inicial i la formació per a l'ocupació, configurant un sistema únic que integra orientació professional, acreditació de competències, formació, intermediació laboral, innovació i relació permanent amb les empreses.
+[Normal] A Catalunya, aquest procés es concreta mitjançant el Sistema FPCAT i el Decret 137/2023, de 25 de juliol, pel qual es regulen els Centres de Formació Professional Integrada, concebuts com els equipaments de referència encarregats d'articular aquesta nova manera d'entendre la qualificació i el desenvolupament professional de les persones.
+[Normal] Els Centres de Formació Professional Integrada deixen de ser únicament espais on s'imparteix formació per esdevenir organitzacions capaces d'acompanyar les persones al llarg de tota la seva trajectòria professional i d'oferir a les empreses un conjunt integrat de serveis vinculats al desenvolupament del talent.
+[Normal] 2.2. El paper dels Centres de Formació Professional Integrada
+[Normal] En aquest nou escenari, els Centres de Formació Professional Integrada es configuren com a instruments estratègics al servei del desenvolupament econòmic, social i territorial.
+[Normal] La seva funció consisteix a integrar els diferents serveis del Sistema FPCAT en una única organització capaç de facilitar itineraris personalitzats, donar resposta a les necessitats de qualificació de les empreses, impulsar la innovació metodològica i tecnològica i generar espais estables de cooperació entre administracions, empreses, centres de formació i agents socials.
+[Normal] Aquest model requereix una governança oberta, una elevada capacitat de cooperació institucional i una orientació permanent cap a la qualitat, la innovació i la millora contínua.
+[Normal] 2.3. La resposta del CFPI Prisma
+[Normal] El CFPI Prisma neix com a resposta compartida dels centres integrants davant aquest nou paradigma de la formació professional.
+[Normal] La constitució del centre representa l'evolució natural d'una trajectòria de col·laboració consolidada entre entitats que comparteixen una mateixa vocació de servei públic, una especialització comuna en l'àmbit dels serveis socioculturals i a la comunitat i una llarga experiència en la gestió de programes de formació professional, orientació, acreditació de competències i relació amb les empreses.
+[Normal] La decisió de constituir un Centre de Formació Professional Integrada respon a la voluntat de generar un impacte superior al que cada organització podria assolir individualment, mitjançant la integració dels serveis, la complementarietat dels recursos i la construcció d'una estratègia compartida orientada a les persones, les empreses i el territori.
+[Normal] 2.4. Una aportació al desplegament del Sistema FPCAT
+[Normal] El CFPI Prisma vol contribuir activament al desplegament del Sistema FPCAT des d'una especialització clara en l'àmbit dels serveis socioculturals i a la comunitat.
+[Normal] La seva aportació consisteix a demostrar que la cooperació estable entre centres permet generar una oferta més completa, uns serveis més accessibles i una resposta més eficient a les necessitats de qualificació professional del territori.
+[Normal] Aquesta vocació de servei públic es concreta en el compromís d'impulsar una cultura de col·laboració, innovació i qualitat que contribueixi a consolidar el nou model de formació professional integrada a Catalunya.
+[Normal] 3. El model de centre en xarxa
+[Normal] 3.1. Un únic projecte institucional
+[Normal] El CFPI Prisma adopta un model de Centre de Formació Professional Integrada en xarxa, basat en la cooperació estable entre diversos centres que comparteixen una mateixa estratègia, una especialització sectorial comuna i una cartera integrada de serveis.
+[Normal] Aquest model parteix del convenciment que els grans reptes de la qualificació professional no poden ser abordats des de l'actuació aïllada de cada organització. La creixent complexitat dels itineraris formatius, l'evolució constant de les competències professionals, les necessitats de les empreses i el nou model del Sistema FPCAT exigeixen noves formes de col·laboració capaces d'integrar coneixement, recursos i capacitats.
+[Normal] Per aquest motiu, els centres que impulsen el CFPI Prisma decideixen construir un únic projecte institucional que preserva la identitat i l'especialització de cadascun dels seus membres, però que actua de manera coordinada davant les persones, les empreses, les administracions i la resta d'agents del territori.
+[Normal] El valor diferencial del CFPI Prisma no rau únicament en la suma dels recursos dels centres que l'integren, sinó en la seva capacitat per generar noves oportunitats a partir del treball compartit.
+[Normal] 3.2. Un model basat en la complementarietat
+[Normal] Els centres que integren el CFPI Prisma aporten trajectòries, especialitzacions, infraestructures, equips professionals i xarxes de col·laboració diferents però complementàries.
+[Normal] Aquesta diversitat constitueix un dels principals actius del projecte, ja que permet configurar una oferta integrada de serveis i formació que difícilment podria oferir una única organització de manera individual.
+[Normal] La complementarietat es manifesta tant en l'oferta formativa com en els serveis prestats, en la relació amb les empreses, en els recursos disponibles, en els perfils professionals dels equips i en la capacitat d'innovació de cada centre.
+[Normal] El projecte aposta per transformar aquesta diversitat en una fortalesa compartida, evitant duplicitats, potenciant les sinergies i promovent una distribució eficient de responsabilitats entre els centres participants.
+[Normal] 3.3. Una única experiència per a les persones i les empreses
+[Normal] Tot i desenvolupar la seva activitat des de diversos equipaments, el CFPI Prisma ofereix una experiència integrada a les persones usuàries i a les empreses.
+[Normal] Qualsevol persona pot accedir al CFPI a través de qualsevol dels centres de l'agrupació. A partir d'aquest primer contacte, el sistema garanteix una atenció coordinada que facilita l'accés al conjunt de serveis disponibles, independentment del centre responsable de la seva prestació.
+[Normal] Aquesta organització permet construir itineraris personalitzats que integren orientació professional, acreditació de competències, formació, intermediació laboral, mobilitat i innovació, assegurant la continuïtat de l'acompanyament durant totes les etapes del desenvolupament professional.
+[Normal] De la mateixa manera, les empreses disposen d'un únic espai de relació amb el CFPI, des del qual poden accedir al conjunt de recursos, serveis i especialitzacions dels centres participants.
+[Normal] 3.4. Cooperació com a model de governança
+[Normal] El funcionament del CFPI Prisma es fonamenta en una cultura de cooperació basada en la confiança, la transparència, la corresponsabilitat i la presa compartida de decisions.
+[Normal] La governança del projecte promou la participació activa de tots els centres en la definició de les línies estratègiques, la planificació dels serveis, l'avaluació dels resultats i la identificació de noves oportunitats de desenvolupament.
+[Normal] Aquest model reforça la capacitat col·lectiva de resposta davant els canvis del sistema productiu i del Sistema FPCAT, alhora que garanteix l'estabilitat institucional del projecte més enllà de les circumstàncies particulars de cadascun dels centres.
+[Normal] 3.5. Una organització orientada a l'aprenentatge
+[Normal] El CFPI Prisma es concep com una organització que aprèn. El coneixement generat per cadascun dels centres es comparteix sistemàticament amb la resta de l'agrupació, afavorint la transferència de metodologies, la difusió de bones pràctiques i el desenvolupament de projectes conjunts d'innovació.
+[Normal] Aquest aprenentatge compartit constitueix un dels principals mecanismes de millora contínua del projecte i contribueix a incrementar la qualitat dels serveis, l'eficiència dels processos i la capacitat d'anticipació davant els nous reptes de la formació professional.
+[Normal] 4. Definició estratègica
+[Normal] 4.1. Propòsit
+[Normal] El CFPI Prisma té com a propòsit contribuir al desenvolupament professional de les persones, a la competitivitat de les empreses i al progrés social del territori mitjançant la prestació integrada de serveis de formació professional.
+[Normal] El centre entén la formació professional com una política pública orientada a generar oportunitats al llarg de tota la vida, afavorint que cada persona pugui accedir, mantenir-se i progressar en el mercat de treball, alhora que facilita a les empreses l'accés al talent que necessiten per afrontar els seus processos de transformació.
+[Normal] Aquest propòsit es concreta en la voluntat d'esdevenir un espai de referència on conflueixen orientació, acreditació, formació, intermediació laboral, innovació i cooperació amb les empreses, oferint una resposta integrada a les necessitats del sector dels serveis socioculturals i a la comunitat.
+[Normal] 4.2. Missió
+[Normal] La missió del CFPI Prisma és oferir serveis integrats de formació professional que permetin a les persones desenvolupar el seu projecte professional al llarg de la vida i a les empreses disposar dels perfils professionals que necessiten per créixer, innovar i generar ocupació de qualitat.
+[Normal] Per assolir aquesta missió, el centre impulsa itineraris flexibles i personalitzats que integren orientació professional, acreditació de competències, formació, inserció laboral i desenvolupament competencial, fomentant una relació permanent amb el teixit empresarial i institucional.
+[Normal] 4.3. Visió
+[Normal] El CFPI Prisma aspira a consolidar-se com el centre de referència del Sistema FPCAT en l'àmbit dels serveis socioculturals i a la comunitat, destacant per la qualitat dels seus serveis, la capacitat d'innovació, la cooperació entre organitzacions i l'impacte positiu sobre les persones, les empreses i el territori.
+[Normal] Aquesta visió implica esdevenir una organització capaç d'anticipar les necessitats de qualificació del sector, generar coneixement, impulsar nous models de formació professional i contribuir activament a la transformació del Sistema FPCAT.
+[Normal] 4.4. Principis d'actuació
+[Normal] L'actuació del CFPI Prisma es fonamenta en els principis següents:
+[Normal] Orientació a les persones
+[Normal] Les persones constitueixen el centre de totes les actuacions del CFPI. Els serveis s'organitzen per donar resposta a les necessitats, expectatives i projectes professionals de cadascuna d'elles, garantint un acompanyament personalitzat al llarg de tota la vida.
+[Normal] Compromís amb les empreses
+[Normal] El centre desenvolupa una relació estable amb les empreses i les entitats del sector per identificar les necessitats de qualificació, impulsar la innovació i facilitar la incorporació i el desenvolupament del talent professional.
+[Normal] Cooperació institucional
+[Normal] El CFPI promou una cultura de col·laboració entre centres, administracions, empreses, universitats, agents socials i entitats del territori, entenent que la construcció d'un sistema integrat de formació professional només és possible des de la corresponsabilitat.
+[Normal] Qualitat i millora contínua
+[Normal] Totes les actuacions del centre s'orienten cap a l'excel·lència en la prestació dels serveis, incorporant sistemes d'avaluació, innovació i aprenentatge organitzatiu que permetin millorar permanentment els resultats.
+[Normal] Innovació i transformació
+[Normal] La innovació pedagògica, metodològica, tecnològica i organitzativa constitueix un element transversal del projecte, orientat a adaptar permanentment els serveis a l'evolució del mercat de treball i de les necessitats socials.
+[Normal] Inclusió i equitat
+[Normal] El CFPI garanteix la igualtat d'oportunitats en l'accés als serveis, promovent una atenció especialment sensible a les persones en situació de vulnerabilitat i contribuint a reduir les desigualtats educatives, socials i laborals.
+[Normal] Sostenibilitat i responsabilitat social
+[Normal] El centre incorpora criteris de sostenibilitat ambiental, responsabilitat social i bon govern en totes les seves actuacions, contribuint als Objectius de Desenvolupament Sostenible i al progrés del territori.
+[Normal] 4.5. La proposta de valor del CFPI Prisma
+[Normal] La proposta de valor del CFPI Prisma consisteix a oferir una resposta integrada a les necessitats de qualificació professional del sector dels serveis socioculturals i a la comunitat mitjançant una organització en xarxa que combina l'especialització dels seus centres, la integració dels serveis i una estreta vinculació amb les empreses i les institucions.
+[Normal] Aquest model permet construir itineraris professionals complets, optimitzar els recursos disponibles, impulsar la innovació i generar un impacte superior al que podria assolir cadascun dels centres actuant de manera individual.
+[Normal] 5. Especialització sectorial i proposta de valor
+[Normal] 5.1. Una especialització alineada amb les necessitats del país
+[Normal] El CFPI Prisma orienta la seva activitat cap a la família professional de Serveis Socioculturals i a la Comunitat, un àmbit estratègic per al desenvolupament social, econòmic i demogràfic de Catalunya.
+[Normal] L'envelliment de la població, l'increment de les necessitats de cura, la transformació dels serveis socials, el desenvolupament de l'atenció comunitària, l'evolució dels models educatius i l'augment de la demanda de professionals qualificats converteixen aquest sector en un dels principals motors de creació d'ocupació durant les properes dècades.
+[Normal] En aquest context, el CFPI Prisma assumeix el compromís de contribuir al desenvolupament del talent professional necessari per garantir uns serveis a les persones de qualitat, sostenibles i adaptats als nous reptes socials.
+[Normal] 5.2. Una visió integral dels serveis a les persones
+[Normal] El CFPI Prisma entén els serveis socioculturals i a la comunitat com el conjunt d'activitats professionals orientades a promoure l'autonomia personal, la inclusió social, el benestar, la convivència i la qualitat de vida de les persones al llarg de totes les etapes del seu cicle vital.
+[Normal] Aquesta visió integra àmbits tan diversos com l'atenció a la dependència, l'educació infantil, la integració social, l'acció comunitària, el lleure educatiu, la teleassistència, l'acompanyament a les persones vulnerables, la promoció de la salut, la intervenció socioeducativa i altres serveis vinculats a l'estat del benestar.
+[Normal] El centre concep aquests àmbits com un ecosistema professional interconnectat, en el qual les competències tècniques, les competències transversals i la capacitat de treball interdisciplinari adquireixen una importància creixent.
+[Normal] 5.3. El desenvolupament del talent professional
+[Normal] La principal aportació del CFPI Prisma consisteix a facilitar el desenvolupament del talent professional al llarg de tota la vida.
+[Normal] Per aquest motiu, el centre articula itineraris que permeten:
+[Normal] Accedir a una primera qualificació professional. 
+[Normal] Actualitzar i ampliar les competències professionals. 
+[Normal] Acreditar l'experiència laboral adquirida. 
+[Normal] Progressar cap a nivells superiors de qualificació. 
+[Normal] Adaptar-se als canvis organitzatius, tecnològics i normatius del sector. 
+[Normal] Facilitar la inserció, la promoció i la mobilitat professional. 
+[Normal] Aquest enfocament respon al model d'aprenentatge permanent que inspira el Sistema FPCAT i reforça la idea que la formació professional és un procés continu de desenvolupament professional.
+[Normal] 5.4. Una oferta integrada i complementària
+[Normal] L'especialització del CFPI Prisma es construeix a partir de la complementarietat de l'oferta aportada pels centres que integren l'agrupació.
+[Normal] La combinació de formació inicial, certificats professionals, formació contínua, formació a mida per a empreses, acreditació de competències i altres actuacions de desenvolupament professional permet configurar un ecosistema formatiu flexible i adaptat a les necessitats de persones amb perfils molt diversos.
+[Normal] Aquesta complementarietat facilita la construcció d'itineraris personalitzats, evita duplicitats entre centres i amplia les oportunitats de qualificació disponibles per a les persones i les empreses.
+[Normal] 5.5. Especialització oberta i transversal
+[Normal] Tot i que la família professional de Serveis Socioculturals i a la Comunitat constitueix l'eix principal del projecte, el CFPI Prisma incorpora també coneixements i competències procedents d'altres famílies professionals que aporten valor als serveis a les persones.
+[Normal] Entre aquestes destaquen la sanitat, l'administració i gestió, la digitalització, les competències lingüístiques, el màrqueting, les tecnologies de la informació i altres àmbits que contribueixen a millorar la qualificació dels professionals i la qualitat dels serveis prestats.
+[Normal] Aquesta visió transversal permet donar resposta a les noves competències que demanda el sector i reforça la capacitat d'adaptació dels professionals davant un entorn en transformació constant.
+[Normal] 5.6. Compromís amb el desenvolupament del sector
+[Normal] El CFPI Prisma assumeix el compromís de contribuir activament al desenvolupament dels serveis socioculturals i a la comunitat, no només mitjançant la formació de professionals, sinó també impulsant la innovació, la transferència de coneixement, la detecció de noves necessitats de qualificació i la cooperació amb empreses, administracions, universitats i entitats del tercer sector.
+[Normal] Aquest compromís situa el centre com un agent actiu del desenvolupament sectorial, capaç de generar coneixement, promoure bones pràctiques i contribuir a l'evolució permanent dels perfils professionals vinculats als serveis a les persones.
+[Normal] 6. Ecosistema territorial i xarxa de col·laboració
+[Normal] 6.1. Un centre arrelat al territori
+[Normal] El CFPI Prisma desenvolupa la seva activitat en un dels principals ecosistemes econòmics i socials de Catalunya, amb una implantació consolidada al Barcelonès i al Baix Llobregat. Aquest entorn concentra una elevada densitat de població, una àmplia xarxa d'empreses i entitats socials, un important volum d'activitat econòmica i una gran diversitat de serveis vinculats a l'atenció a les persones.
+[Normal] La presència territorial dels centres que integren l'agrupació permet combinar la proximitat amb les persones usuàries amb una capacitat d'actuació d'abast metropolità, facilitant l'accés als serveis del CFPI des de diferents punts del territori.
+[Normal] Aquesta implantació constitueix un dels principals actius del projecte, ja que facilita el coneixement directe de les necessitats del sector, la relació permanent amb les empreses i la capacitat d'adaptar l'oferta de serveis a les característiques de cada realitat territorial.
+[Normal] 6.2. Un ecosistema de cooperació
+[Normal] El desenvolupament del CFPI Prisma es fonamenta en una àmplia xarxa de relacions estables amb els diferents agents que intervenen en el desenvolupament del talent professional.
+[Normal] Aquesta xarxa integra empreses, administracions públiques, serveis públics d'ocupació, centres educatius, universitats, entitats del tercer sector, col·legis professionals, organitzacions empresarials, agents socials i altres institucions vinculades a la qualificació professional i als serveis a les persones.
+[Normal] La cooperació amb aquests actors permet compartir informació sobre les necessitats del sector, impulsar projectes conjunts, facilitar la inserció laboral, promoure la innovació i contribuir al desenvolupament del Sistema FPCAT.
+[Normal] 6.3. Relació permanent amb el teixit productiu
+[Normal] El CFPI Prisma manté una relació continuada amb les empreses i les organitzacions del sector, entenent que aquestes constitueixen el principal espai de desenvolupament de les competències professionals.
+[Normal] Aquesta relació no es limita a la realització de pràctiques o a la inserció laboral de l'alumnat, sinó que es concreta en una col·laboració permanent orientada a:
+[Normal] Identificar les necessitats presents i futures de qualificació. 
+[Normal] Dissenyar accions formatives adaptades a la realitat del sector. 
+[Normal] Impulsar la formació dual i altres modalitats d'aprenentatge en entorns professionals. 
+[Normal] Desenvolupar processos d'acreditació de competències. 
+[Normal] Promoure la formació contínua de les persones treballadores. 
+[Normal] Impulsar projectes d'innovació i transferència de coneixement. 
+[Normal] Aquest model de relació contribueix a reforçar la competitivitat de les organitzacions i a facilitar l'adequació permanent entre l'oferta formativa i les necessitats del mercat de treball.
+[Normal] 6.4. Una xarxa oberta de col·laboració
+[Normal] El CFPI Prisma concep la cooperació com un procés obert i en evolució permanent.
+[Normal] Per aquest motiu, el centre promourà l'establiment de nous acords de col·laboració amb organitzacions públiques i privades que contribueixin a ampliar les oportunitats de desenvolupament professional de les persones i a reforçar la capacitat d'innovació del projecte.
+[Normal] Aquesta xarxa podrà incorporar nous centres de coneixement, institucions acadèmiques, empreses, administracions, organitzacions sectorials i iniciatives de cooperació nacional i internacional que comparteixin els objectius del CFPI.
+[Normal] 6.5. Un agent de desenvolupament territorial
+[Normal] Més enllà de la prestació de serveis de formació professional, el CFPI Prisma assumeix la voluntat d'actuar com un agent actiu del desenvolupament territorial.
+[Normal] A través de la seva activitat, el centre contribueix a incrementar la qualificació professional de la població, facilitar la competitivitat de les empreses, promoure la cohesió social, afavorir la igualtat d'oportunitats i reforçar la capacitat d'anticipació davant els nous reptes econòmics, socials i demogràfics.
+[Normal] D'aquesta manera, el CFPI Prisma entén la formació professional com una política pública de desenvolupament territorial que connecta les necessitats de les persones amb les necessitats de les empreses i els objectius estratègics del país.
+[Normal] 7. Model integrat de serveis
+[Normal] 7.1. Un model centrat en les persones i les empreses
+[Normal] El CFPI Prisma organitza la seva activitat a partir d'un model integrat de serveis que situa les persones i les empreses al centre de totes les actuacions.
+[Normal] Aquest model parteix del principi que les necessitats de qualificació professional no poden ser abordades mitjançant actuacions aïllades o independents. Cada persona segueix una trajectòria professional única, condicionada per la seva experiència, les seves competències, les seves expectatives i les oportunitats del mercat de treball. Igualment, cada empresa afronta necessitats específiques de captació, desenvolupament i actualització del talent.
+[Normal] Per aquest motiu, el CFPI ofereix una cartera integrada de serveis que permet donar una resposta coordinada, personalitzada i continuada al llarg de tota la vida professional.
+[Normal] 7.2. Un únic itinerari de desenvolupament professional
+[Normal] El model del CFPI Prisma permet que qualsevol persona pugui accedir al centre a través de qualsevol dels serveis disponibles.
+[Normal] Una necessitat inicial d'orientació pot conduir a un procés d'acreditació de competències; una acreditació pot donar lloc a un itinerari formatiu; una acció formativa pot derivar en un procés d'intermediació laboral; una inserció laboral pot generar noves necessitats de requalificació o especialització.
+[Normal] Els serveis deixen així d'actuar de manera independent per formar part d'un únic itinerari de desenvolupament professional, adaptat a l'evolució de cada persona.
+[Normal] Aquest enfocament garanteix la continuïtat de l'acompanyament, facilita la presa de decisions informades i afavoreix la construcció de trajectòries professionals flexibles, acumulables i adaptades als canvis del mercat de treball.
+[Normal] 7.3. Integració dels serveis
+[Normal] El CFPI Prisma articula la seva activitat mitjançant una cartera integrada de serveis que es desplega de manera coordinada entre els centres que formen part de l'agrupació.
+[Normal] Orientació professional
+[Normal] L'orientació constitueix la porta d'entrada al conjunt dels serveis del centre.
+[Normal] El servei acompanya les persones en la identificació dels seus interessos, competències, experiència i objectius professionals, facilitant la presa de decisions al llarg de totes les etapes del seu desenvolupament professional.
+[Normal] El model d'orientació es desenvolupa d'acord amb el protocol comú aprovat pel CFPI, garantint criteris homogenis d'atenció, diagnosi, derivació i seguiment entre tots els centres de l'agrupació.
+[Normal] Acreditació de competències professionals
+[Normal] El servei facilita el reconeixement oficial de les competències adquirides mitjançant l'experiència laboral o altres vies no formals d'aprenentatge.
+[Normal] L'acreditació s'entén com una eina estratègica per afavorir la qualificació de les persones, la seva progressió professional i la continuïtat dels seus itineraris formatius.
+[Normal] El servei es coordina estretament amb l'orientació professional i amb l'oferta formativa del centre, garantint que totes les persones disposin d'una proposta personalitzada per completar les seves qualificacions.
+[Normal] Formació professional
+[Normal] El CFPI desenvolupa una oferta integrada de formació professional que combina formació inicial, certificats professionals, formació contínua, formació a mida per a empreses, microcredencials i altres actuacions de desenvolupament competencial.
+[Normal] L'oferta es dissenya de manera coordinada entre els centres participants, afavorint la complementarietat, la flexibilitat dels itineraris i la capitalització dels aprenentatges.
+[Normal] Intermediació laboral
+[Normal] El servei d'intermediació facilita la connexió entre les persones i les oportunitats professionals existents al sector.
+[Normal] La seva actuació inclou la prospecció empresarial, la gestió d'ofertes, l'acompanyament als processos d'inserció, el seguiment de les contractacions i la col·laboració permanent amb les empreses.
+[Normal] Aquest servei es desenvolupa d'acord amb el protocol comú d'intermediació laboral aprovat pel CFPI, garantint criteris compartits de funcionament i coordinació entre tots els centres.
+[Normal] Innovació, recerca i transferència
+[Normal] La innovació constitueix un servei transversal del CFPI.
+[Normal] El centre impulsa projectes orientats a identificar noves necessitats de qualificació, desenvolupar metodologies innovadores, generar recursos pedagògics, compartir bones pràctiques i transferir coneixement al conjunt del Sistema FPCAT.
+[Normal] Aquesta activitat es desenvolupa en estreta col·laboració amb empreses, administracions, universitats i altres organitzacions del coneixement.
+[Normal] 7.4. Coordinació entre serveis
+[Normal] La qualitat del model integrat depèn de la capacitat de coordinació entre tots els serveis.
+[Normal] Per aquest motiu, el CFPI estableix protocols comuns d'actuació, criteris homogenis de derivació, sistemes compartits d'informació, espais permanents de coordinació professional i mecanismes de seguiment dels itineraris de les persones usuàries.
+[Normal] Aquest model permet garantir una resposta coherent, evitar duplicitats, optimitzar els recursos disponibles i assegurar una experiència integrada tant per a les persones com per a les empreses.
+[Normal] 7.5. Una cartera de serveis en evolució permanent
+[Normal] La cartera de serveis del CFPI Prisma manté un caràcter dinàmic.
+[Normal] L'evolució del mercat de treball, les transformacions socials, els avenços tecnològics i el desenvolupament del Sistema FPCAT poden donar lloc a la incorporació de nous serveis o a l'adaptació dels existents.
+[Normal] Aquesta capacitat d'evolució constitueix un element essencial del model de Centre de Formació Professional Integrada i garanteix la seva capacitat de resposta davant les necessitats presents i futures del territori.
+[Normal] 8. Model de governança
+[Normal] 8.1. Una governança al servei del projecte compartit
+[Normal] El CFPI Prisma es fonamenta en un model de governança col·laborativa orientat a garantir la participació activa de tots els centres integrants en la definició, el desenvolupament i l'avaluació del projecte.
+[Normal] Aquest model respon a la naturalesa del CFPI com una organització en xarxa, en la qual la presa de decisions, la planificació estratègica i la prestació dels serveis requereixen mecanismes estables de coordinació, corresponsabilitat i confiança institucional.
+[Normal] La governança del CFPI té com a finalitat assegurar la coherència del projecte, facilitar la presa de decisions compartides, impulsar la innovació i garantir la qualitat dels serveis prestats a les persones i a les empreses.
+[Normal] 8.2. Principis de governança
+[Normal] El model de governança del CFPI Prisma es desenvolupa d'acord amb els principis següents:
+[Normal] Corresponsabilitat entre tots els centres que integren el projecte. 
+[Normal] Lleialtat institucional i confiança mútua. 
+[Normal] Transparència en la presa de decisions i en la gestió dels recursos compartits. 
+[Normal] Participació activa dels equips professionals. 
+[Normal] Orientació als resultats i a la generació d'impacte. 
+[Normal] Millora contínua i aprenentatge organitzatiu. 
+[Normal] Cooperació amb els agents del Sistema FPCAT i amb el conjunt de l'ecosistema territorial. 
+[Normal] Aquests principis orienten el funcionament quotidià del CFPI i constitueixen el marc de referència per a totes les decisions estratègiques i operatives.
+[Normal] 8.3. Estructura de governança
+[Normal] La governança del CFPI Prisma s'articula mitjançant una estructura que combina direcció estratègica, coordinació executiva i participació tècnica.
+[Normal] Centre coordinador
+[Normal] FP Núria exerceix les funcions de centre coordinador del CFPI, assumint la representació institucional davant les administracions públiques i vetllant pel correcte desenvolupament del projecte compartit.
+[Normal] Entre les seves funcions principals destaquen:
+[Normal] Impulsar el desplegament del Projecte de Centre. 
+[Normal] Coordinar l'execució del Projecte Funcional. 
+[Normal] Convocar i dinamitzar els òrgans de governança. 
+[Normal] Fer el seguiment dels acords adoptats. 
+[Normal] Coordinar la relació institucional amb el Sistema FPCAT. 
+[Normal] Impulsar els processos d'avaluació i millora contínua. 
+[Normal] Òrgan de Coordinació del CFPI
+[Normal] L'Òrgan de Coordinació és el principal espai de direcció compartida del projecte.
+[Normal] Està integrat per una persona representant de cadascun dels centres participants i té com a funcions principals:
+[Normal] Definir les prioritats estratègiques del centre. 
+[Normal] Aprovar la planificació anual. 
+[Normal] Fer el seguiment dels indicadors. 
+[Normal] Impulsar nous projectes. 
+[Normal] Coordinar la cartera integrada de serveis. 
+[Normal] Vetllar pel compliment dels compromisos assumits pels centres. 
+[Normal] Les seves decisions es basen en el diàleg, el consens i la corresponsabilitat entre tots els membres de l'agrupació.
+[Normal] Comissions tècniques
+[Normal] Per garantir el desplegament dels diferents serveis, el CFPI constitueix comissions tècniques especialitzades, integrades pels professionals responsables de cada àmbit.
+[Normal] Entre aquestes comissions destaquen:
+[Normal] Orientació professional. 
+[Normal] Acreditació de competències. 
+[Normal] Formació. 
+[Normal] Intermediació laboral. 
+[Normal] Innovació i transformació digital. 
+[Normal] Qualitat. 
+[Normal] Comunicació i relacions institucionals. 
+[Normal] Aquestes comissions desenvolupen els protocols comuns, comparteixen bones pràctiques, impulsen la innovació i formulen propostes de millora que posteriorment són elevades als òrgans de governança.
+[Normal] 8.4. Participació dels centres
+[Normal] La governança del CFPI es basa en la participació activa dels centres que integren l'agrupació.
+[Normal] Cada centre assumeix el compromís de:
+[Normal] Participar en els òrgans de governança. 
+[Normal] Aplicar els protocols comuns. 
+[Normal] Compartir informació rellevant per al funcionament dels serveis. 
+[Normal] Designar les persones referents dels diferents àmbits. 
+[Normal] Contribuir als projectes compartits. 
+[Normal] Promoure la cultura de cooperació i aprenentatge mutu. 
+[Normal] Aquest compromís reforça el caràcter col·laboratiu del projecte i garanteix la seva sostenibilitat institucional.
+[Normal] 8.5. Governança adaptativa
+[Normal] El CFPI Prisma entén la governança com un sistema viu, capaç d'adaptar-se als nous reptes del Sistema FPCAT, de les empreses i del territori.
+[Normal] Per aquest motiu, l'estructura organitzativa i els mecanismes de coordinació seran objecte d'avaluació periòdica, amb l'objectiu d'incorporar millores que incrementin l'eficiència, la participació i la qualitat de la presa de decisions.
+[Normal] La capacitat d'aprenentatge institucional constitueix un dels principals factors d'èxit del projecte.
+[Normal] 9. Relació amb les empreses i governança sectorial
+[Normal] 9.1. Les empreses com a sòcies estratègiques
+[Normal] El CFPI Prisma concep les empreses, les entitats socials i les organitzacions del sector com a aliades estratègiques en el desenvolupament del talent professional.
+[Normal] La seva participació no es limita a la col·laboració puntual en accions formatives o processos d'inserció laboral, sinó que forma part del model de governança del centre i contribueix a orientar l'evolució de l'oferta formativa, dels serveis i dels projectes d'innovació.
+[Normal] Aquesta relació estable permet anticipar les necessitats de qualificació, identificar nous perfils professionals, adaptar els itineraris formatius i facilitar la incorporació de les persones al mercat de treball.
+[Normal] 9.2. Un model de relació permanent
+[Normal] El CFPI estableix una relació continuada amb les empreses al llarg de tot el cicle de desenvolupament del talent.
+[Normal] Aquesta relació inclou, entre d'altres, les actuacions següents:
+[Normal] Detecció de necessitats de qualificació i requalificació. 
+[Normal] Participació en el disseny i actualització de l'oferta formativa. 
+[Normal] Desenvolupament de la formació dual i de la formació en entorns professionals. 
+[Normal] Formació contínua i formació a mida. 
+[Normal] Acreditació de competències professionals de les persones treballadores. 
+[Normal] Intermediació laboral i captació de talent. 
+[Normal] Participació en projectes d'innovació, digitalització i transferència de coneixement. 
+[Normal] Col·laboració en activitats de promoció de les professions i captació de talent. 
+[Normal] Aquest model permet construir una relació de confiança basada en la generació de valor compartit entre el CFPI i el teixit productiu.
+[Normal] 9.3. El Consell de Formació i Empresa
+[Normal] El Consell de Formació i Empresa és l'espai estable de participació i diàleg entre el CFPI Prisma i els principals agents del seu ecosistema.
+[Normal] La seva finalitat és afavorir una visió compartida sobre l'evolució del sector, identificar els reptes estratègics en matèria de talent professional i contribuir a orientar les línies d'actuació del centre.
+[Normal] El Consell es configura com un òrgan de participació institucional que facilita la cooperació entre els centres integrants del CFPI, les empreses, les administracions públiques, les organitzacions empresarials, els agents socials, les universitats, els col·legis professionals i altres entitats vinculades al desenvolupament del sector.
+[Normal] Les aportacions del Consell contribueixen a reforçar la qualitat, la pertinència i l'impacte territorial del projecte.
+[Normal] 9.4. Observació i prospectiva sectorial
+[Normal] El CFPI Prisma incorpora la prospectiva com una funció permanent al servei de la millora dels seus programes i serveis.
+[Normal] Mitjançant la relació continuada amb les empreses i la resta d'agents del sector, el centre analitza l'evolució de les ocupacions, les noves competències professionals, les tendències tecnològiques, els canvis normatius i les transformacions socials que poden afectar les necessitats futures de qualificació.
+[Normal] Aquesta informació orienta la planificació estratègica del centre i facilita una adaptació permanent de l'oferta i dels serveis a la realitat del sector.
+[Normal] 9.5. Impuls de la innovació sectorial
+[Normal] El CFPI Prisma promou espais de col·laboració orientats a generar innovació en l'àmbit dels serveis socioculturals i a la comunitat.
+[Normal] Aquesta activitat inclou el desenvolupament de projectes compartits, la transferència de coneixement entre organitzacions, la difusió de bones pràctiques, la incorporació de noves metodologies formatives i la participació en iniciatives de transformació del sector.
+[Normal] D'aquesta manera, el centre contribueix no només a formar professionals, sinó també a reforçar la capacitat d'innovació de les organitzacions i del conjunt del sistema.
+[Normal] 10. Transformació digital, innovació i gestió del coneixement
+[Normal] 10.1. La innovació com a principi de transformació
+[Normal] El CFPI Prisma entén la innovació com una actitud permanent orientada a millorar la qualitat dels serveis, incrementar l'impacte de les actuacions i anticipar-se als nous reptes de la formació professional.
+[Normal] La innovació forma part de tots els àmbits d'activitat del centre i es desenvolupa tant en els processos d'aprenentatge com en l'organització dels serveis, la relació amb les empreses, la governança, la transformació digital i la generació de coneixement.
+[Normal] Aquest enfocament permet adaptar el projecte a l'evolució del Sistema FPCAT, als canvis del mercat de treball i a les noves necessitats de les persones i de les organitzacions.
+[Normal] 10.2. Transformació digital del CFPI
+[Normal] La transformació digital constitueix un eix estratègic del desenvolupament del CFPI Prisma.
+[Normal] El centre promou la incorporació progressiva de tecnologies digitals que contribueixin a millorar l'experiència de les persones usuàries, facilitar la coordinació entre els centres participants, incrementar l'eficiència dels processos interns i reforçar la qualitat de la presa de decisions.
+[Normal] La digitalització no es concep únicament com la incorporació de noves eines tecnològiques, sinó com un procés de transformació organitzativa que impulsa noves formes de treball col·laboratiu, de prestació dels serveis i de gestió del coneixement.
+[Normal] 10.3. Ecosistema digital compartit
+[Normal] Per donar suport al model organitzatiu en xarxa, el CFPI desenvoluparà un ecosistema digital compartit que permeti facilitar la coordinació entre centres i la gestió integrada dels serveis.
+[Normal] Aquest ecosistema haurà de donar suport, entre d'altres, a:
+[Normal] La gestió dels itineraris professionals. 
+[Normal] El seguiment de les persones usuàries. 
+[Normal] La coordinació dels serveis. 
+[Normal] La relació amb les empreses. 
+[Normal] La gestió documental. 
+[Normal] El seguiment dels indicadors. 
+[Normal] Els espais de treball col·laboratiu. 
+[Normal] La comunicació institucional. 
+[Normal] En aquest marc, el CFPI impulsarà la utilització de plataformes digitals compartides que contribueixin a reforçar la interoperabilitat interna, la traçabilitat dels processos i la qualitat dels serveis.
+[Normal] 10.4. Innovació pedagògica i metodològica
+[Normal] El CFPI promou la millora permanent dels processos d'aprenentatge mitjançant el desenvolupament de metodologies innovadores adaptades a les característiques dels diferents perfils de persones usuàries.
+[Normal] Aquesta innovació incorpora, entre d'altres:
+[Normal] Metodologies actives d'aprenentatge. 
+[Normal] Formació híbrida i virtual. 
+[Normal] Recursos digitals. 
+[Normal] Simulació i aprenentatge en entorns professionals. 
+[Normal] Avaluació competencial. 
+[Normal] Personalització dels itineraris. 
+[Normal] Desenvolupament de competències transversals. 
+[Normal] L'objectiu és garantir una experiència formativa flexible, significativa i orientada al desenvolupament de competències professionals.
+[Normal] 10.5. Gestió del coneixement
+[Normal] El coneixement generat pel CFPI constitueix un actiu estratègic del projecte.
+[Normal] Per aquest motiu, el centre desenvolupa mecanismes que permeten identificar, documentar, compartir i transferir les bones pràctiques generades pels equips professionals, les empreses col·laboradores i els diferents projectes impulsats pel centre.
+[Normal] Aquesta gestió del coneixement afavoreix l'aprenentatge organitzatiu, reforça la cooperació entre els centres de l'agrupació i contribueix a la millora contínua dels serveis.
+[Normal] 10.6. Innovació oberta
+[Normal] El CFPI Prisma impulsa una cultura d'innovació oberta basada en la cooperació amb empreses, universitats, administracions públiques, centres tecnològics, entitats socials i altres organitzacions del coneixement.
+[Normal] Mitjançant aquesta cooperació, el centre participa en projectes de recerca aplicada, transferència de coneixement, desenvolupament metodològic i experimentació de noves iniciatives que contribueixen a l'evolució de la formació professional i al desenvolupament del sector dels serveis socioculturals i a la comunitat.
+[Normal] 11. Qualitat, avaluació i millora contínua
+[Normal] 11.1. La qualitat com a compromís institucional
+[Normal] La qualitat constitueix un principi transversal que orienta totes les actuacions del CFPI Prisma.
+[Normal] Més enllà del compliment dels requisits normatius, el centre entén la qualitat com un procés permanent de reflexió, aprenentatge i millora que ha de permetre incrementar el valor aportat a les persones, les empreses i el conjunt del Sistema FPCAT.
+[Normal] Aquest compromís implica promoure una cultura organitzativa basada en la responsabilitat, la transparència, l'avaluació dels resultats i la recerca constant de l'excel·lència en la prestació dels serveis.
+[Normal] 11.2. Un model orientat als resultats
+[Normal] El CFPI Prisma desenvolupa un sistema d'avaluació que permet valorar tant el funcionament dels serveis com l'impacte de les actuacions desenvolupades.
+[Normal] L'avaluació no es limita a verificar el grau d'execució de les activitats previstes, sinó que analitza els resultats assolits i la seva contribució als objectius estratègics del projecte.
+[Normal] Aquest enfocament facilita la presa de decisions basada en evidències, la identificació de noves oportunitats de millora i l'adaptació permanent dels serveis a les necessitats del territori.
+[Normal] 11.3. Sistema d'indicadors
+[Normal] El centre disposarà d'un quadre integral d'indicadors que permetrà fer el seguiment de les diferents dimensions de la seva activitat.
+[isselectedend] Indicadors organitzatius
+[isselectedend] Nombre de reunions de coordinació realitzades.
+[isselectedend] Nombre de reunions del Consell de Formació i Empresa.
+[isselectedend] Nombre de protocols aprovats i implementats.
+[isselectedend] Nombre de centres participants en els espais de coordinació.
+[isselectedend] Indicadors tècnics
+[isselectedend] Nombre de persones usuàries del servei d'orientació professional.
+[isselectedend] Nombre de persones usuàries del punt d'informació i orientació del servei d'Acreditació de competències professionals.
+[Normal (Web)] Grau d'inserció laboral relacionada amb la formació de cada tipus de formació.
+[Normal (Web)] Nombre d'ofertes laborals per any i per família professional autoritzada.
+[Normal (Web)] Nombre de fires de formació i ocupació en les quals ha participat de manera activa el CFPI.
+[Normal (Web)] Percentatge del pressupost total del CFPI que s'ha invertit per a cada família professional autoritzada.
+[Normal (Web)] Nombre d'alumnes/persones usuàries matriculats en cada família professional autoritzada.
+[Normal (Web)] Nombre de personal docent, formador i expert de cada família professional autoritzada.
+[isselectedend] Nombre de serveis compartits desplegats.
+[isselectedend] Nombre de persones derivades i ateses de manera coordinada entre centres.
+[isselectedend] Indicadors de projecció i relació amb l’entorn
+[isselectedend] Nombre d'accions relacionades amb l'actuació institucional del CFPI.
+[isselectedend] Nombre de visites a la pàgina web i a les xarxes socials del CFPI (persones seguidores, publicacions).
+[isselectedend] Nombre d'empreses que demanen formació a demanda al CFPI.
+[isselectedend] Nombre de convenis, acords, col·laboracions, projectes innovadors amb empreses, organismes o altres.
+[isselectedend] Indicadors de qualitat i innovació
+[Normal (Web)] Grau de satisfacció de l'acollida al CFPI (empreses, persones usuàries)
+[isselectedend] Grau de satisfacció de la participació en la Xarxa FPCAT i altres xarxes del sistema de cada família professional.
+[Normal (Web)] Nombre de formacions no formals per a cada família professional autoritzada.
+[Normal (Web)] Nombre de persones docents, formadores i expertes que han fet estades formatives.
+[Normal (Web)] Grau de satisfacció de la formació al centre de cada tipus de formació (A,B,C,D,E, no formal...).
+[Normal (Web)] Grau de satisfacció del servei d'orientació.
+[Normal (Web)] Grau de satisfacció del punt d'informació i orientació servei d'Acreditació de competències professionals.
+[Normal (Web)] Grau de satisfacció de la formació a demanda de l'empresa.
+[Normal (Web)] Grau de satisfacció amb el taulell de treball del CFPI de cada família professional autoritzada.
+[Normal (Web)] Nombre de bones pràctiques compartides entre centres.
+[Normal] 11.4. Millora contínua
+[Normal] Els resultats obtinguts a través del sistema d'avaluació constitueixen la base dels processos de millora contínua del CFPI.
+[Normal] Les conclusions derivades dels processos d'avaluació es traslladaran als òrgans de governança i a les comissions tècniques per definir les actuacions de millora que s'incorporaran als successius projectes funcionals i plans anuals.
+[Normal] D'aquesta manera, l'avaluació esdevé una eina de transformació permanent del centre.
+[Normal] 11.5. Transparència i rendició de comptes
+[Normal] El CFPI Prisma assumeix el compromís de garantir la transparència en la seva activitat i de retre comptes davant les administracions públiques, els centres participants, les empreses, les persones usuàries i la societat.
+[Normal] Amb aquesta finalitat, el centre elaborarà periòdicament una memòria d'activitat que recollirà els principals resultats, els indicadors de seguiment, els projectes desenvolupats i les línies de millora identificades.
+[Normal] Aquest exercici de transparència reforça la confiança entre els diferents agents que participen en el projecte i contribueix a consolidar una cultura institucional basada en la responsabilitat i la millora contínua.
+[Normal] 11.6. La qualitat com a cultura compartida
+[Normal] La qualitat és una responsabilitat compartida per totes les persones i organitzacions que formen part del CFPI Prisma.
+[Normal] Per aquest motiu, el centre promourà la participació activa dels equips professionals en els processos d'avaluació, la identificació de bones pràctiques, la formulació de propostes de millora i la construcció d'una cultura organitzativa orientada a l'aprenentatge i a l'excel·lència.
+[Normal] La implicació dels equips constitueix un factor essencial per garantir la sostenibilitat del projecte i la seva capacitat d'adaptació als nous reptes de la formació professional.
+[Normal] 12. Oferta integrada de formació professional
+[Normal] 12.1. Una oferta al servei del desenvolupament professional
+[Normal] L'oferta del CFPI Prisma s'organitza per donar resposta a les necessitats de qualificació, requalificació i desenvolupament professional de les persones al llarg de tota la vida.
+[Normal] La seva configuració respon als principis d'integració, flexibilitat, complementarietat i capitalització dels aprenentatges que inspiren el Sistema FPCAT, facilitant que cada persona pugui construir itineraris adaptats a les seves necessitats, experiència i objectius professionals.
+[Normal] Aquesta oferta evoluciona de manera permanent per donar resposta als canvis del mercat de treball, a les noves competències demandades pel sector i a les prioritats estratègiques definides pel Sistema FPCAT.
+[Normal] 12.2. Una oferta construïda en xarxa
+[Normal] L'oferta del CFPI Prisma és el resultat de la complementarietat dels centres que integren l'agrupació.
+[Normal] Cada centre aporta les seves autoritzacions administratives, l'experiència acumulada, els equips professionals, les instal·lacions i la seva especialització, configurant conjuntament una oferta molt més àmplia i coherent que la que podria oferir qualsevol dels centres individualment.
+[Normal] Aquest model permet optimitzar els recursos disponibles, evitar duplicitats i facilitar que les persones puguin accedir a un itinerari complet sense sortir del CFPI.
+[Normal] 12.3. Itineraris flexibles i acumulables
+[Normal] L'oferta del centre s'organitza mitjançant itineraris flexibles que permeten combinar diferents actuacions de desenvolupament professional.
+[Normal] Els itineraris poden integrar, entre d'altres:
+[Normal] Orientació professional. 
+[Normal] Acreditació de competències professionals. 
+[Normal] Formació professional inicial. 
+[Normal] Certificats professionals. 
+[Normal] Formació contínua. 
+[Normal] Formació específica per a empreses. 
+[Normal] Microcredencials i altres actuacions de curta durada. 
+[Normal] Accions d'actualització professional. 
+[Normal] La combinació d'aquestes actuacions facilita que cada persona pugui avançar progressivament en el seu desenvolupament professional i adaptar la seva qualificació a les necessitats canviants del mercat de treball.
+[Normal] 12.4. Complementarietat de les famílies professionals
+[Normal] La família professional de Serveis Socioculturals i a la Comunitat constitueix el nucli principal de l'activitat del CFPI Prisma.
+[Normal] Aquesta especialització es complementa amb altres famílies professionals presents als centres de l'agrupació que aporten competències estratègiques per al desenvolupament dels serveis a les persones, especialment en els àmbits de la sanitat, l'administració i gestió, les tecnologies digitals, la comunicació, els idiomes i altres competències transversals.
+[Normal] Aquest enfocament interdisciplinari permet donar resposta a la progressiva transformació dels perfils professionals del sector.
+[Normal] 12.5. Actualització permanent de l'oferta
+[Normal] La planificació de l'oferta formativa es revisa periòdicament a partir de:
+[Normal] L'anàlisi de les necessitats del sector. 
+[Normal] Les aportacions del Consell de Formació i Empresa. 
+[Normal] L'evolució del Sistema FPCAT. 
+[Normal] Els estudis de prospectiva sectorial. 
+[Normal] Els resultats dels processos d'avaluació. 
+[Normal] Les necessitats detectades pels serveis d'orientació i intermediació. 
+[Normal] Aquest procés garanteix que l'oferta del CFPI mantingui una elevada capacitat d'adaptació i continuï responent a les necessitats de les persones, de les empreses i del territori.
+[Normal] 13. Compromís amb la inclusió, la sostenibilitat i la responsabilitat social
+[Normal] Aquest capítol el faria més curt, perquè són principis transversals, però crec que és important donar-los entitat pròpia.
+[Normal] 13.1. Igualtat d'oportunitats
+[Normal] El CFPI Prisma garanteix el principi d'igualtat d'oportunitats en l'accés als seus serveis, promovent una atenció personalitzada que tingui en compte les diferents situacions personals, socials i professionals de les persones usuàries.
+[Normal] El centre desenvolupa actuacions específiques per afavorir la participació dels col·lectius amb majors dificultats d'accés a la qualificació i a l'ocupació, contribuint a reduir les desigualtats socials i laborals.
+[Normal] 13.2. Accessibilitat universal
+[Normal] Els serveis del CFPI es prestaran d'acord amb criteris d'accessibilitat universal, eliminació de barreres i adaptació a les necessitats de les persones.
+[Normal] Aquest compromís afecta tant els espais físics com els recursos digitals, els materials didàctics i els processos d'atenció.
+[Normal] 13.3. Igualtat i diversitat
+[Normal] El CFPI promou una cultura organitzativa basada en el respecte, la igualtat efectiva entre dones i homes, la no-discriminació, la diversitat i la convivència.
+[Normal] Aquests principis formen part dels criteris que orienten tant el funcionament intern del centre com les relacions amb les persones usuàries, les empreses i la resta d'agents col·laboradors.
+[Normal] 13.4. Sostenibilitat
+[Normal] El centre incorpora criteris de sostenibilitat ambiental, econòmica i social en el desenvolupament de totes les seves activitats.
+[Normal] Aquest compromís es concreta en una gestió responsable dels recursos, en la promoció de bones pràctiques ambientals i en la contribució als Objectius de Desenvolupament Sostenible, especialment aquells relacionats amb l'educació de qualitat, el treball digne, la reducció de les desigualtats i les aliances per al desenvolupament.
+[Normal] 13.5. Responsabilitat social
+[Normal] El CFPI Prisma assumeix la responsabilitat de contribuir al desenvolupament del territori mitjançant la generació d'oportunitats de qualificació, la millora de l'ocupabilitat, el suport a les empreses i la promoció d'una societat més inclusiva, cohesionada i preparada per afrontar els reptes del futur.
+[Normal] 14. Compromís institucional i projecció de futur
+[Normal] 14.1. Un projecte al servei del Sistema FPCAT
+[Normal] El CFPI Prisma neix amb la voluntat de contribuir activament al desplegament del Sistema FPCAT, assumint els principis de la formació professional integrada com a base del seu model d'organització i de prestació de serveis.
+[Normal] El centre entén que la transformació de la formació professional requereix noves formes de cooperació entre administracions, centres de formació, empreses, agents socials i entitats del territori. Per aquest motiu, el CFPI es compromet a actuar com un espai de trobada, col·laboració i construcció compartida, orientat a generar oportunitats de desenvolupament professional al llarg de tota la vida.
+[Normal] Aquest compromís es concreta en la voluntat d'oferir serveis integrats, impulsar la innovació, compartir coneixement i contribuir a la consolidació d'un sistema de formació professional més eficient, més accessible i més connectat amb les necessitats del país.
+[Normal] 14.2. Una organització en evolució permanent
+[Normal] El Projecte de Centre constitueix el marc estable que orienta l'actuació del CFPI Prisma.
+[Normal] Tanmateix, el centre assumeix que els reptes socials, econòmics, tecnològics i demogràfics evolucionen constantment i que, en conseqüència, també ho han de fer els seus serveis, els seus projectes i la seva organització.
+[Normal] Aquesta voluntat d'aprenentatge permanent, adaptació i innovació forma part de la identitat del CFPI i constitueix un dels seus principals compromisos amb les persones, les empreses i les institucions.
+[Normal] 14.3. Un compromís compartit
+[Normal] L'èxit del CFPI Prisma depèn de la implicació activa de totes les organitzacions que formen part del projecte.
+[Normal] Els centres integrants assumeixen el compromís de treballar des de la confiança, la corresponsabilitat, la cooperació i la voluntat de construir un projecte col·lectiu que superi la suma de les aportacions individuals.
+[Normal] Aquest compromís implica compartir coneixement, recursos, experiència i capacitats, mantenint sempre una orientació comuna cap a la qualitat dels serveis, el desenvolupament del talent professional i la generació de valor per al conjunt del territori.
+[Normal] 14.4. Mirant cap al futur
+[Normal] El CFPI Prisma aspira a consolidar-se com una organització de referència en l'àmbit dels serveis socioculturals i a la comunitat, capaç d'anticipar les necessitats del sector, impulsar la innovació, generar coneixement i contribuir activament al desenvolupament de la formació professional integrada a Catalunya.
+[Normal] La consolidació del projecte requerirà continuar enfortint la cooperació entre els centres, ampliar les aliances amb les empreses i les institucions, reforçar la qualitat dels serveis i impulsar nous projectes que donin resposta als reptes emergents del desenvolupament professional.
+[Normal] Amb aquesta voluntat, el CFPI Prisma es compromet a continuar evolucionant com una organització oberta, col·laborativa i orientada a les persones, contribuint al progrés del Sistema FPCAT i al desenvolupament social, econòmic i territorial de Catalunya.
+--TABLE 0--
+Nivell | Òrgan | Funció principal
+Estratègic | Òrgan de Coordinació | Defineix l'estratègia, aprova la planificació i avalua els resultats
+Executiu | Centre coordinador | Coordina el desplegament del projecte i representa institucionalment el CFPI
+Tècnic | Comissions tècniques | Desenvolupen els serveis, protocols i projectes compartits
+Operatiu | Centres participants | Presten els serveis, executen els protocols i atenen persones i empreses

@@ -1,0 +1,157 @@
+[Normal] Pla anual 2027 - Prisma
+[Normal] FP Núria – Qualitat i Formació – STAF – PHRO Training – CMAP – SC2
+[Heading 1] 1. Presentació
+[isselectedend] El present Pla anual defineix les actuacions prioritàries del primer any de desplegament del CFPI Prisma, agrupació de centres especialitzada en serveis socioculturals i a la comunitat, constituïda d’acord amb el Decret 137/2023 i alineada amb el model del Sistema FPCAT.
+[isselectedend] El CFPI Prisma neix amb la voluntat de construir un model cooperatiu i innovador de formació professional integrada, basat en la complementarietat entre centres, la coordinació de serveis i la resposta a les necessitats emergents vinculades a l’atenció a les persones, l’acció comunitària, les cures, la intervenció socioeducativa, la salut comunitària i els serveis de proximitat.
+[Normal (Web)] Aquest primer exercici té un caràcter principalment organitzatiu i fundacional, orientat a consolidar la governança compartida, els protocols comuns i els serveis bàsics exigits pel Decret 137/2023, així com generar una cultura de treball compartida entre els centres de l’agrupació.
+[isselectedend] El pla es planteja com una fase inicial de construcció institucional i tècnica centrada en:
+[isselectedend] Creació dels òrgans de govern.
+[isselectedend] Definició dels protocols compartits.
+[isselectedend] Consolidació de la identitat corporativa.
+[isselectedend] Coordinació entre centres.
+[isselectedend] Preparació dels serveis integrats propis del CFPI.
+[isselectedend] Construcció d’un model cooperatiu de treball en xarxa
+[isselectedend] Posicionament del CFPI Prisma com a referent sectorial en serveis socioculturals i a la comunitat.
+[Normal (Web)] El desplegament inicial del CFPI Prisma ha de permetre construir les bases d’un model de referència en formació professional integrada vinculada als serveis socioculturals i a la comunitat, amb capacitat de projecció territorial, innovació metodològica i cooperació amb l’ecosistema institucional, empresarial i social.
+[Heading 1] 2. Objectius del primer any
+[Normal] Objectius generals
+[List Paragraph] Posar en funcionament l’estructura de governança del CFPI Prisma.
+[List Paragraph] Consolidar els mecanismes de coordinació i cooperació entre centres.
+[List Paragraph] Desplegar els primers serveis integrats compartits del CFPI.
+[List Paragraph] Construir la identitat institucional i digital del CFPI Prisma.
+[List Paragraph] Preparar els equips tècnics per al desplegament conjunt dels serveis d’acreditació, orientació i formació.
+[List Paragraph] Generar una cultura de treball compartida basada en la complementarietat i l’especialització dels centres.
+[List Paragraph] Posicionar el CFPI Prisma dins l’ecosistema dels serveis socioculturals i a la comunitat.
+[List Paragraph] Establir aliances amb empreses, entitats socials, administracions i agents del territori.
+[Heading 1] 3. Línies de treball prioritàries
+[Heading 2] 3.1 Governança i organització interna
+[Normal] Actuacions
+[Normal] Constitució del Consell de Formació i Empresa. 
+[Normal] Creació  de l’òrgan de coordinació del CFPI. 
+[Normal] Definició dels referents de cada àmbit: 
+[Normal] Orientació professional
+[Normal] Acreditació 
+[Normal] Qualitat
+[Normal] Innovació
+[Normal] Intermediació laboral
+[Normal] Comunicació
+[Normal] Calendari estable de reunions tècniques. 
+[Normal] Definició del model de presa de decisions i seguiment. 
+[Normal] Construcció dels mecanismes de cooperació entre centres de l’agrupació.
+[Normal] Resultats esperats
+[Normal] Òrgans de govern constituïts. 
+[Normal] Funcionament ordinari de coordinació activat. 
+[Normal] Sistema intern de seguiment compartit. 
+[Normal] Model cooperatiu estable entre els centres de l’agrupació.
+[Heading 2] 3.2 Comunicació i identitat corporativa
+[Normal] Actuacions
+[Normal] Creació de la web del CFPI Prisma. 
+[Normal] Definició de la identitat visual i narrativa compartida. 
+[Normal] Elaboració del dossier institucional. 
+[Normal] Creació de perfils digitals i canals de comunicació. 
+[Normal] Presentació pública del projecte. 
+[Normal] Resultats esperats
+[Normal] Web corporativa operativa. 
+[Normal] Materials institucionals unificats. 
+[Normal] Posicionament inicial del CFPI dins del Sistema FPCAT. 
+[Normal] Reconeixement progressiu del CFPI Prisma dins del sector.
+[Heading 2] 3.3 Protocols comuns i serveis integrats
+[Normal] Actuacions
+[Normal] Elaboració i aprovació del protocol d’orientació professional. 
+[Normal] Elaboració i aprovació del protocol d’intermediació laboral. 
+[Normal] Definició del model de derivacions internes entre centres. 
+[Normal] Creació d’un mapa conjunt de serveis i recursos. 
+[Normal] Disseny inicial de la cartera de serveis integrada. 
+[Normal] Definició dels mecanismes compartits d’atenció a les persones i empreses.
+[Normal] Resultats esperats
+[Normal] Protocols validats i compartits. 
+[Normal] Funcionament coordinat dels primers serveis. 
+[Normal] Major coherència entre els centres de l’agrupació. 
+[Normal] Millora de l’experiència d’atenció de les persones usuàries.
+[Heading 2] 3.4 Acreditació de competències professionals
+[Normal] Actuacions
+[Normal] Identificació de personal susceptible d’habilitació. 
+[Normal] Participació en formacions d’habilitació d’assessors i avaluadors. 
+[Normal] Creació d’un grup tècnic d’acreditació. 
+[Normal] Detecció de qualificacions prioritàries vinculades als serveis socioculturals i a la comunitat. 
+[Normal] Identificació de perfils professionals emergents vinculats a les cures, l’atenció comunitària i la intervenció socioeducativa.
+[Normal] Resultats esperats
+[Normal] Increment del nombre de professionals habilitats. 
+[Normal] Capacitat futura de desplegament del servei d’acreditació. 
+[Normal] Coordinació tècnica entre centres. 
+[Normal] Millor alineament entre qualificació professional i necessitats sectorials.
+[Heading 2] 3.5 Transformació digital i eines compartides
+[Normal] Actuacions
+[Normal] Extensió progressiva de l’ecosistema Meta FP als centres de l’agrupació. 
+[Normal] Diagnosi de necessitats digitals dels centres. 
+[Normal] Definició d’eines comunes de seguiment i coordinació. 
+[Normal] Compartició de bones pràctiques digitals. 
+[Normal] Formació interna en eines digitals i treball col·laboratiu. 
+[Normal] Incorporació progressiva de metodologies digitals aplicades als serveis a les persones.
+[Normal] Resultats esperats
+[Normal] Major coordinació digital entre centres. 
+[Normal] Millora de la gestió compartida. 
+[Normal] Bases per a futurs serveis virtuals integrats. 
+[Normal] Impuls de la innovació metodològica compartida.
+[Heading 2] 3.6 Qualitat i avaluació
+[Normal] Actuacions
+[Normal] Definició d’indicadors bàsics de seguiment. 
+[Normal] Creació d’un quadre inicial d’indicadors. 
+[Normal] Elaboració del primer sistema de memòria anual. 
+[Normal] Definició del circuit de millora contínua. 
+[Normal] Construcció d’un model compartit de qualitat orientat a l’atenció integrada.
+[Normal] Resultats esperats
+[Normal] Sistema inicial d’avaluació compartit. 
+[Normal] Cultura comuna de qualitat. 
+[Normal] Seguiment de les actuacions del CFPI. 
+[Normal] Millora contínua dels serveis integrats.
+[Heading 2] 3.7 Relació amb l’entorn i projecció institucional
+[Normal] Actuacions
+[Normal] Definició prèvia del mapa d’empreses i entitats col·laboradores. 
+[Normal] Reunions amb agents socials i administracions locals. 
+[Normal] Participació en espais i jornades del Sistema FPCAT. 
+[Normal] Inici de col·laboracions amb entitats sectorials i socials. 
+[Normal] Impuls de relacions amb fundacions, cooperatives i entitats vinculades als serveis socioculturals i a la comunitat.
+[Normal] Construcció d’una xarxa estable de cooperació territorial.
+[Normal] Resultats esperats
+[Normal] Major reconeixement institucional. 
+[Normal] Xarxa inicial de col·laboració territorial. 
+[Normal] Vinculació del CFPI amb l’ecosistema social i productiu. 
+[Normal] Increment de les aliances sectorials i territorials.
+[Heading 1] 5. Indicadors inicials
+[isselectedend] Indicadors organitzatius
+[isselectedend] Nombre de reunions de coordinació realitzades.
+[isselectedend] Nombre de reunions del Consell de Formació i Empresa.
+[isselectedend] Nombre de protocols aprovats i implementats.
+[isselectedend] Nombre de centres participants en els espais de coordinació.
+[isselectedend] Indicadors tècnics
+[isselectedend] Nombre de persones usuàries del servei d'orientació professional.
+[isselectedend] Nombre de persones usuàries del punt d'informació i orientació del servei d'Acreditació de competències professionals.
+[Normal (Web)] Grau d'inserció laboral relacionada amb la formació de cada tipus de formació.
+[Normal (Web)] Nombre d'ofertes laborals per any i per família professional autoritzada.
+[Normal (Web)] Nombre de fires de formació i ocupació en les quals ha participat de manera activa el CFPI.
+[Normal (Web)] Percentatge del pressupost total del CFPI que s'ha invertit per a cada família professional autoritzada.
+[Normal (Web)] Nombre d'alumnes/persones usuàries matriculats en cada família professional autoritzada.
+[Normal (Web)] Nombre de personal docent, formador i expert de cada família professional autoritzada.
+[isselectedend] Nombre de serveis compartits desplegats.
+[isselectedend] Nombre de persones derivades i ateses de manera coordinada entre centres.
+[isselectedend] Indicadors de projecció i relació amb l’entorn
+[isselectedend] Nombre d'accions relacionades amb l'actuació institucional del CFPI.
+[isselectedend] Nombre de visites a la pàgina web i a les xarxes socials del CFPI (persones seguidores, publicacions).
+[isselectedend] Nombre d'empreses que demanen formació a demanda al CFPI.
+[isselectedend] Nombre de convenis, acords, col·laboracions, projectes innovadors amb empreses, organismes o altres.
+[isselectedend] Indicadors de qualitat i innovació
+[Normal (Web)] Grau de satisfacció de l'acollida al CFPI (empreses, persones usuàries)
+[isselectedend] Grau de satisfacció de la participació en la Xarxa FPCAT i altres xarxes del sistema de cada família professional.
+[Normal (Web)] Nombre de formacions no formals per a cada família professional autoritzada.
+[Normal (Web)] Nombre de persones docents, formadores i expertes que han fet estades formatives.
+[Normal (Web)] Grau de satisfacció de la formació al centre de cada tipus de formació (A,B,C,D,E, no formal...).
+[Normal (Web)] Grau de satisfacció del servei d'orientació.
+[Normal (Web)] Grau de satisfacció del punt d'informació i orientació servei d'Acreditació de competències professionals.
+[Normal (Web)] Grau de satisfacció de la formació a demanda de l'empresa.
+[Normal (Web)] Grau de satisfacció amb el taulell de treball del CFPI de cada família professional autoritzada.
+[Normal (Web)] Nombre de bones pràctiques compartides entre centres.
+[Heading 1] 6. Conclusions
+[isselectedend] El primer any del CFPI Prisma ha de permetre consolidar les bases organitzatives, tècniques i institucionals del projecte. Aquest període inicial no se centra tant en el creixement quantitatiu dels serveis com en la construcció d’un model de cooperació estable, coherent i alineat amb el nou marc del Sistema FPCAT i el Decret 137/2023.
+[isselectedend] L’objectiu principal és generar confiança, coordinació i estructura compartida entre els centres de l’agrupació, aprofitant la complementarietat de les seves experteses i consolidant un model de treball en xarxa especialitzat en serveis socioculturals i a la comunitat.
+[Normal (Web)] El CFPI Prisma aspira a convertir-se progressivament en un espai de referència en orientació, qualificació, innovació metodològica i relació amb l’entorn professional, contribuint a la millora de la qualificació de les persones i al desenvolupament dels serveis vinculats a l’atenció comunitària i les cures.

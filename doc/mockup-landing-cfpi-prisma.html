@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CFPI Prisma | Centre de Formació Professional Integrada</title>
+<style>
+  :root{
+    --navy:#0A1F44;
+    --navy-800:#0C2A5E;
+    --blue:#1565C0;
+    --blue-mid:#1E88E5;
+    --cyan:#29B6F6;
+    --cyan-light:#4FC3F7;
+    --bg:#F5F8FC;
+    --surface:#FFFFFF;
+    --text:#1B2430;
+    --text-muted:#5B6472;
+    --border:#E2E8F0;
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:24px;
+    --gap:1.5rem;
+    --maxw:1180px;
+    font-size:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.6;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  ul{list-style:none;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 1.25rem;}
+  h1,h2,h3{line-height:1.25;font-weight:700;color:var(--navy);}
+  h1{font-size:clamp(1.8rem,5vw,2.75rem);}
+  h2{font-size:clamp(1.5rem,3.5vw,2.1rem);}
+  h3{font-size:1.15rem;}
+  .eyebrow{
+    display:inline-block;
+    font-size:0.75rem;
+    font-weight:700;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--blue);
+    background:#E7F3FE;
+    padding:0.35rem 0.85rem;
+    border-radius:999px;
+    margin-bottom:0.9rem;
+  }
+  .section{padding:3.5rem 0;}
+  .section--alt{background:var(--surface);}
+  .section-head{max-width:640px;margin-bottom:2.25rem;}
+  .section-head p{color:var(--text-muted);margin-top:0.6rem;}
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:0.5rem;
+    padding:0.85rem 1.6rem;
+    border-radius:999px;
+    font-weight:700;
+    font-size:0.95rem;
+    border:2px solid transparent;
+    cursor:pointer;
+  }
+  .btn--primary{background:var(--navy);color:#fff;}
+  .btn--ghost{background:transparent;border-color:var(--navy);color:var(--navy);}
+
+  /* HEADER */
+  .header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--border);
+  }
+  .header__inner{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0.9rem 1.25rem;
+    max-width:var(--maxw);margin:0 auto;
+  }
+  .brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;color:var(--navy);}
+  .brand img{height:34px;width:auto;}
+  .nav{display:none;gap:1.75rem;font-size:0.92rem;font-weight:600;color:var(--navy-800);}
+  .nav a:hover{color:var(--blue);}
+  .burger{
+    width:38px;height:38px;border-radius:var(--radius-sm);
+    border:1px solid var(--border);background:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.1rem;
+  }
+  @media(min-width:900px){
+    .nav{display:flex;}
+    .burger{display:none;}
+  }
+
+  /* HERO */
+  .hero{
+    background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 55%,var(--cyan) 100%);
+    color:#fff;
+    padding:4rem 0 4.5rem;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero__inner{
+    max-width:var(--maxw);margin:0 auto;padding:0 1.25rem;
+    display:grid;gap:2.5rem;
+    align-items:center;
+  }
+  .hero__mark{
+    width:120px;opacity:0.9;justify-self:center;
+  }
+  .hero h1{color:#fff;}
+  .hero__eyebrow{
+    display:inline-block;font-size:0.8rem;font-weight:700;letter-spacing:0.08em;
+    text-transform:uppercase;color:var(--navy);background:var(--cyan-light);
+    padding:0.4rem 0.9rem;border-radius:999px;margin-bottom:1rem;
+  }
+  .hero p.lead{font-size:1.1rem;color:#DCEBFC;margin:1rem 0 1.75rem;max-width:560px;}
+  .hero__ctas{display:flex;flex-wrap:wrap;gap:0.9rem;}
+  .hero .btn--ghost{border-color:#fff;color:#fff;}
+  @media(min-width:860px){
+    .hero__inner{grid-template-columns:1.3fr 0.7fr;}
+    .hero__mark{width:220px;justify-self:end;order:2;}
+  }
+
+  /* STAT STRIP */
+  .stats{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;
+    padding:2rem 0;
+  }
+  @media(min-width:700px){.stats{grid-template-columns:repeat(4,1fr);}}
+  .stat{
+    background:var(--surface);border:1px solid var(--border);
+    border-radius:var(--radius-md);padding:1.25rem;text-align:center;
+  }
+  .stat strong{display:block;font-size:1.7rem;color:var(--navy);}
+  .stat span{font-size:0.85rem;color:var(--text-muted);}
+
+  /* CARDS GRID */
+  .grid{display:grid;gap:var(--gap);}
+  .grid--2{grid-template-columns:1fr;}
+  .grid--3{grid-template-columns:1fr;}
+  @media(min-width:700px){
+    .grid--2{grid-template-columns:1fr 1fr;}
+    .grid--3{grid-template-columns:repeat(3,1fr);}
+  }
+  @media(min-width:600px){
+    .grid--centres{grid-template-columns:repeat(3,1fr);}
+  }
+  @media(min-width:600px) and (max-width:899px){
+    .grid--3{grid-template-columns:repeat(2,1fr);}
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius-md);
+    padding:1.75rem;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(10,31,68,0.08);}
+  .card__icon{
+    width:48px;height:48px;border-radius:var(--radius-sm);
+    background:#E7F3FE;color:var(--blue);
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.4rem;font-weight:700;margin-bottom:1rem;
+  }
+  .card h3{margin-bottom:0.5rem;}
+  .card p{color:var(--text-muted);font-size:0.95rem;}
+
+  /* CENTRES MEMBRES */
+  .centre-card{
+    background:var(--surface);border:1px solid var(--border);
+    border-radius:var(--radius-md);padding:1.5rem;
+    display:flex;flex-direction:column;align-items:center;gap:0.75rem;text-align:center;
+  }
+  .centre-card__logo{
+    width:64px;height:64px;border-radius:50%;
+    background:linear-gradient(135deg,var(--navy),var(--cyan));
+    color:#fff;display:flex;align-items:center;justify-content:center;
+    font-weight:700;font-size:1rem;
+  }
+  .centre-card small{color:var(--text-muted);}
+  .badge-coord{
+    font-size:0.7rem;font-weight:700;color:var(--blue);
+    background:#E7F3FE;padding:0.2rem 0.6rem;border-radius:999px;
+  }
+
+  /* DOCS */
+  .doc-row{
+    display:flex;align-items:center;gap:1rem;
+    background:var(--surface);border:1px solid var(--border);
+    border-radius:var(--radius-md);padding:1.25rem 1.5rem;margin-bottom:1rem;
+  }
+  .doc-row__icon{
+    width:44px;height:44px;border-radius:var(--radius-sm);
+    background:var(--navy);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;
+  }
+  .doc-row__body{flex:1;}
+  .doc-row__body h3{font-size:1rem;margin-bottom:0.2rem;}
+  .doc-row__body p{font-size:0.88rem;color:var(--text-muted);}
+  .doc-row .btn{padding:0.6rem 1.1rem;font-size:0.85rem;flex-shrink:0;}
+
+  /* TABLE (punt informacio) */
+  .table-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);}
+  table{width:100%;border-collapse:collapse;min-width:560px;}
+  th,td{text-align:left;padding:0.9rem 1.1rem;font-size:0.9rem;border-bottom:1px solid var(--border);}
+  th{color:var(--text-muted);text-transform:uppercase;font-size:0.72rem;letter-spacing:0.05em;}
+  tr:last-child td{border-bottom:none;}
+  .ph{color:var(--blue);font-style:italic;}
+
+  /* CTA BAND */
+  .cta-band{
+    background:linear-gradient(120deg,var(--navy),var(--blue));
+    color:#fff;border-radius:var(--radius-lg);
+    padding:3rem 2rem;text-align:center;
+  }
+  .cta-band h2{color:#fff;}
+  .cta-band p{color:#DCEBFC;max-width:520px;margin:0.75rem auto 1.5rem;}
+
+  /* FOOTER */
+  .footer{background:var(--navy);color:#C6D6EE;padding:3rem 0 1.5rem;}
+  .footer h3{color:#fff;font-size:0.95rem;margin-bottom:0.9rem;}
+  .footer a{color:#C6D6EE;}
+  .footer a:hover{color:#fff;}
+  .footer__grid{display:grid;gap:2rem;grid-template-columns:1fr;}
+  @media(min-width:700px){.footer__grid{grid-template-columns:1.4fr 1fr 1fr 1fr;}}
+  .footer__brand{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.9rem;}
+  .footer__brand img{height:28px;}
+  .footer li{margin-bottom:0.5rem;font-size:0.88rem;}
+  .footer__bottom{
+    border-top:1px solid rgba(255,255,255,0.12);margin-top:2.5rem;padding-top:1.5rem;
+    font-size:0.8rem;color:#8FA4C7;display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:space-between;
+  }
+
+  .pill-list{display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:1rem;}
+  .pill{
+    background:#E7F3FE;color:var(--blue);font-size:0.82rem;font-weight:600;
+    padding:0.4rem 0.85rem;border-radius:999px;
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <div class="brand">
+      <img src="img/LOGO_PRISMA_NOU_HORITZONTAL_V1 (1).png" alt="CFPI Prisma">
+    </div>
+    <nav class="nav">
+      <a href="#qui-som">Qui som</a>
+      <a href="#centres">Centres</a>
+      <a href="#oferta">Oferta formativa</a>
+      <a href="#serveis">Serveis</a>
+      <a href="#contacte">Contacte</a>
+    </nav>
+    <button class="burger" aria-label="Obrir menú">&#9776;</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__inner">
+    <div>
+      <span class="hero__eyebrow">Sistema FPCAT · Decret 137/2023</span>
+      <h1>Formació professional integrada en serveis socioculturals i a la comunitat</h1>
+      <p class="lead">Sis centres, un únic projecte. Orientació, formació, acreditació de competències i intermediació laboral al servei de les persones, les empreses i el territori.</p>
+      <div class="hero__ctas">
+        <a href="#serveis" class="btn btn--primary">Descobreix els nostres serveis</a>
+        <a href="#centres" class="btn btn--ghost">Coneix els centres membres</a>
+      </div>
+    </div>
+    <img class="hero__mark" src="img/transparente.png" alt="">
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><strong>6</strong><span>centres membres</span></div>
+    <div class="stat"><strong>5</strong><span>serveis integrats</span></div>
+    <div class="stat"><strong>2</strong><span>territoris: Barcelonès i Baix Llobregat</span></div>
+    <div class="stat"><strong>1</strong><span>itinerari professional, sense duplicitats</span></div>
+  </div>
+</div>
+
+<section class="section" id="qui-som">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Qui som</span>
+      <h2>Un projecte institucional compartit</h2>
+      <p>El CFPI Prisma neix de la voluntat compartida de FP Núria, Qualitat i Formació, STAF, PHRO Training, CMAP i SC2 de donar una resposta integrada, especialitzada i eficient a les necessitats de qualificació professional de les persones, les empreses i el territori.</p>
+    </div>
+    <div class="grid grid--3">
+      <div class="card">
+        <div class="card__icon">M</div>
+        <h3>Missió</h3>
+        <p>Oferir serveis integrats de formació professional perquè les persones desenvolupin el seu projecte professional al llarg de la vida i les empreses trobin el talent que necessiten.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">V</div>
+        <h3>Visió</h3>
+        <p>Consolidar-se com el centre de referència del Sistema FPCAT en serveis socioculturals i a la comunitat, per qualitat, innovació i cooperació.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">P</div>
+        <h3>Principis</h3>
+        <p>Orientació a les persones, compromís amb les empreses, cooperació institucional, qualitat, innovació, inclusió i sostenibilitat.</p>
+      </div>
+    </div>
+    <div class="pill-list">
+      <span class="pill">Atenció a la dependència</span>
+      <span class="pill">Educació infantil</span>
+      <span class="pill">Integració social</span>
+      <span class="pill">Acció comunitària</span>
+      <span class="pill">Intervenció socioeducativa</span>
+      <span class="pill">Promoció de la salut</span>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="centres">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Centres membres</span>
+      <h2>Sis centres, una única experiència</h2>
+      <p>Cada centre aporta trajectòria, especialització i equips complementaris. Qualsevol persona pot accedir al CFPI a través de qualsevol dels seus centres.</p>
+    </div>
+    <div class="grid grid--centres" style="grid-template-columns:1fr 1fr;">
+      <div class="centre-card">
+        <div class="centre-card__logo">FPN</div>
+        <h3>FP Núria</h3>
+        <span class="badge-coord">Centre coordinador</span>
+        <small>Enllaç 1</small>
+      </div>
+      <div class="centre-card">
+        <div class="centre-card__logo">QF</div>
+        <h3>Qualitat i Formació</h3>
+        <small>Enllaç 2</small>
+      </div>
+      <div class="centre-card">
+        <div class="centre-card__logo">STAF</div>
+        <h3>STAF</h3>
+        <small>Enllaç 3</small>
+      </div>
+      <div class="centre-card">
+        <div class="centre-card__logo">PHRO</div>
+        <h3>PHRO Training</h3>
+        <small>Enllaç 4</small>
+      </div>
+      <div class="centre-card">
+        <div class="centre-card__logo">CMAP</div>
+        <h3>CMAP</h3>
+        <small>Enllaç 5</small>
+      </div>
+      <div class="centre-card">
+        <div class="centre-card__logo">SC2</div>
+        <h3>SC2</h3>
+        <small>Enllaç 6</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="documents">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Documents institucionals</span>
+      <h2>Consulta els nostres documents de referència</h2>
+    </div>
+    <div class="doc-row">
+      <div class="doc-row__icon">PDF</div>
+      <div class="doc-row__body">
+        <h3>Projecte de Centre</h3>
+        <p>Identitat, missió, visió, valors i model organitzatiu del CFPI Prisma.</p>
+      </div>
+      <a href="#" class="btn btn--ghost">Descarrega</a>
+    </div>
+    <div class="doc-row">
+      <div class="doc-row__icon">PDF</div>
+      <div class="doc-row__body">
+        <h3>Pla de treball 2027</h3>
+        <p>Actuacions prioritàries del primer any de desplegament del CFPI.</p>
+      </div>
+      <a href="#" class="btn btn--ghost">Descarrega</a>
+    </div>
+    <div class="doc-row">
+      <div class="doc-row__icon">PDF</div>
+      <div class="doc-row__body">
+        <h3>Carta de serveis</h3>
+        <p>Serveis oferts i compromisos de qualitat, accessibilitat i millora contínua.</p>
+      </div>
+      <a href="#" class="btn btn--ghost">Descarrega</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="oferta">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Oferta formativa</span>
+      <h2>Família professional de Serveis Socioculturals i a la Comunitat</h2>
+      <p>Oferta formativa integrada i complementària entre els sis centres, amb aportacions d'altres àmbits com la sanitat, l'administració i gestió, la digitalització o els idiomes.</p>
+    </div>
+    <div class="grid grid--3">
+      <div class="card"><h3>Formació inicial</h3><p>Cicles formatius i primera qualificació professional.</p></div>
+      <div class="card"><h3>Certificats professionals</h3><p>Formació orientada a l'ocupació i la qualificació ràpida.</p></div>
+      <div class="card"><h3>Formació contínua</h3><p>Actualització i ampliació de competències al llarg de la vida.</p></div>
+      <div class="card"><h3>Formació a mida</h3><p>Dissenyada específicament per a empreses i entitats.</p></div>
+      <div class="card"><h3>Microcredencials</h3><p>Actuacions de curta durada, flexibles i capitalitzables.</p></div>
+      <div class="card"><h3>Requalificació</h3><p>Actualització professional davant els canvis del sector.</p></div>
+    </div>
+    <p style="margin-top:1.5rem;font-size:0.9rem;color:var(--text-muted);"><span class="ph">[Pendent]</span> detall de cicles formatius i certificats concrets, a incorporar amb el Projecte Funcional.</p>
+  </div>
+</section>
+
+<section class="section" id="punt-informacio">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Punt d'Informació i Orientació</span>
+      <h2>Parla amb el teu centre de referència</h2>
+      <p>Atenció personalitzada i coordinada entre els sis centres de l'agrupació.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Centre</th><th>Persona de referència</th><th>Horari</th><th>Correu</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FP Núria</td><td class="ph">Persona 1</td><td class="ph">Horari 1</td><td class="ph">Correu 1</td></tr>
+          <tr><td>Qualitat i Formació</td><td class="ph">Persona 2</td><td class="ph">Horari 2</td><td class="ph">Correu 2</td></tr>
+          <tr><td>STAF</td><td class="ph">Persona 3</td><td class="ph">Horari 3</td><td class="ph">Correu 3</td></tr>
+          <tr><td>PHRO Training</td><td class="ph">Persona 4</td><td class="ph">Horari 4</td><td class="ph">Correu 4</td></tr>
+          <tr><td>CMAP</td><td class="ph">Persona 5</td><td class="ph">Horari 5</td><td class="ph">Correu 5</td></tr>
+          <tr><td>SC2</td><td class="ph">Persona 6</td><td class="ph">Horari 6</td><td class="ph">Correu 6</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="acreditacio">
+  <div class="wrap">
+    <div class="grid grid--2" style="align-items:center;">
+      <div>
+        <span class="eyebrow">Acreditació de competències</span>
+        <h2>Reconeix la teva experiència professional</h2>
+        <p style="color:var(--text-muted);margin-top:0.75rem;">El servei d'acreditació facilita el reconeixement oficial de les competències adquirides per experiència laboral o vies no formals d'aprenentatge.</p>
+        <div class="hero__ctas" style="margin-top:1.5rem;">
+          <a href="#" class="btn btn--primary">Web de l'Agència FPCAT</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Actuacions principals</h3>
+        <p>Informació sobre convocatòries, assessorament individualitzat, acompanyament documental i orientació cap a la continuïtat formativa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="serveis">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Serveis</span>
+      <h2>Un únic itinerari de desenvolupament professional</h2>
+    </div>
+    <div class="grid grid--3">
+      <div class="card"><div class="card__icon">1</div><h3>Orientació professional</h3><p>Diagnosi de competències i definició d'itineraris personalitzats.</p></div>
+      <div class="card"><div class="card__icon">2</div><h3>Acreditació de competències</h3><p>Reconeixement oficial de l'experiència laboral.</p></div>
+      <div class="card"><div class="card__icon">3</div><h3>Formació professional</h3><p>Oferta integrada, flexible i capitalitzable.</p></div>
+      <div class="card"><div class="card__icon">4</div><h3>Intermediació laboral</h3><p>Borsa de treball i prospecció empresarial.</p></div>
+      <div class="card"><div class="card__icon">5</div><h3>Innovació i transferència</h3><p>Metodologies innovadores i digitalització aplicada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="collaboracio">
+  <div class="wrap">
+    <div class="cta-band">
+      <span class="eyebrow" style="background:rgba(255,255,255,0.15);color:#fff;">Projectes de col·laboració</span>
+      <h2>Un Consell de Formació i Empresa obert al territori</h2>
+      <p>Empreses, entitats socials i administracions com a sòcies estratègiques en el desenvolupament del talent professional, detectant necessitats de qualificació i impulsant la formació dual i la innovació.</p>
+      <a href="#contacte" class="btn btn--ghost">Vull col·laborar-hi</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="contacte">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <img src="img/LOGO_PRISMA_NOU_HORITZONTAL_V1 (1).png" alt="CFPI Prisma">
+        </div>
+        <p style="font-size:0.85rem;max-width:280px;">FP Núria · Qualitat i Formació · STAF · PHRO Training · CMAP · SC2</p>
+      </div>
+      <div>
+        <h3>Navegació</h3>
+        <ul>
+          <li><a href="#qui-som">Qui som</a></li>
+          <li><a href="#centres">Centres membres</a></li>
+          <li><a href="#oferta">Oferta formativa</a></li>
+          <li><a href="#serveis">Serveis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Documents</h3>
+        <ul>
+          <li><a href="#documents">Projecte de Centre</a></li>
+          <li><a href="#documents">Pla de treball 2027</a></li>
+          <li><a href="#documents">Carta de serveis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacte</h3>
+        <ul>
+          <li class="ph">Correu general</li>
+          <li class="ph">Telèfon general</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 CFPI Prisma</span>
+      <span>Avís legal · Política de privacitat · Cookies</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
