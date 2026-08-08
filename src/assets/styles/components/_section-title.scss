@@ -8,6 +8,11 @@
   margin: 0 0 1.75rem;
   padding-bottom: 1.25rem;
 
+  // El doble de gran en escriptori (24px de base a 48px).
+  @media (min-width: variables.$breakpoint-hero-image) {
+    font-size: 3rem;
+  }
+
   &::after {
     content: "";
     position: absolute;

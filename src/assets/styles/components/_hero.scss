@@ -38,12 +38,12 @@
       color.change(variables.$color-background, $alpha: 0.85) 60%,
       color.change(variables.$color-background, $alpha: 0.55) 100%);
 
-  // Menys pronunciat que abans: sense zona plana opaca (0.7 ja des del
-  // 0%) i s'esvaeix abans (60% en lloc de 75%), perquè la imatge es vegi
-  // més viva sense perdre legibilitat del text en amplades intermèdies.
+  // Blanc sòlid just sota el text (0%) perquè no es vegi cap tint blavós
+  // del vídeo; s'esvaeix ràpid després perquè la imatge es vegi amb força
+  // a la meitat dreta.
   @media (min-width: variables.$breakpoint-hero-image) {
     background: linear-gradient(90deg,
-        color.change(variables.$color-background, $alpha: 0.7) 0%,
+        variables.$color-background 0%,
         color.change(variables.$color-background, $alpha: 0.55) 35%,
         color.change(variables.$color-background, $alpha: 0) 60%);
   }

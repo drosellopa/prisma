@@ -6,6 +6,24 @@
 .site-footer {
   background-color: variables.$color-text-heading;
   color: color.change(variables.$color-background, $alpha: 0.75);
+
+  // Estil per defecte de qualsevol enllaç de text del peu (contacte,
+  // centres, legals, copyright) — els icones socials tenen el seu propi.
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: variables.$color-background;
+      text-decoration: underline;
+    }
+
+    &:focus-visible {
+      outline: 2px solid variables.$color-background;
+      outline-offset: 2px;
+    }
+  }
 }
 
 .site-footer__inner {
@@ -55,6 +73,31 @@
   line-height: 1.6;
 }
 
+.site-footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+}
+
+.site-footer__contact-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+
+  svg {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+}
+
 .site-footer__legal {
   display: flex;
   flex-direction: column;
@@ -62,17 +105,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-
-    &:hover,
-    &:focus-visible {
-      color: variables.$color-background;
-      text-decoration: underline;
-    }
-  }
 }
 
 .site-footer__social {

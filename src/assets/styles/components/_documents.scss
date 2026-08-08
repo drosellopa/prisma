@@ -1,6 +1,13 @@
 @use "sass:color";
 @use "../variables";
 
+.documents {
+  background-image: url("../images/fondo_documentos.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .documents__inner {
   max-width: 1280px;
   margin-inline: auto;
@@ -40,7 +47,8 @@
   flex-direction: column;
   padding: 2rem;
   border-radius: 12px;
-  background-color: variables.$color-background-alt;
+  background-color: variables.$color-background;
+  box-shadow: 0 4px 16px color.change(variables.$color-text-heading, $alpha: 0.14);
 
   .icon-badge {
     margin-bottom: 1rem;

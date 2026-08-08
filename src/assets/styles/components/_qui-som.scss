@@ -2,6 +2,10 @@
 @use "../variables";
 
 .qui-som {
+  // overflow-x: hidden perquè .qui-som__territory trenca l'amplada amb un
+  // truc de 100vw (vegeu més avall), que si no es conté pot afegir un
+  // scroll horitzontal fals quan hi ha barra de desplaçament vertical.
+  overflow-x: hidden;
   background-color: variables.$color-background-alt;
 }
 
@@ -191,18 +195,39 @@
 }
 
 // ---------------------------------------------------------------------------
-// Especialització i territori — banda destacada en blau marí.
+// Especialització i territori — banda destacada en blau marí, trencant
+// l'amplada del contenidor perquè la imatge de fons ocupi tot el viewport.
 // ---------------------------------------------------------------------------
 .qui-som__territory {
-  padding: 2.5rem;
-  border-radius: 16px;
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-top: 3rem;
+  margin-left: -50vw;
   background-color: variables.$color-text-heading;
+  background-image: url("../images/fons_territori.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // Efecte parallax; iOS Safari ho ignora i simplement fa scroll normal.
+  background-attachment: fixed;
+}
+
+.qui-som__territory-inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 3.5rem 1.25rem;
+
+  @media (min-width: variables.$breakpoint-hero-image) {
+    padding-block: 5.5rem;
+  }
 
   h3 {
     color: variables.$color-background;
   }
 
   p {
+    max-width: 48rem;
     margin: 0 0 1rem;
     color: color.change(variables.$color-background, $alpha: 0.85);
     line-height: 1.7;
