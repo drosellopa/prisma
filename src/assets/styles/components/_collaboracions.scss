@@ -1,0 +1,26 @@
+@use "../variables";
+
+.collaboracions {
+  background-color: variables.$color-background-alt;
+}
+
+.collaboracions__inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 4rem 1.25rem;
+
+  @media (min-width: variables.$breakpoint-hero-image) {
+    padding-block: 6rem;
+  }
+}
+
+.collaboracions__intro {
+  max-width: 48rem;
+  margin: 0 0 1rem;
+  color: variables.$color-text-body;
+  line-height: 1.7;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

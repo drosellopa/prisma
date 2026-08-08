@@ -1,0 +1,218 @@
+@use "sass:color";
+@use "../variables";
+
+.qui-som {
+  background-color: variables.$color-background-alt;
+}
+
+.qui-som__inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 4rem 1.25rem;
+
+  @media (min-width: variables.$breakpoint-hero-image) {
+    padding-block: 6rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Presentació — text a l'esquerra, imatge a la dreta a partir de tablet.
+// ---------------------------------------------------------------------------
+.qui-som__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.qui-som__intro-text {
+  max-width: 42rem;
+
+  @media (min-width: 640px) {
+    flex: 1 1 50%;
+  }
+}
+
+.qui-som__intro-text p {
+  line-height: 1.7;
+  color: variables.$color-text-body;
+}
+
+.qui-som__divider {
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid variables.$color-border;
+}
+
+// ---------------------------------------------------------------------------
+// Icona + títol amb ratlla d'accent — reutilitzat per Presentació, Missió i
+// Visió. Cada bloc pot ser --primary (blau) o --accent (indigo).
+// ---------------------------------------------------------------------------
+.qui-som__heading-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.qui-som__heading {
+  position: relative;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  font-size: 1.125rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 3px;
+  }
+}
+
+.qui-som__heading--primary::after {
+  background-color: variables.$color-primary;
+}
+
+.qui-som__heading--accent::after {
+  background-color: variables.$color-accent;
+}
+
+.qui-som__intro-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px color.change(variables.$color-text-heading, $alpha: 0.12);
+  object-fit: cover;
+
+  @media (min-width: 640px) {
+    flex: 1 1 50%;
+    max-width: 460px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Missió / Visió — parella de targetes.
+// ---------------------------------------------------------------------------
+.qui-som__pillars {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 3rem 0;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.qui-som__pillar {
+  padding: 2rem;
+  border-top: 4px solid variables.$color-primary;
+  border-radius: 12px;
+  background-color: variables.$color-background;
+  box-shadow: 0 1px 3px color.change(variables.$color-text-heading, $alpha: 0.08);
+}
+
+.qui-som__pillar--accent {
+  border-top-color: variables.$color-accent;
+}
+
+.qui-som__pillar p {
+  margin: 0;
+  color: variables.$color-text-body;
+  line-height: 1.6;
+}
+
+// ---------------------------------------------------------------------------
+// Principis d'actuació — graella numerada.
+// ---------------------------------------------------------------------------
+.qui-som__principles {
+  margin: 3rem 0;
+}
+
+.principles-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 0;
+  counter-reset: principle;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: variables.$breakpoint-nav-desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.principles-list__item {
+  position: relative;
+  counter-increment: principle;
+  padding: 1.5rem 1.5rem 1.25rem 3.75rem;
+  border-radius: 12px;
+  background-color: variables.$color-background;
+  box-shadow: 0 1px 3px color.change(variables.$color-text-heading, $alpha: 0.08);
+
+  &::before {
+    content: counter(principle, decimal-leading-zero);
+    position: absolute;
+    top: 1.375rem;
+    left: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: color.change(variables.$color-primary, $alpha: 0.1);
+    color: variables.$color-primary;
+    font-size: 0.8rem;
+    font-weight: variables.$font-weight-semibold;
+  }
+
+  dt {
+    margin: 0 0 0.375rem;
+    color: variables.$color-text-heading;
+    font-weight: variables.$font-weight-semibold;
+  }
+
+  dd {
+    margin: 0;
+    color: variables.$color-text-muted;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Especialització i territori — banda destacada en blau marí.
+// ---------------------------------------------------------------------------
+.qui-som__territory {
+  padding: 2.5rem;
+  border-radius: 16px;
+  background-color: variables.$color-text-heading;
+
+  h3 {
+    color: variables.$color-background;
+  }
+
+  p {
+    margin: 0 0 1rem;
+    color: color.change(variables.$color-background, $alpha: 0.85);
+    line-height: 1.7;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    color: variables.$color-brand-cyan;
+  }
+}

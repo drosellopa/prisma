@@ -1,0 +1,69 @@
+@use "sass:color";
+@use "../variables";
+
+.orientacio__inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 4rem 1.25rem;
+
+  @media (min-width: variables.$breakpoint-hero-image) {
+    padding-block: 6rem;
+  }
+}
+
+.orientacio__intro {
+  max-width: 48rem;
+  margin: 0 0 2.5rem;
+  color: variables.$color-text-body;
+  line-height: 1.7;
+}
+
+.orientacio__table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px color.change(variables.$color-text-heading, $alpha: 0.08);
+}
+
+.orientacio__table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: variables.$color-background;
+  white-space: nowrap;
+
+  caption {
+    padding: 1.25rem 1.5rem;
+    color: variables.$color-text-heading;
+    font-weight: variables.$font-weight-semibold;
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 0.875rem 1.5rem;
+    text-align: left;
+  }
+
+  thead th {
+    background-color: variables.$color-text-heading;
+    color: variables.$color-background;
+    font-weight: variables.$font-weight-semibold;
+    font-size: 0.875rem;
+  }
+
+  tbody th {
+    color: variables.$color-text-heading;
+    font-weight: variables.$font-weight-semibold;
+  }
+
+  tbody td {
+    color: variables.$color-text-body;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: variables.$color-background-alt;
+  }
+
+  tbody tr:not(:last-child) {
+    border-bottom: 1px solid variables.$color-border;
+  }
+}

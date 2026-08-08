@@ -1,0 +1,96 @@
+@use "sass:color";
+@use "../variables";
+
+.centres-membres {
+  background-color: variables.$color-background-alt;
+}
+
+.centres-membres__inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 4rem 1.25rem;
+
+  @media (min-width: variables.$breakpoint-hero-image) {
+    padding-block: 6rem;
+  }
+}
+
+.centres-membres__intro {
+  max-width: 42rem;
+  margin: 0 auto 3rem;
+  color: variables.$color-text-body;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.centres-membres__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: variables.$breakpoint-nav-desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.centres-membres__card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  background-color: variables.$color-background;
+  box-shadow: 0 4px 12px color.change(variables.$color-text-heading, $alpha: 0.12);
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    box-shadow: 0 8px 24px color.change(variables.$color-text-heading, $alpha: 0.2);
+    transform: translateY(-2px);
+  }
+
+  &:focus-visible {
+    outline: 2px solid variables.$color-primary;
+    outline-offset: 2px;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 64px;
+    object-fit: contain;
+  }
+
+  // El logotip de Núria i el de SC2 queden visualment més petits que la
+  // resta dins la mateixa alçada de targeta (formes més quadrades); es
+  // mostren una mica més grans per equilibrar-los.
+  .centres-membres__logo--lg {
+    max-height: 88px;
+  }
+}
+
+// Distintiu del centre coordinador, ancorat a la cantonada de la seva
+// targeta (FP Núria).
+.centres-membres__card .badge {
+  position: absolute;
+  top: -0.625rem;
+  left: 1.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: variables.$color-primary;
+  color: variables.$color-background;
+  font-size: 0.6875rem;
+  font-weight: variables.$font-weight-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

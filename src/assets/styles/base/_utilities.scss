@@ -9,3 +9,10 @@
   white-space: nowrap;
   border: 0;
 }
+
+// Marca contingut encara no rebut (peu de pàgina, taula d'orientació).
+// Opacitat relativa perquè funcioni igual sobre fons clars i foscos.
+.content-pending {
+  font-style: italic;
+  opacity: 0.7;
+}

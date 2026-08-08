@@ -2,8 +2,11 @@
 @use "../variables";
 
 // Fixe (no sticky) i fora del flux: així la secció hero pot pujar per sota
-// seu i l'usuari veu la imatge de fons a través de la part transparent.
-// La resta de seccions recuperen l'espai amb el padding-top del body.
+// seu. La resta de seccions recuperen l'espai amb el padding-top del body.
+//
+// Fons sempre blanc opac (abans tenia una franja transparent a la dreta
+// perquè es veiés el vídeo del hero al darrere, però la barreja de color
+// resultant no es llegia bé; es manté sòlid a totes les amplades).
 .site-header {
   position: fixed;
   top: 0;
@@ -11,12 +14,7 @@
   left: 0;
   z-index: 1000;
   height: variables.$header-height;
-  background: linear-gradient(
-    to left,
-    color.change(variables.$color-neutral-white, $alpha: 0.2) 0%,
-    variables.$color-neutral-white 50%,
-    variables.$color-neutral-white 100%
-  );
+  background-color: variables.$color-neutral-white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
@@ -33,6 +31,7 @@
 .site-header__logo {
   display: inline-flex;
   align-items: center;
+  text-decoration: none;
 
   img {
     display: block;
@@ -88,7 +87,7 @@
   transition: opacity 0.25s ease;
 }
 
-.nav-toggle[aria-expanded="true"] ~ .nav-overlay {
+.nav-toggle[aria-expanded="true"]~.nav-overlay {
   opacity: 1;
   pointer-events: auto;
 }
@@ -112,7 +111,7 @@
   transition: transform 0.3s ease;
 }
 
-.nav-toggle[aria-expanded="true"] ~ .nav-primary {
+.nav-toggle[aria-expanded="true"]~.nav-primary {
   transform: translateX(0);
 }
 
@@ -187,6 +186,7 @@ body.nav-open {
 // Escriptori — el menú passa a ser una barra inline dins del header.
 // ---------------------------------------------------------------------------
 @media (min-width: variables.$breakpoint-nav-desktop) {
+
   .nav-toggle,
   .nav-overlay,
   .nav-primary__header {

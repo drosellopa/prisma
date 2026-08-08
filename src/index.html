@@ -85,20 +85,27 @@
 
     <!-- 1. Hero / Capçalera -->
     <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero__background" aria-hidden="true"></div>
+      <video class="hero__background" aria-hidden="true" muted loop playsinline preload="none"
+        poster="./assets/images/hero_back.jpg">
+        <source src="./assets/images/hero_prisma.mp4" type="video/mp4">
+      </video>
       <div class="hero__scrim" aria-hidden="true"></div>
 
       <div class="hero__inner">
         <div class="hero__content">
-          <h1 class="hero__title" id="hero-heading">CFPI PRISMA</h1>
+          <h1 class="hero__title" id="hero-heading">Prism<span class="hero__title-glyph"
+              aria-hidden="true">&and;</span><span class="visually-hidden">a</span></h1>
+          <p class="hero__subtitle">Centre de Formació Professional Integrada</p>
           <h2 class="hero__tagline">Formar per transformar</h2>
-          <p class="hero__lead">Sis centres referents en serveis socioculturals units en un únic projecte de
-            <strong>formació professional integrada</strong>. Orientació, acreditació i inserció laboral per potenciar
+          <p class="hero__lead">Sis centres referents en serveis socioculturals units en <strong>un únic
+              projecte de
+              formació professional integrada</strong>. Orientació, acreditació i inserció laboral per potenciar
             el talent i
-            transformar el territori.</p>
+            transformar el territori.
+          </p>
           <div class="hero__cta cta-group">
-            <a class="cta-button cta-button--primary" href="#serveis">Descobreix els nostres serveis</a>
-            <a class="cta-button cta-button--secondary" href="#centres-membres">Coneix els centres membres</a>
+            <a class="cta-button cta-button--primary" href="#serveis">Els nostres serveis</a>
+            <a class="cta-button cta-button--secondary" href="#centres-membres">Centres membres</a>
           </div>
         </div>
       </div>
@@ -107,95 +114,157 @@
     <!-- 2. Qui som — Informació bàsica del CFPI -->
     <section class="qui-som" id="qui-som" aria-labelledby="qui-som-heading">
       <div class="qui-som__inner">
-        <h2 class="qui-som__title" id="qui-som-heading">Qui som</h2>
+        <h2 class="qui-som__title section-title" id="qui-som-heading">Qui som</h2>
 
-        <h3>Presentació</h3>
-        <p>El Centre de Formació Professional Integrada Prisma neix de la voluntat compartida de <strong>FP Núria,
-            Qualitat i Formació, STAF, PHRO Training, CMAP i SC2</strong> de construir un projecte comú que permeti
-          donar una resposta més integrada, especialitzada i eficient a les necessitats de qualificació professional
-          de les persones, les empreses i el territori.</p>
-        <p>El CFPI Prisma no representa únicament una agrupació de centres de formació, sinó la construcció d'un
-          projecte institucional compartit orientat a esdevenir un referent del Sistema FPCAT en l'àmbit dels
-          serveis socioculturals i a la comunitat.</p>
+        <div class="qui-som__intro">
+          <div class="qui-som__intro-text">
+            <div class="qui-som__heading-row">
+              <span class="icon-badge icon-badge--primary" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </span>
+              <h3 class="qui-som__heading qui-som__heading--primary">Presentació</h3>
+            </div>
+            <p>El Centre de Formació Professional Integrada Prisma neix de la voluntat compartida de <strong>FP
+                Núria, Qualitat i Formació, STAF, PHRO Training, CMAP i SC2</strong> de construir un projecte comú
+              que permeti donar una resposta més integrada, especialitzada i eficient a les necessitats de
+              qualificació professional de les persones, les empreses i el territori.</p>
+            <hr class="qui-som__divider">
+            <p>El CFPI Prisma no representa únicament una agrupació de centres de formació, sinó la construcció d'un
+              projecte institucional compartit orientat a esdevenir un referent del Sistema FPCAT en l'àmbit dels
+              serveis socioculturals i a la comunitat.</p>
+          </div>
+          <img class="qui-som__intro-image"
+            src="./assets/images/socio03.webp"
+            alt="Equip de professionals en una sessió de formació sobre atenció sociosanitària"
+            width="800" height="533" loading="lazy">
+        </div>
 
-        <h3>Missió</h3>
-        <p>Oferir serveis integrats de formació professional que permetin a les persones desenvolupar el seu projecte
-          professional al llarg de la vida i a les empreses disposar dels perfils professionals que necessiten per
-          créixer, innovar i generar ocupació de qualitat.</p>
+        <div class="qui-som__pillars">
+          <article class="qui-som__pillar qui-som__pillar--primary">
+            <div class="qui-som__heading-row">
+              <span class="icon-badge icon-badge--primary" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <circle cx="12" cy="12" r="5"></circle>
+                  <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"></circle>
+                </svg>
+              </span>
+              <h3 class="qui-som__heading qui-som__heading--primary">Missió</h3>
+            </div>
+            <p>Oferir serveis integrats de formació professional que permetin a les persones desenvolupar el seu
+              projecte professional al llarg de la vida i a les empreses disposar dels perfils professionals que
+              necessiten per créixer, innovar i generar ocupació de qualitat.</p>
+          </article>
+          <article class="qui-som__pillar qui-som__pillar--accent">
+            <div class="qui-som__heading-row">
+              <span class="icon-badge icon-badge--accent" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7Z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </span>
+              <h3 class="qui-som__heading qui-som__heading--accent">Visió</h3>
+            </div>
+            <p>Consolidar-se com el centre de referència del Sistema FPCAT en l'àmbit dels serveis socioculturals i
+              a la comunitat, destacant per la qualitat dels seus serveis, la capacitat d'innovació, la cooperació
+              entre organitzacions i l'impacte positiu sobre les persones, les empreses i el territori.</p>
+          </article>
+        </div>
 
-        <h3>Visió</h3>
-        <p>Consolidar-se com el centre de referència del Sistema FPCAT en l'àmbit dels serveis socioculturals i a la
-          comunitat, destacant per la qualitat dels seus serveis, la capacitat d'innovació, la cooperació entre
-          organitzacions i l'impacte positiu sobre les persones, les empreses i el territori.</p>
+        <div class="qui-som__principles">
+          <h3>Principis d'actuació</h3>
+          <dl class="principles-list">
+            <div class="principles-list__item">
+              <dt>Orientació a les persones</dt>
+              <dd>Acompanyament personalitzat al llarg de tota la vida.</dd>
+            </div>
+            <div class="principles-list__item">
+              <dt>Compromís amb les empreses</dt>
+              <dd>Relació estable per identificar necessitats de qualificació i talent.</dd>
+            </div>
+            <div class="principles-list__item">
+              <dt>Cooperació institucional</dt>
+              <dd>Col·laboració entre centres, administracions, empreses i agents socials.</dd>
+            </div>
+            <div class="principles-list__item">
+              <dt>Qualitat i millora contínua</dt>
+              <dd>Avaluació i aprenentatge organitzatiu permanent.</dd>
+            </div>
+            <div class="principles-list__item">
+              <dt>Innovació i transformació</dt>
+              <dd>Innovació pedagògica, metodològica, tecnològica i organitzativa.</dd>
+            </div>
+            <div class="principles-list__item">
+              <dt>Inclusió i equitat</dt>
+              <dd>Igualtat d'oportunitats i atenció a col·lectius vulnerables.</dd>
+            </div>
+            <div class="principles-list__item">
+              <dt>Sostenibilitat i responsabilitat social</dt>
+              <dd>Criteris ambientals, socials i de bon govern.</dd>
+            </div>
+          </dl>
+        </div>
 
-        <h3>Principis d'actuació</h3>
-        <dl class="principles-list">
-          <div class="principles-list__item">
-            <dt>Orientació a les persones</dt>
-            <dd>Acompanyament personalitzat al llarg de tota la vida.</dd>
-          </div>
-          <div class="principles-list__item">
-            <dt>Compromís amb les empreses</dt>
-            <dd>Relació estable per identificar necessitats de qualificació i talent.</dd>
-          </div>
-          <div class="principles-list__item">
-            <dt>Cooperació institucional</dt>
-            <dd>Col·laboració entre centres, administracions, empreses i agents socials.</dd>
-          </div>
-          <div class="principles-list__item">
-            <dt>Qualitat i millora contínua</dt>
-            <dd>Avaluació i aprenentatge organitzatiu permanent.</dd>
-          </div>
-          <div class="principles-list__item">
-            <dt>Innovació i transformació</dt>
-            <dd>Innovació pedagògica, metodològica, tecnològica i organitzativa.</dd>
-          </div>
-          <div class="principles-list__item">
-            <dt>Inclusió i equitat</dt>
-            <dd>Igualtat d'oportunitats i atenció a col·lectius vulnerables.</dd>
-          </div>
-          <div class="principles-list__item">
-            <dt>Sostenibilitat i responsabilitat social</dt>
-            <dd>Criteris ambientals, socials i de bon govern.</dd>
-          </div>
-        </dl>
-
-        <h3>Especialització i territori</h3>
-        <p>El CFPI Prisma orienta la seva activitat cap a la família professional de <strong>Serveis Socioculturals i
-            a la Comunitat</strong>: atenció a la dependència, educació infantil, integració social, acció
-          comunitària, lleure educatiu, teleassistència, acompanyament a persones vulnerables, promoció de la salut i
-          intervenció socioeducativa, entre d'altres.</p>
-        <p>Desenvolupa la seva activitat amb implantació consolidada al <strong>Barcelonès i al Baix
-            Llobregat</strong>, un dels principals ecosistemes econòmics i socials de Catalunya.</p>
+        <div class="qui-som__territory">
+          <h3>Especialització i territori</h3>
+          <p>El CFPI Prisma orienta la seva activitat cap a la família professional de <strong>Serveis
+              Socioculturals i a la Comunitat</strong>: atenció a la dependència, educació infantil, integració
+            social, acció comunitària, lleure educatiu, teleassistència, acompanyament a persones vulnerables,
+            promoció de la salut i intervenció socioeducativa, entre d'altres.</p>
+          <p>Desenvolupa la seva activitat amb implantació consolidada al <strong>Barcelonès i al Baix
+              Llobregat</strong>, un dels principals ecosistemes econòmics i socials de Catalunya.</p>
+        </div>
       </div>
     </section>
 
     <!-- 3. Centres membres -->
     <section class="centres-membres" id="centres-membres" aria-labelledby="centres-membres-heading">
       <div class="centres-membres__inner">
-        <h2 class="centres-membres__title" id="centres-membres-heading">Centres membres</h2>
-        <p>El CFPI Prisma està format per sis centres que aporten trajectòries, especialitzacions i equips
-          professionals complementaris:</p>
+        <h2 class="centres-membres__title section-title section-title--center" id="centres-membres-heading">Centres
+          membres</h2>
+        <p class="centres-membres__intro">El CFPI Prisma està format per sis centres que aporten trajectòries,
+          especialitzacions i equips professionals complementaris:</p>
 
         <ul class="centres-membres__list">
-          <!-- TODO: enllaços reals dels centres pendents de rebre ([Enllaç 1] – [Enllaç 6] al document de contingut) -->
           <li class="centres-membres__item">
-            <a href="#">FP Núria <span class="badge">Centre coordinador</span></a>
+            <a class="centres-membres__card" href="https://www.cmap.cat/" target="_blank" rel="noopener">
+              <img src="./assets/images/cmap_logo.jpg" alt="CMAP" loading="lazy">
+            </a>
           </li>
           <li class="centres-membres__item">
-            <a href="#">Qualitat i Formació</a>
+            <a class="centres-membres__card" href="https://escolesnuria.cat/" target="_blank" rel="noopener">
+              <span class="badge">Centre coordinador</span>
+              <img class="centres-membres__logo--lg" src="./assets/images/nuria_logo.webp" alt="FP Núria"
+                loading="lazy">
+            </a>
           </li>
           <li class="centres-membres__item">
-            <a href="#">STAF</a>
+            <a class="centres-membres__card" href="https://phrotraining.com/" target="_blank" rel="noopener">
+              <img src="./assets/images/phrotrining_logo.png" alt="PHRO Training" loading="lazy">
+            </a>
           </li>
           <li class="centres-membres__item">
-            <a href="#">PHRO Training</a>
+            <a class="centres-membres__card" href="https://qualitatiformacio.cat/" target="_blank" rel="noopener">
+              <img src="./assets/images/qf_logo.png" alt="Qualitat i Formació" loading="lazy">
+            </a>
           </li>
           <li class="centres-membres__item">
-            <a href="#">CMAP</a>
+            <a class="centres-membres__card" href="https://sc2.cat/" target="_blank" rel="noopener">
+              <img class="centres-membres__logo--lg" src="./assets/images/sc2_logo.jpg" alt="SC2" loading="lazy">
+            </a>
           </li>
           <li class="centres-membres__item">
-            <a href="#">SC2</a>
+            <a class="centres-membres__card" href="https://staformacion.com/" target="_blank" rel="noopener">
+              <img src="./assets/images/staf_logo.png" alt="Staf" loading="lazy">
+            </a>
           </li>
         </ul>
       </div>
@@ -204,27 +273,79 @@
     <!-- 4. Documents institucionals -->
     <section class="documents" id="documents" aria-labelledby="documents-heading">
       <div class="documents__inner">
-        <h2 class="documents__title" id="documents-heading">Documents institucionals</h2>
-        <p>Consulta els documents que defineixen l'estratègia, l'organització i els compromisos del CFPI Prisma.</p>
+        <h2 class="documents__title section-title" id="documents-heading">Documents institucionals</h2>
+        <p class="documents__intro">Consulta els documents que defineixen l'estratègia, l'organització i els
+          compromisos del CFPI Prisma.</p>
 
         <ul class="documents__list">
           <!-- TODO: enllaçar els PDF reals quan estiguin publicats -->
           <li class="documents__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path>
+                <path d="M14 2v6h6"></path>
+                <path d="M9 15h6"></path>
+                <path d="M9 11h6"></path>
+              </svg>
+            </span>
             <h3>Projecte de Centre</h3>
             <p>Document institucional que defineix la identitat, la missió, la visió, els valors i el model
               organitzatiu del CFPI Prisma.</p>
-            <a class="documents__download" href="#">Descarrega el PDF</a>
+            <a class="documents__download" href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12"></path>
+                <path d="m7 10 5 5 5-5"></path>
+                <path d="M4 21h16"></path>
+              </svg>
+              Descarrega el PDF
+            </a>
           </li>
           <li class="documents__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path>
+                <path d="M14 2v6h6"></path>
+                <path d="M9 15h6"></path>
+                <path d="M9 11h6"></path>
+              </svg>
+            </span>
             <h3>Pla de treball 2027</h3>
             <p>Pla anual amb les actuacions prioritàries del primer any de desplegament del CFPI.</p>
-            <a class="documents__download" href="#">Descarrega el PDF</a>
+            <a class="documents__download" href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12"></path>
+                <path d="m7 10 5 5 5-5"></path>
+                <path d="M4 21h16"></path>
+              </svg>
+              Descarrega el PDF
+            </a>
           </li>
           <li class="documents__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path>
+                <path d="M14 2v6h6"></path>
+                <path d="M9 15h6"></path>
+                <path d="M9 11h6"></path>
+              </svg>
+            </span>
             <h3>Carta de serveis</h3>
             <p>Document que estableix els serveis oferts i els compromisos de qualitat, accessibilitat i millora
               contínua assumits per l'agrupació.</p>
-            <a class="documents__download" href="#">Descarrega el PDF</a>
+            <a class="documents__download" href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12"></path>
+                <path d="m7 10 5 5 5-5"></path>
+                <path d="M4 21h16"></path>
+              </svg>
+              Descarrega el PDF
+            </a>
           </li>
         </ul>
       </div>
@@ -233,36 +354,81 @@
     <!-- 5. Oferta formativa -->
     <section class="oferta-formativa" id="oferta-formativa" aria-labelledby="oferta-formativa-heading">
       <div class="oferta-formativa__inner">
-        <h2 class="oferta-formativa__title" id="oferta-formativa-heading">Oferta formativa — Família professional de
-          Serveis Socioculturals i a la Comunitat</h2>
-        <p>El CFPI Prisma ofereix una oferta formativa integrada i complementària entre els sis centres membres,
-          construïda al voltant de la família professional de <strong>Serveis Socioculturals i a la
-            Comunitat</strong>, amb aportacions d'altres àmbits com la sanitat, l'administració i gestió, la
-          digitalització o els idiomes.</p>
+        <h2 class="oferta-formativa__title section-title" id="oferta-formativa-heading">Oferta formativa — Família
+          professional de Serveis Socioculturals i a la Comunitat</h2>
+        <p class="oferta-formativa__intro">El CFPI Prisma ofereix una oferta formativa integrada i complementària
+          entre els sis centres membres, construïda al voltant de la família professional de <strong>Serveis
+            Socioculturals i a la Comunitat</strong>, amb aportacions d'altres àmbits com la sanitat,
+          l'administració i gestió, la digitalització o els idiomes.</p>
 
-        <p>L'oferta combina:</p>
-        <ul class="oferta-formativa__list">
-          <li>Formació professional inicial</li>
-          <li>Certificats professionals</li>
-          <li>Formació contínua</li>
-          <li>Formació a mida per a empreses</li>
-          <li>Microcredencials i altres actuacions de curta durada</li>
-          <li>Accions de requalificació i actualització professional</li>
+        <p class="oferta-formativa__combina-label">L'oferta combina:</p>
+        <ul class="check-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Formació professional inicial
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Certificats professionals
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Formació contínua
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Formació a mida per a empreses
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Microcredencials i altres actuacions de curta durada
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Accions de requalificació i actualització professional
+          </li>
         </ul>
 
         <!-- TODO: detall de cicles formatius, certificats de professionalitat i calendari, pendent del Projecte Funcional -->
-        <p class="notice notice--pending"><strong>Pendent:</strong> detall de cicles formatius, certificats de
-          professionalitat i calendari concret d'oferta, a incorporar quan es disposi del Projecte Funcional.</p>
+        <p class="notice notice--pending">
+          <span class="notice__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M12 7v5l3 3"></path>
+            </svg>
+          </span>
+          <span><strong>Pendent:</strong> detall de cicles formatius, certificats de professionalitat i calendari
+            concret d'oferta, a incorporar quan es disposi del Projecte Funcional.</span>
+        </p>
       </div>
     </section>
 
     <!-- 6. Punt d'Informació i Orientació -->
     <section class="orientacio" id="orientacio" aria-labelledby="orientacio-heading">
       <div class="orientacio__inner">
-        <h2 class="orientacio__title" id="orientacio-heading">Punt d'Informació i Orientació</h2>
-        <p>El Punt d'Informació i Orientació del CFPI Prisma acompanya les persones en la definició del seu
-          itinerari formatiu i professional, amb atenció personalitzada i coordinada entre els sis centres de
-          l'agrupació.</p>
+        <h2 class="orientacio__title section-title" id="orientacio-heading">Punt d'Informació i Orientació</h2>
+        <p class="orientacio__intro">El Punt d'Informació i Orientació del CFPI Prisma acompanya les persones en la
+          definició del seu itinerari formatiu i professional, amb atenció personalitzada i coordinada entre els
+          sis centres de l'agrupació.</p>
 
         <div class="orientacio__table-wrapper">
           <table class="orientacio__table">
@@ -322,33 +488,120 @@
     <!-- 7. Acreditació de competències professionals -->
     <section class="acreditacio" id="acreditacio" aria-labelledby="acreditacio-heading">
       <div class="acreditacio__inner">
-        <h2 class="acreditacio__title" id="acreditacio-heading">Acreditació de competències professionals</h2>
-        <p>El servei d'acreditació facilita el reconeixement oficial de les competències adquirides mitjançant
-          l'experiència laboral o altres vies no formals d'aprenentatge, com una eina per afavorir la qualificació i
-          la progressió professional de les persones.</p>
-        <p><strong>Actuacions principals:</strong> informació sobre convocatòries, assessorament individualitzat,
-          acompanyament documental i orientació cap a la continuïtat formativa.</p>
+        <h2 class="acreditacio__title section-title" id="acreditacio-heading">Acreditació de competències
+          professionals</h2>
+        <p class="acreditacio__intro">El servei d'acreditació facilita el reconeixement oficial de les competències
+          adquirides mitjançant l'experiència laboral o altres vies no formals d'aprenentatge, com una eina per
+          afavorir la qualificació i la progressió professional de les persones.</p>
+
+        <p class="acreditacio__label">Actuacions principals:</p>
+        <ul class="check-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Informació sobre convocatòries
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Assessorament individualitzat
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Acompanyament documental
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+            Orientació cap a la continuïtat formativa
+          </li>
+        </ul>
+
         <!-- TODO: enllaç real a la web de l'Agència FPCAT pendent de confirmar -->
-        <p>Per a més informació sobre el procés d'acreditació de competències, consulta la web de l'Agència de la
-          Formació Professional de Catalunya (Agència FPCAT): <a href="#">web de l'Agència FPCAT</a>.</p>
+        <p class="acreditacio__link-row">Per a més informació sobre el procés d'acreditació de competències, consulta
+          la web de l'Agència de la Formació Professional de Catalunya (Agència FPCAT): <a
+            class="external-link" href="#" target="_blank" rel="noopener">web de l'Agència FPCAT
+            <span class="external-link__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M7 17 17 7"></path>
+                <path d="M7 7h10v10"></path>
+              </svg>
+            </span>
+          </a>.</p>
       </div>
     </section>
 
     <!-- 8. Serveis del CFPI Prisma -->
     <section class="serveis" id="serveis" aria-labelledby="serveis-heading">
       <div class="serveis__inner">
-        <h2 class="serveis__title" id="serveis-heading">Serveis del CFPI Prisma</h2>
+        <h2 class="serveis__title section-title" id="serveis-heading">Serveis del CFPI Prisma</h2>
         <ul class="serveis__list">
-          <li><strong>Orientació professional</strong> — diagnosi de competències i definició d'itineraris
-            formatius i professionals personalitzats.</li>
-          <li><strong>Acreditació de competències</strong> — vegeu la secció <a href="#acreditacio">Acreditació de
-              competències professionals</a>.</li>
-          <li><strong>Formació professional</strong> — vegeu la secció <a href="#oferta-formativa">Oferta
-              formativa</a>.</li>
-          <li><strong>Intermediació laboral</strong> — borsa de treball, prospecció empresarial i seguiment de la
-            inserció.</li>
-          <li><strong>Innovació, recerca i transferència</strong> — metodologies innovadores, digitalització i
-            transferència de coneixement aplicada al sector.</li>
+          <li class="serveis__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </span>
+            <h3>Orientació professional</h3>
+            <p>Diagnosi de competències i definició d'itineraris formatius i professionals personalitzats.</p>
+          </li>
+          <li class="serveis__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"></path>
+              </svg>
+            </span>
+            <h3>Acreditació de competències</h3>
+            <p>Vegeu la secció <a href="#acreditacio">Acreditació de competències professionals</a>.</p>
+          </li>
+          <li class="serveis__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="m22 10-10-5L2 10l10 5 10-5Z"></path>
+                <path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"></path>
+              </svg>
+            </span>
+            <h3>Formació professional</h3>
+            <p>Vegeu la secció <a href="#oferta-formativa">Oferta formativa</a>.</p>
+          </li>
+          <li class="serveis__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </span>
+            <h3>Intermediació laboral</h3>
+            <p>Borsa de treball, prospecció empresarial i seguiment de la inserció.</p>
+          </li>
+          <li class="serveis__item">
+            <span class="icon-badge icon-badge--primary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+                <path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3v0h6v0c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2Z"></path>
+              </svg>
+            </span>
+            <h3>Innovació, recerca i transferència</h3>
+            <p>Metodologies innovadores, digitalització i transferència de coneixement aplicada al sector.</p>
+          </li>
         </ul>
       </div>
     </section>
@@ -356,14 +609,14 @@
     <!-- 9. Projectes de col·laboració amb l'entorn productiu -->
     <section class="collaboracions" id="collaboracions" aria-labelledby="collaboracions-heading">
       <div class="collaboracions__inner">
-        <h2 class="collaboracions__title" id="collaboracions-heading">Projectes de col·laboració amb l'entorn
-          productiu</h2>
-        <p>El CFPI Prisma concep les empreses, entitats socials i administracions com a sòcies estratègiques en el
-          desenvolupament del talent professional, a través del <strong>Consell de Formació i Empresa</strong>,
-          espai estable de participació i diàleg amb l'ecosistema del sector.</p>
-        <p>Aquesta col·laboració es concreta en la detecció de necessitats de qualificació, la formació dual, la
-          formació a mida, l'acreditació de competències de persones treballadores i projectes conjunts
-          d'innovació.</p>
+        <h2 class="collaboracions__title section-title" id="collaboracions-heading">Projectes de col·laboració amb
+          l'entorn productiu</h2>
+        <p class="collaboracions__intro">El CFPI Prisma concep les empreses, entitats socials i administracions com
+          a sòcies estratègiques en el desenvolupament del talent professional, a través del <strong>Consell de
+            Formació i Empresa</strong>, espai estable de participació i diàleg amb l'ecosistema del sector.</p>
+        <p class="collaboracions__intro">Aquesta col·laboració es concreta en la detecció de necessitats de
+          qualificació, la formació dual, la formació a mida, l'acreditació de competències de persones
+          treballadores i projectes conjunts d'innovació.</p>
         <!-- TODO: llistat de convenis i projectes concrets, pendent de formalitzar durant el primer any (Pla anual 2027) -->
         <p class="notice notice--pending"><strong>Pendent:</strong> llistat de convenis i projectes de col·laboració
           concrets, a incorporar a mesura que es formalitzin durant el primer any de desplegament (Pla anual 2027).

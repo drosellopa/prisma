@@ -1,0 +1,33 @@
+@use "../variables";
+
+// Avís reutilitzable per a contingut pendent (Oferta formativa, Projectes de
+// col·laboració). Neutre a propòsit — no és un error ni un èxit, només
+// indica que falta contingut per rebre.
+.notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 2rem 0 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid variables.$color-border;
+  border-radius: 12px;
+  // Blanc explícit: el component s'usa tant sobre seccions blanques com
+  // sobre seccions amb fons tenyit, i necessita contrast en ambdós casos.
+  background-color: variables.$color-background;
+}
+
+.notice--pending {
+  color: variables.$color-text-muted;
+}
+
+.notice__icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+  color: variables.$color-text-muted;
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}

@@ -1,12 +1,6 @@
 @use "sass:color";
 @use "../variables";
 
-// Breakpoint propi del hero: per sota, la imatge de fons queda massa
-// retallada per conviure amb el contingut, així que es mostra molt atenuada
-// a pantalla completa; per sobre, es retira cap a la dreta i el contingut
-// queda a l'esquerra amb un degradat de transició.
-$hero-image-breakpoint: 768px;
-
 .hero {
   position: relative;
   overflow: hidden;
@@ -22,13 +16,16 @@ $hero-image-breakpoint: 768px;
 .hero__background {
   position: absolute;
   inset: 0;
-  background-image: url("../images/hero_back.jpg");
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
+  // Evita qualsevol color de reserva del navegador (p. ex. un placeholder
+  // groguenc/beix) mentre el vídeo encara no ha pintat cap fotograma.
+  background-color: variables.$color-background;
+  object-fit: cover;
+  object-position: right center;
   opacity: 0.16;
 
-  @media (min-width: $hero-image-breakpoint) {
+  @media (min-width: variables.$breakpoint-hero-image) {
     opacity: 1;
   }
 }
@@ -41,12 +38,14 @@ $hero-image-breakpoint: 768px;
       color.change(variables.$color-background, $alpha: 0.85) 60%,
       color.change(variables.$color-background, $alpha: 0.55) 100%);
 
-  @media (min-width: $hero-image-breakpoint) {
+  // Menys pronunciat que abans: sense zona plana opaca (0.7 ja des del
+  // 0%) i s'esvaeix abans (60% en lloc de 75%), perquè la imatge es vegi
+  // més viva sense perdre legibilitat del text en amplades intermèdies.
+  @media (min-width: variables.$breakpoint-hero-image) {
     background: linear-gradient(90deg,
-        variables.$color-background 0%,
-        variables.$color-background 38%,
-        color.change(variables.$color-background, $alpha: 0.85) 55%,
-        color.change(variables.$color-background, $alpha: 0) 75%);
+        color.change(variables.$color-background, $alpha: 0.7) 0%,
+        color.change(variables.$color-background, $alpha: 0.55) 35%,
+        color.change(variables.$color-background, $alpha: 0) 60%);
   }
 }
 
@@ -57,7 +56,7 @@ $hero-image-breakpoint: 768px;
   margin-inline: auto;
   padding: 4rem 1.25rem;
 
-  @media (min-width: $hero-image-breakpoint) {
+  @media (min-width: variables.$breakpoint-hero-image) {
     padding-block: clamp(4rem, 12vw, 7rem);
     min-height: clamp(420px, 60vh, 640px);
     display: flex;
@@ -69,16 +68,59 @@ $hero-image-breakpoint: 768px;
   max-width: 36rem;
 }
 
+// Únic títol del lloc que conserva el tracking ampli original de marca; la
+// resta de títols fan servir l'espaiat per defecte (vegeu base/_typography).
+// Marge inferior mínim perquè el subtítol quedi enganxat a sota.
 .hero__title {
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.25rem;
+  // "Prism∧" és una sola paraula (amb el glifo inclòs): no ha de partir-se
+  // mai en dues línies.
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: variables.$letter-spacing-heading;
   font-size: clamp(2.25rem, 5vw, 3.5rem);
   line-height: 1.1;
+
+  // El doble de gran en escriptori (abans topava a 3.5rem; ara a 7rem).
+  @media (min-width: variables.$breakpoint-hero-image) {
+    font-size: clamp(4rem, 8vw, 7rem);
+  }
+}
+
+// El glifo "∧" substitueix visualment la "A" (referència al triangle del
+// logotip). El caràcter és més petit que les majúscules del voltant per
+// defecte, així que s'escala per igualar-ne l'alçada visual.
+.hero__title-glyph {
+  display: inline-block;
+  margin-left: -3px;
+  font-size: 1.2em;
+  line-height: 0;
+  vertical-align: 0.03em;
+  // Engruixeix el traç del glifo (no hi ha cap pes de fons més gruixut
+  // carregat només per a un sol caràcter).
+  -webkit-text-stroke: 0.04em currentColor;
+}
+
+.hero__subtitle {
+  margin: 0 0 1.5rem;
+  color: variables.$color-text-muted;
+  font-size: 1.125rem;
+  font-weight: variables.$font-weight-semibold;
+
+  // +0.5rem en escriptori.
+  @media (min-width: variables.$breakpoint-hero-image) {
+    font-size: 1.625rem;
+  }
 }
 
 .hero__tagline {
   margin: 0 0 1.5rem;
   color: variables.$color-primary;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  // Lletra manuscrita elegant, només aquí — necessita una mida més gran
+  // que un pal sec per llegir-se amb la mateixa presència visual.
+  font-family: variables.$font-family-handwriting;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: variables.$font-weight-semibold;
   line-height: 1.2;
 }
 
@@ -87,4 +129,23 @@ $hero-image-breakpoint: 768px;
   color: variables.$color-text-muted;
   font-size: 1rem;
   line-height: 1.6;
+}
+
+// Els dos CTA del hero han de fer el mateix ample (l'ample del text més
+// llarg): un grid d'una columna sola sense estirar-se dona aquest efecte,
+// substituint el flex genèric de .cta-group només per a aquest bloc.
+.hero__cta {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @media (min-width: 480px) {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+
+  .cta-button {
+    justify-content: center;
+  }
 }

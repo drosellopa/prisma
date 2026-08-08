@@ -3,8 +3,11 @@ $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
 
-// Only two weights are self-hosted (see _dependencies.scss): 400 for body
-// copy, 600 for every title.
+// Ús exclusiu de l'eslògan del hero (.hero__tagline).
+$font-family-handwriting: "Dancing Script", cursive;
+
+// Self-hosted weights (see _dependencies.scss): 400 for body copy, 600 for
+// every title.
 $font-weight-regular: 400;
 $font-weight-semibold: 600;
 
@@ -36,6 +39,9 @@ $color-neutral-900: #1a1f28;
 $color-primary: $color-brand-blue;
 $color-primary-hover: $color-brand-royal;
 $color-primary-active: $color-brand-indigo;
+// Segon accent (p. ex. per diferenciar dos blocs bessons com Missió/Visió)
+// — mateixa paleta, no un color nou.
+$color-accent: $color-brand-indigo;
 $color-text-heading: $color-brand-navy;
 $color-text-body: $color-neutral-900;
 $color-text-muted: $color-neutral-500;
@@ -51,3 +57,9 @@ $breakpoint-nav-desktop: 1024px;
 
 $header-height: 72px;
 $nav-drawer-width: 300px;
+
+// Per sota d'aquí, la imatge de fons del hero queda massa retallada i es
+// mostra molt atenuada; la transparència del header (pensada per deixar-la
+// veure) tampoc té sentit i es desactiva. Compartit entre _hero.scss i
+// _header.scss.
+$breakpoint-hero-image: 768px;

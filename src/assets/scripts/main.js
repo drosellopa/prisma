@@ -7,6 +7,7 @@
 // import SomeModule from 'some-node-module';
 
 import initHeaderNav from "./header-nav.js";
+import initHeroVideo from "./hero-video.js";
 
 /**
  * Write any other JavaScript below
@@ -21,3 +22,4 @@ import initHeaderNav from "./header-nav.js";
 })();
 
 initHeaderNav();
+initHeroVideo();

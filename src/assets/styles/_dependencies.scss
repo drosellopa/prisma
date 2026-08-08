@@ -7,11 +7,17 @@
 // @import "@some-company/some-node-module";
 
 /**
- * Montserrat (self-hosted) — regular (400) and semibold (600) weights only,
- * per the project typography rule: body copy is regular, all titles are semibold.
+ * Montserrat (self-hosted) — regular (400) for body copy, semibold (600) for
+ * titles.
  */
 @import "../../../node_modules/@fontsource/montserrat/400.css";
 @import "../../../node_modules/@fontsource/montserrat/600.css";
+
+/**
+ * Dancing Script (self-hosted) — elegant handwriting face used only for the
+ * hero slogan ("Formar per transformar"). Single weight (600).
+ */
+@import "../../../node_modules/@fontsource/dancing-script/600.css";
 
 /**
  * @fortawesome/fontawesome-free is installed but NOT imported here: its CSS
