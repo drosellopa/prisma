@@ -84,28 +84,96 @@
   <main id="main-content">
 
     <!-- 1. Hero / Capçalera -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <video class="hero__background" aria-hidden="true" muted loop playsinline preload="none"
-        poster="./assets/images/hero_back.jpg">
-        <source src="./assets/images/hero_prisma.mp4" type="video/mp4">
-      </video>
+    <section class="hero" id="hero" aria-labelledby="hero-heading" aria-roledescription="carrusel"
+      aria-label="Presentació de Prisma">
+      <div class="hero__stage">
+        <video class="hero__bg hero__bg--0 hero__bg--active" data-slide-bg="0" aria-hidden="true" muted loop
+          playsinline preload="none" poster="./assets/images/hero_back01.webp">
+          <source src="./assets/images/hero_prisma.mp4" type="video/mp4">
+        </video>
+        <img class="hero__bg hero__bg--1" data-slide-bg="1" src="./assets/images/hero_back02.webp" alt=""
+          aria-hidden="true" loading="eager">
+        <img class="hero__bg hero__bg--2" data-slide-bg="2" src="./assets/images/hero_fondo3.webp" alt=""
+          aria-hidden="true" loading="lazy">
+      </div>
       <div class="hero__scrim" aria-hidden="true"></div>
 
       <div class="hero__inner">
         <div class="hero__content">
           <h1 class="hero__title" id="hero-heading">Prism<span class="hero__title-glyph"
               aria-hidden="true">&and;</span><span class="visually-hidden">a</span></h1>
-          <p class="hero__subtitle">Centre de Formació Professional Integrada</p>
-          <h2 class="hero__tagline">Formar per transformar</h2>
-          <p class="hero__lead">Sis centres referents en serveis socioculturals units en <strong>un únic
-              projecte de
-              formació professional integrada</strong>. Orientació, acreditació i inserció laboral per potenciar
-            el talent i
-            transformar el territori.
-          </p>
-          <div class="hero__cta cta-group">
-            <a class="cta-button cta-button--primary" href="#serveis">Els nostres serveis</a>
-            <a class="cta-button cta-button--secondary" href="#centres-membres">Centres membres</a>
+
+          <div class="hero__slides">
+            <div class="hero__slide-copy hero__slide-copy--active" data-slide="0">
+              <p class="hero__subtitle">Centre de Formació Professional Integrada</p>
+              <h2 class="hero__tagline">Formar per transformar</h2>
+              <p class="hero__lead">Sis centres referents en serveis socioculturals units en <strong>un únic
+                  projecte de
+                  formació professional integrada</strong>. Orientació, acreditació i inserció laboral per
+                potenciar el talent i
+                transformar el territori.
+              </p>
+              <div class="hero__cta cta-group">
+                <a class="cta-button cta-button--primary" href="#serveis">Els nostres serveis</a>
+                <a class="cta-button cta-button--secondary" href="#centres-membres">Centres membres</a>
+              </div>
+            </div>
+
+            <div class="hero__slide-copy" data-slide="1" hidden>
+              <p class="hero__subtitle">Orientació, formació i acreditació per avançar en el teu projecte
+                professional.</p>
+              <h2 class="hero__tagline">Un itinerari. Noves oportunitats.</h2>
+              <p class="hero__lead">T'acompanyem en cada etapa: identifica les teves competències, defineix el teu
+                itinerari, forma't i transforma el teu talent en noves oportunitats professionals.</p>
+              <div class="hero__cta cta-group">
+                <a class="cta-button cta-button--primary" href="#serveis">Descobreix els nostres serveis</a>
+              </div>
+            </div>
+
+            <div class="hero__slide-copy" data-slide="2" hidden>
+              <p class="hero__subtitle">Persones, empreses i territori avançant en la mateixa direcció.</p>
+              <h2 class="hero__tagline">Formació que connecta amb el món professional</h2>
+              <p class="hero__lead">Treballem amb empreses i agents del territori per detectar necessitats,
+                desenvolupar competències i facilitar la connexió entre formació i ocupació.</p>
+              <div class="hero__cta cta-group">
+                <a class="cta-button cta-button--primary" href="#centres-membres">Coneix la nostra xarxa</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__controls">
+            <button type="button" class="hero__arrow hero__arrow--prev" data-hero-prev aria-label="Diapositiva anterior">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" d="M15 18l-6-6 6-6"></path>
+              </svg>
+            </button>
+
+            <div class="hero__status">
+              <p class="hero__counter" aria-hidden="true">
+                <span data-hero-current>01</span> / <span data-hero-total>03</span>
+              </p>
+              <div class="hero__progress" aria-hidden="true">
+                <span class="hero__progress-bar" data-hero-progress></span>
+              </div>
+              <p class="visually-hidden" role="status" aria-live="polite" data-hero-announce></p>
+            </div>
+
+            <button type="button" class="hero__arrow hero__arrow--next" data-hero-next aria-label="Diapositiva següent">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" d="M9 6l6 6-6 6"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="hero__dots" role="tablist" aria-label="Seleccionar diapositiva">
+            <button type="button" class="hero__dot hero__dot--active" role="tab" aria-selected="true"
+              aria-label="Diapositiva 1: El projecte" data-hero-dot="0"></button>
+            <button type="button" class="hero__dot" role="tab" aria-selected="false"
+              aria-label="Diapositiva 2: La persona" data-hero-dot="1"></button>
+            <button type="button" class="hero__dot" role="tab" aria-selected="false"
+              aria-label="Diapositiva 3: El territori i les empreses" data-hero-dot="2"></button>
           </div>
         </div>
       </div>
@@ -114,34 +182,36 @@
     <!-- 2. Qui som — Informació bàsica del CFPI -->
     <section class="qui-som" id="qui-som" aria-labelledby="qui-som-heading">
       <div class="qui-som__inner">
-        <h2 class="qui-som__title section-title" id="qui-som-heading">Qui som</h2>
+        <div class="qui-som__intro-wrap">
+          <h2 class="qui-som__title section-title" id="qui-som-heading">Qui som</h2>
 
-        <div class="qui-som__intro">
-          <div class="qui-som__intro-text">
-            <div class="qui-som__heading-row">
-              <span class="icon-badge icon-badge--primary" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
-              </span>
-              <h3 class="qui-som__heading qui-som__heading--primary">Presentació</h3>
+          <div class="qui-som__intro">
+            <div class="qui-som__intro-text">
+              <div class="qui-som__heading-row">
+                <span class="icon-badge icon-badge--primary" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </span>
+                <h3 class="qui-som__heading qui-som__heading--primary">Presentació</h3>
+              </div>
+              <p>El Centre de Formació Professional Integrada Prisma neix de la voluntat compartida de <strong>FP
+                  Núria, Qualitat i Formació, STAF, PHRO Training, CMAP i SC2</strong> de construir un projecte comú
+                que permeti donar una resposta més integrada, especialitzada i eficient a les necessitats de
+                qualificació professional de les persones, les empreses i el territori.</p>
+              <hr class="qui-som__divider">
+              <p>El CFPI Prisma no representa únicament una agrupació de centres de formació, sinó la construcció
+                d'un projecte institucional compartit orientat a esdevenir un referent del Sistema FPCAT en l'àmbit
+                dels serveis socioculturals i a la comunitat.</p>
             </div>
-            <p>El Centre de Formació Professional Integrada Prisma neix de la voluntat compartida de <strong>FP
-                Núria, Qualitat i Formació, STAF, PHRO Training, CMAP i SC2</strong> de construir un projecte comú
-              que permeti donar una resposta més integrada, especialitzada i eficient a les necessitats de
-              qualificació professional de les persones, les empreses i el territori.</p>
-            <hr class="qui-som__divider">
-            <p>El CFPI Prisma no representa únicament una agrupació de centres de formació, sinó la construcció d'un
-              projecte institucional compartit orientat a esdevenir un referent del Sistema FPCAT en l'àmbit dels
-              serveis socioculturals i a la comunitat.</p>
+            <img class="qui-som__intro-image" src="./assets/images/socio03.webp"
+              alt="Equip de professionals en una sessió de formació sobre atenció sociosanitària" width="800"
+              height="533" loading="lazy">
           </div>
-          <img class="qui-som__intro-image" src="./assets/images/socio03.webp"
-            alt="Equip de professionals en una sessió de formació sobre atenció sociosanitària" width="800" height="533"
-            loading="lazy">
         </div>
 
         <div class="qui-som__pillars-band">
@@ -274,8 +344,7 @@
                 <span class="icon-badge icon-badge--primary" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                     stroke-linejoin="round">
-                    <path
-                      d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z">
                     </path>
                     <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
                   </svg>

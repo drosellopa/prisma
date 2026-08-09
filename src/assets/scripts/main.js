@@ -8,6 +8,8 @@
 
 import initHeaderNav from "./header-nav.js";
 import initHeroVideo from "./hero-video.js";
+import initHeroSlider from "./hero-slider.js";
+import initPillarsReveal from "./pillars-reveal.js";
 
 /**
  * Write any other JavaScript below
@@ -23,3 +25,5 @@ import initHeroVideo from "./hero-video.js";
 
 initHeaderNav();
 initHeroVideo();
+initHeroSlider();
+initPillarsReveal();

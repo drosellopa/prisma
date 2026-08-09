@@ -1,6 +1,14 @@
 @use "sass:color";
 @use "../variables";
 
+// ---------------------------------------------------------------------------
+// Configuració del slider — manté-la en sincronia amb les constants de
+// src/assets/scripts/hero-slider.js (BG_DURATION_MS, CONTENT_STAGGER_MS).
+// ---------------------------------------------------------------------------
+$hero-bg-duration: 1.05s;
+$hero-content-duration: 0.5s;
+$hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
 .hero {
   position: relative;
   overflow: hidden;
@@ -13,20 +21,61 @@
   padding-top: variables.$header-height;
 }
 
-.hero__background {
+// ---------------------------------------------------------------------------
+// Escenari de fons — 3 capes apilades (vídeo del slide 1 + 2 imatges) que es
+// creuen amb una transició d'opacitat + zoom + retall geomètric (inspirat
+// subtilment en les facetes triangulars del logotip). Només una capa té
+// --active en cada moment; la resta esperen invisibles.
+// ---------------------------------------------------------------------------
+.hero__stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero__bg {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   // Evita qualsevol color de reserva del navegador (p. ex. un placeholder
-  // groguenc/beix) mentre el vídeo encara no ha pintat cap fotograma.
+  // groguenc/beix) mentre el vídeo o la imatge encara no han pintat.
   background-color: variables.$color-background;
   object-fit: cover;
   object-position: right center;
+  opacity: 0;
+  transform: scale(1.08) translateY(10px);
+  // Petita facet a la cantonada superior dreta, referència subtil al
+  // triangle del logotip: es "desplega" cap al rectangle complet en activar.
+  clip-path: polygon(0% 0%, 82% 0%, 100% 22%, 100% 100%, 0% 100%);
+  transition:
+    opacity $hero-bg-duration $hero-ease,
+    transform $hero-bg-duration $hero-ease,
+    clip-path $hero-bg-duration $hero-ease;
+  pointer-events: none;
+}
+
+.hero__bg--active {
+  z-index: 1;
   opacity: 0.16;
+  transform: scale(1) translateY(0);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
 
   @media (min-width: variables.$breakpoint-hero-image) {
     opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__bg {
+    transform: none;
+    clip-path: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .hero__bg--active {
+    transform: none;
+    clip-path: none;
   }
 }
 
@@ -39,13 +88,23 @@
       color.change(variables.$color-background, $alpha: 0.55) 100%);
 
   // Blanc sòlid just sota el text (0%) perquè no es vegi cap tint blavós
-  // del vídeo; s'esvaeix ràpid després perquè la imatge es vegi amb força
-  // a la meitat dreta.
+  // de la imatge de fons; s'esvaeix ràpid després perquè la imatge es vegi
+  // amb força a la meitat dreta.
   @media (min-width: variables.$breakpoint-hero-image) {
     background: linear-gradient(90deg,
         variables.$color-background 0%,
         color.change(variables.$color-background, $alpha: 0.55) 35%,
         color.change(variables.$color-background, $alpha: 0) 60%);
+  }
+
+  // Tablet: menys amplada disponible que en escriptori gran però la imatge
+  // ja és a opacitat plena; s'allarga una mica la zona sòlida perquè el
+  // text segueixi llegint-se bé.
+  @media (min-width: variables.$breakpoint-hero-image) and (max-width: #{variables.$breakpoint-nav-desktop - 1px}) {
+    background: linear-gradient(90deg,
+        variables.$color-background 0%,
+        color.change(variables.$color-background, $alpha: 0.65) 48%,
+        color.change(variables.$color-background, $alpha: 0.1) 78%);
   }
 }
 
@@ -70,7 +129,9 @@
 
 // Únic títol del lloc que conserva el tracking ampli original de marca; la
 // resta de títols fan servir l'espaiat per defecte (vegeu base/_typography).
-// Marge inferior mínim perquè el subtítol quedi enganxat a sota.
+// Marge inferior mínim perquè el bloc de slide quedi enganxat a sota.
+// Element fix: el wordmark "Prisma" no forma part del contingut que roda
+// entre diapositives, és la capçalera de marca de tota la Hero.
 .hero__title {
   margin: 0 0 0.25rem;
   // "Prism∧" és una sola paraula (amb el glifo inclòs): no ha de partir-se
@@ -147,5 +208,225 @@
 
   .cta-button {
     justify-content: center;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Diapositives de contingut — només una és visible ([hidden] la treu
+// completament del flux), així que mai hi ha salt d'alçada entre elles. En
+// activar-se, cada fill apareix amb una petita cascada opacity + translateY.
+// Sense JS, el slide 1 ja porta --active al HTML: es veu complet i estàtic,
+// exactament com abans del slider.
+// ---------------------------------------------------------------------------
+.hero__slide-copy {
+
+  .hero__subtitle,
+  .hero__tagline,
+  .hero__lead,
+  .hero__cta {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity $hero-content-duration $hero-ease,
+      transform $hero-content-duration $hero-ease;
+  }
+
+  // Ordre d'aparició: títol (eslògan), subtítol, text, CTA.
+  .hero__tagline {
+    transition-delay: 0.05s;
+  }
+
+  .hero__subtitle {
+    transition-delay: 0.12s;
+  }
+
+  .hero__lead {
+    transition-delay: 0.2s;
+  }
+
+  .hero__cta {
+    transition-delay: 0.28s;
+  }
+}
+
+.hero__slide-copy--active {
+
+  .hero__subtitle,
+  .hero__tagline,
+  .hero__lead,
+  .hero__cta {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__slide-copy {
+
+    .hero__subtitle,
+    .hero__tagline,
+    .hero__lead,
+    .hero__cta {
+      transform: none;
+      transition: opacity 0.3s ease;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Controls — fletxes, comptador i barra de progrés. Discrets i integrats a
+// la columna de contingut (no floten per sobre de tota la Hero com un
+// plugin de carrusel genèric).
+// ---------------------------------------------------------------------------
+.hero__controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero__arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid color.change(variables.$color-text-heading, $alpha: 0.18);
+  border-radius: 50%;
+  background-color: color.change(variables.$color-background, $alpha: 0.7);
+  color: variables.$color-text-heading;
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &:hover {
+    border-color: variables.$color-primary;
+    background-color: variables.$color-background;
+    color: variables.$color-primary;
+  }
+
+  &:focus-visible {
+    outline: 2px solid variables.$color-primary;
+    outline-offset: 2px;
+  }
+}
+
+.hero__status {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-width: 4.5rem;
+}
+
+.hero__counter {
+  margin: 0;
+  color: variables.$color-text-muted;
+  font-variant-numeric: tabular-nums;
+  font-weight: variables.$font-weight-semibold;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+}
+
+.hero__progress {
+  width: 4.5rem;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 999px;
+  background-color: color.change(variables.$color-text-heading, $alpha: 0.12);
+}
+
+.hero__progress-bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left center;
+  background-color: variables.$color-primary;
+
+  &.is-running {
+    animation-name: hero-progress;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+.hero.is-paused .hero__progress-bar.is-running {
+  animation-play-state: paused;
+}
+
+@keyframes hero-progress {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__progress {
+    display: none;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Indicador de posició — punts petits, coherents amb el llenguatge visual
+// (rodons, color primari), mai l'aspecte d'un plugin de tercers.
+// ---------------------------------------------------------------------------
+.hero__dots {
+  display: flex;
+  gap: 0.625rem;
+  margin-top: 1.25rem;
+}
+
+.hero__dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: color.change(variables.$color-text-heading, $alpha: 0.22);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: color.change(variables.$color-primary, $alpha: 0.6);
+  }
+
+  &:focus-visible {
+    outline: 2px solid variables.$color-primary;
+    outline-offset: 3px;
+  }
+}
+
+.hero__dot--active {
+  background-color: variables.$color-primary;
+  transform: scale(1.2);
+}
+
+// ---------------------------------------------------------------------------
+// Mòbil — el text és protagonista i la imatge de fons és molt subtil
+// (opacitat mínima definida a .hero__bg--active), així que els controls no
+// necessiten cap ajust extra de contrast: ja hi ha prou blanc darrere.
+// Es redueix lleugerament l'escenografia perquè no distregui.
+// ---------------------------------------------------------------------------
+@media (max-width: #{variables.$breakpoint-hero-image - 1px}) {
+  .hero__controls {
+    margin-top: 1.5rem;
+  }
+
+  .hero__arrow {
+    width: 40px;
+    height: 40px;
   }
 }
