@@ -15,7 +15,7 @@ export function shouldPlayHeroVideo() {
 }
 
 export default function initHeroVideo() {
-  const video = document.querySelector(".hero__bg--0");
+  const video = document.querySelector(".hero__bg-video");
 
   if (!video) {
     return;

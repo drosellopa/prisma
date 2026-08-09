@@ -3,10 +3,6 @@
 
 // Fixe (no sticky) i fora del flux: així la secció hero pot pujar per sota
 // seu. La resta de seccions recuperen l'espai amb el padding-top del body.
-//
-// Fons sempre blanc opac (abans tenia una franja transparent a la dreta
-// perquè es veiés el vídeo del hero al darrere, però la barreja de color
-// resultant no es llegia bé; es manté sòlid a totes les amplades).
 .site-header {
   position: fixed;
   top: 0;
@@ -16,6 +12,19 @@
   height: variables.$header-height;
   background-color: variables.$color-neutral-white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+
+  // Escriptori: la meitat dreta (on hi ha el menú, sobre la imatge del
+  // hero) es torna una mica translúcida; l'esquerra (logotip) es manté
+  // sòlida. El backdrop-filter difumina el que es veu a través perquè els
+  // enllaços del menú segueixin llegint-se bé.
+  @media (min-width: variables.$breakpoint-nav-desktop) {
+    background: linear-gradient(90deg,
+        variables.$color-neutral-white 0%,
+        variables.$color-neutral-white 50%,
+        color.change(variables.$color-neutral-white, $alpha: 0.75) 100%);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
 }
 
 .site-header__inner {

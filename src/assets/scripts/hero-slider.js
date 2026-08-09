@@ -8,8 +8,8 @@ const SLIDE_COUNT = 3;
 // Ha de coincidir amb $hero-bg-duration a _hero.scss (temps que triga
 // l'escenari de fons a creuar-se): el contingut de text no comença a
 // canviar fins que el fons ja ha arrencat la transició.
-const BG_DURATION_MS = 1050;
-const CONTENT_DELAY_MS = 200;
+const BG_DURATION_MS = 1500;
+const CONTENT_DELAY_MS = 280;
 
 const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
 
@@ -25,10 +25,9 @@ export default function initHeroSlider() {
   const prevButton = hero.querySelector("[data-hero-prev]");
   const nextButton = hero.querySelector("[data-hero-next]");
   const dots = hero.querySelectorAll("[data-hero-dot]");
-  const counterCurrent = hero.querySelector("[data-hero-current]");
   const progressBar = hero.querySelector("[data-hero-progress]");
   const announce = hero.querySelector("[data-hero-announce]");
-  const video = hero.querySelector(".hero__bg--0");
+  const video = hero.querySelector(".hero__bg-video");
 
   if (!bgLayers.length || slideCopies.length < SLIDE_COUNT) {
     return;
@@ -45,10 +44,6 @@ export default function initHeroSlider() {
   const copyFor = (index) => hero.querySelector(`.hero__slide-copy[data-slide="${index}"]`);
 
   function updateIndicators(index) {
-    if (counterCurrent) {
-      counterCurrent.textContent = String(index + 1).padStart(2, "0");
-    }
-
     dots.forEach((dot, dotIndex) => {
       const isActive = dotIndex === index;
       dot.classList.toggle("hero__dot--active", isActive);
@@ -101,22 +96,24 @@ export default function initHeroSlider() {
     current = index;
     isTransitioning = true;
 
-    bgFor(previous)?.classList.remove("hero__bg--active");
-    bgFor(index)?.classList.add("hero__bg--active");
+    bgFor(previous)?.classList.remove("hero__bg-group--active");
+    bgFor(index)?.classList.add("hero__bg-group--active");
     syncVideo(index, previous);
     updateIndicators(index);
+    // Únic cicle temporal: cada canvi de diapositiva (automàtic o manual)
+    // reinicia la barra de progrés, mai al revés.
+    restartProgress();
 
     const revealContent = () => {
       const previousCopy = copyFor(previous);
       const nextCopy = copyFor(index);
 
       if (previousCopy) {
-        previousCopy.classList.remove("hero__slide-copy--active");
-        previousCopy.hidden = true;
+        previousCopy.classList.remove("hero__slide-copy--current", "hero__slide-copy--active");
       }
 
       if (nextCopy) {
-        nextCopy.hidden = false;
+        nextCopy.classList.add("hero__slide-copy--current");
         // Reflow abans d'afegir --active perquè la transició opacity/
         // translateY dels fills arrenqui des de l'estat inicial en comptes
         // de saltar directament al final.
@@ -161,25 +158,26 @@ export default function initHeroSlider() {
     timerId = window.setInterval(next, SLIDE_DURATION);
   }
 
-  function restart() {
+  // Reinicia només el temporitzador de l'autoplay (la barra ja es reinicia
+  // dins goToSlide, per a qualsevol canvi, manual o automàtic).
+  function restartTimer() {
     stopTimer();
     startTimer();
-    restartProgress();
   }
 
   function manualGoTo(index) {
     goToSlide(index);
-    restart();
+    restartTimer();
   }
 
   prevButton?.addEventListener("click", () => {
     prev();
-    restart();
+    restartTimer();
   });
 
   nextButton?.addEventListener("click", () => {
     next();
-    restart();
+    restartTimer();
   });
 
   dots.forEach((dot, index) => {
