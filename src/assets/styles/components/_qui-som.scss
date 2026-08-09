@@ -47,9 +47,11 @@
 }
 
 .qui-som__divider {
+  width: 48px;
+  height: 3px;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid variables.$color-border;
+  background-color: variables.$color-primary;
 }
 
 // ---------------------------------------------------------------------------
@@ -90,24 +92,60 @@
 .qui-som__intro-image {
   width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px color.change(variables.$color-text-heading, $alpha: 0.12);
   object-fit: cover;
 
   @media (min-width: 640px) {
     flex: 1 1 50%;
     max-width: 460px;
   }
+
+  // Més gran en escriptori.
+  @media (min-width: variables.$breakpoint-hero-image) {
+    max-width: 560px;
+  }
 }
 
 // ---------------------------------------------------------------------------
-// Missió / Visió — parella de targetes.
+// Missió / Visió — banda de color a amplada completa (trenca el contenidor,
+// mateix truc que .qui-som__territory), amb targetes blanques flotant-hi a
+// sobre.
 // ---------------------------------------------------------------------------
+.qui-som__pillars-band {
+  position: relative;
+  left: 50%;
+  overflow: hidden;
+  width: 100vw;
+  margin-top: 3rem;
+  margin-left: -50vw;
+  padding: 3rem 1.25rem;
+  background: linear-gradient(135deg, variables.$color-primary, variables.$color-accent);
+
+  @media (min-width: variables.$breakpoint-hero-image) {
+    padding-block: 4rem;
+  }
+
+  // Patró de punts decoratiu a la cantonada inferior dreta.
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 160px;
+    height: 160px;
+    background-image: radial-gradient(circle, color.change(variables.$color-background, $alpha: 0.35) 1.5px, transparent 1.5px);
+    background-size: 16px 16px;
+    pointer-events: none;
+  }
+}
+
 .qui-som__pillars {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  margin: 3rem 0;
+  max-width: 1280px;
+  margin-inline: auto;
 
   @media (min-width: 640px) {
     grid-template-columns: repeat(2, 1fr);
@@ -116,14 +154,26 @@
 
 .qui-som__pillar {
   padding: 2rem;
-  border-top: 4px solid variables.$color-primary;
-  border-radius: 12px;
+  border-radius: 16px;
   background-color: variables.$color-background;
-  box-shadow: 0 1px 3px color.change(variables.$color-text-heading, $alpha: 0.08);
+  box-shadow: 0 12px 28px color.change(variables.$color-text-heading, $alpha: 0.18);
+
+  // Icones amb farciment degradat i blanc, en comptes del to suau habitual.
+  .icon-badge {
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(135deg, variables.$color-primary, variables.$color-primary-hover);
+    color: variables.$color-background;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
 }
 
-.qui-som__pillar--accent {
-  border-top-color: variables.$color-accent;
+.qui-som__pillar--accent .icon-badge {
+  background: linear-gradient(135deg, variables.$color-accent, variables.$color-brand-navy);
 }
 
 .qui-som__pillar p {
@@ -156,29 +206,11 @@
 }
 
 .principles-list__item {
-  position: relative;
   counter-increment: principle;
-  padding: 1.5rem 1.5rem 1.25rem 3.75rem;
+  padding: 1.5rem;
   border-radius: 12px;
   background-color: variables.$color-background;
   box-shadow: 0 1px 3px color.change(variables.$color-text-heading, $alpha: 0.08);
-
-  &::before {
-    content: counter(principle, decimal-leading-zero);
-    position: absolute;
-    top: 1.375rem;
-    left: 1.25rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: color.change(variables.$color-primary, $alpha: 0.1);
-    color: variables.$color-primary;
-    font-size: 0.8rem;
-    font-weight: variables.$font-weight-semibold;
-  }
 
   dt {
     margin: 0 0 0.375rem;
@@ -191,6 +223,22 @@
     color: variables.$color-text-muted;
     font-size: 0.9375rem;
     line-height: 1.5;
+  }
+}
+
+// Icona + número "01".."07" (generat automàticament, no és text escrit) en
+// una mateixa fila.
+.principles-list__item-top {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 0.75rem;
+
+  &::after {
+    content: counter(principle, decimal-leading-zero);
+    color: variables.$color-primary;
+    font-weight: variables.$font-weight-semibold;
+    font-size: 0.9375rem;
   }
 }
 
