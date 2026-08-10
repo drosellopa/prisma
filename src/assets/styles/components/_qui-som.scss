@@ -123,7 +123,10 @@
   margin-top: 3rem;
   margin-left: -50vw;
   padding: 3rem 1.25rem;
-  background: linear-gradient(135deg, variables.$color-primary, variables.$color-accent);
+  background-image: url("../images/mision_back.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   @media (min-width: variables.$breakpoint-hero-image) {
     padding-block: 4rem;
@@ -181,11 +184,14 @@
 // dreta. Només actiu si el JS ha afegit .js-animate (si JS no carrega, les
 // targetes es veuen normals des del principi) i respecta
 // prefers-reduced-motion (vegeu pillars-reveal.js).
+//
+// Nota: només es transiciona el transform, mai l'opacity de la targeta
+// sencera. Si s'anima l'opacity, mentre dura la transició la targeta
+// (blanca) es torna translúcida i deixa veure el blau del darrere —
+// justament l'aspecte "esvaït" que no volem; així la targeta és sempre
+// blanca sòlida amb l'ombra ben definida, només canvia de posició.
 .qui-som__pillars.js-animate .qui-som__pillar {
-  opacity: 0;
-  transition:
-    opacity 1.4s ease,
-    transform 1.4s ease;
+  transition: transform 1.4s ease;
 }
 
 .qui-som__pillars.js-animate .qui-som__pillar--primary {
@@ -197,7 +203,6 @@
 }
 
 .qui-som__pillars.js-animate .qui-som__pillar.is-visible {
-  opacity: 1;
   transform: translateX(0);
 }
 
@@ -293,14 +298,18 @@
 .qui-som__territory-inner {
   max-width: 1280px;
   margin-inline: auto;
-  padding: 3.5rem 1.25rem;
+  // +20px (3.5rem → 4.75rem) respecte al valor original.
+  padding: 4.75rem 1.25rem;
 
   @media (min-width: variables.$breakpoint-hero-image) {
-    padding-block: 5.5rem;
+    // +20px (5.5rem → 6.75rem) respecte al valor original.
+    padding-block: 6.75rem;
   }
 
   h3 {
+    // El doble de la mida per defecte del navegador (1.17rem → 2.34rem).
     color: variables.$color-background;
+    font-size: 2.34rem;
   }
 
   p {

@@ -1,67 +1,68 @@
-# UOC Boilerplate
+# CFPI Prisma — Web institucional
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
+Landing page institucional del **CFPI Prisma** (Centre de Formació Professional Integrada), una agrupació de sis centres de formació professional —FP Núria, Qualitat i Formació, STAF, PHRO Training, CMAP i SC2— especialitzada en la família professional de **Serveis Socioculturals i a la Comunitat**. El lloc presenta el projecte, els centres membres, l'oferta formativa, els serveis d'orientació i acreditació, i les vies de contacte.
 
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
+Desenvolupat per **[STAF](https://www.stafbarcelona.com)**.
 
-## Requirements
+## Stack tècnic
 
-[Node.js](http://nodejs.org/) >= 18.x
+- **[Parcel 2](https://parceljs.org)** com a bundler (zero-config, sense fitxer `.parcelrc` propi).
+- **Sass/SCSS**, compilat amb `@parcel/transformer-sass`, organitzat en `base/`, `components/` i `layouts/`, amb convenció de nomenclatura BEM.
+- **JavaScript** modern (mòduls ES natius, sense frameworks), transpilat amb Babel i minificat amb SWC per donar suport als navegadors definits a `targets.web.engines.browsers` (`package.json`).
+- **[PostHTML](https://github.com/posthtml/posthtml)** amb `posthtml-include` per reutilitzar parcials d'HTML (p. ex. `src/views/footer.html`).
+- **Fonts self-hosted** via [Fontsource](https://fontsource.org) (Montserrat i Dancing Script), importades a `_dependencies.scss` — sense dependre de Google Fonts en temps d'execució.
+- **Imatges** optimitzades amb `sharp` (`@parcel/transformer-image`) i minificació/optimizació de CSS, JS i HTML en el build de producció (`lightningcss`, SWC, `htmlnano`).
+- **Schema.org (JSON-LD)** i metadades Open Graph / Twitter Cards al `<head>` per a SEO.
 
-## Getting started
+> `@fortawesome/fontawesome-free` està instal·lat com a dependència però **no s'importa**: les icones del lloc són SVG inline per evitar carregar ~174 kB que no s'utilitzen. Vegeu el comentari a `_dependencies.scss` abans d'afegir-lo.
 
-Clone this repository with `git clone`, or download a .zip file using the top right green button.
+## Requisits
 
-Using the Terminal, navigate to the project folder and run `npm install`.
+[Node.js](https://nodejs.org/) >= 18.x
 
-## Features
+## Posada en marxa
 
-- Uses [Parcel v2](https://parceljs.org) module bundler.
-- NPM scripts for fast development and production build (see Commands below).
+```bash
+npm install
+npm run dev
+```
 
-### Stylesheets
+`npm run dev` aixeca un servidor local amb recàrrega en calent i recompila estils/scripts en detectar canvis dins `src/`.
 
-- [Sass/SCSS](https://sass-lang.com) to CSS compilation (`@parcel/transformer-sass`).
-- Transpilation of modern CSS synthax to support older bvrowsers, based on `browserslist`, including vendor prefixing and synthax lowering, with [PostCSS](https://postcss.org/) (`@parcel/transformer-postcss`).
-- Minification and optimization of CSS files on production builds with [`lightningcss`](https://github.com/parcel-bundler/lightningcss) (`@parcel/optimizer-css`).
+## Estructura del projecte
 
-### HTML
+```
+src/
+├── index.html              # Pàgina única
+├── views/
+│   └── footer.html         # Parcial inclòs via posthtml-include
+└── assets/
+    ├── images/
+    ├── scripts/             # main.js orquestra la resta de mòduls
+    ├── fonts/
+    └── styles/
+        ├── main.scss        # Únic punt d'entrada — importa la resta
+        ├── _variables.scss  # Tokens de color, tipografia, breakpoints
+        ├── _dependencies.scss
+        ├── base/            # Reset, tipografia global, utilitats
+        ├── layouts/         # Composició de seccions per pàgina
+        └── components/      # Un fitxer SCSS per component (BEM)
+```
 
-- Minification and optimization of CSS files on production builds [`htmlnano`](https://github.com/posthtml/htmlnano) (`@parcel/optimizer-htmlnano`).
-- [PostHTML](https://github.com/posthtml/posthtml) (`@parcel/transformer-posthtml`) features:
-  - Include partial HTML files with [`posthtml-include`](https://github.com/posthtml/posthtml-include).
+Tot el contingut editable viu dins `src/`. El build de producció genera `dist/`, que **no s'ha d'editar a mà** ni pujar al control de versions.
 
-### Scripts
+## Ordres disponibles
 
-- Transpilation of modern JavaScript synthax to support older browsers, based on `browserslist`, with with [Babel](https://babeljs.io/) (`@parcel/transformer-babel`).
-- Minification and optimization of JS code with [SWC](https://swc.rs/) (`@parcel/optimizer-swc`).
+| Ordre           | Descripció                                                                                   |
+| --------------- | --------------------------------------------------------------------------------------------- |
+| `npm run dev`   | Servidor de desenvolupament amb recàrrega en calent. Ús obligatori mentre es desenvolupa.      |
+| `npm run build` | Compila, minifica i optimitza el projecte a `dist/`. Pas obligatori abans de publicar.         |
+| `npm run clean` | Elimina `dist/` i les carpetes de cau (`.cache`, `.parcel-cache`).                              |
+| `npm run test`  | Comprovació ràpida que l'entorn respon correctament.                                            |
 
-### Images
+## Convencions del projecte
 
-- Image transformation with [`sharp`](https://sharp.pixelplumbing.com/) ([`@parcel/transformer-image`](https://parceljs.org/recipes/image/)).
-
-### Development
-
-- Development server launch and live reloading on file changes.
-- Friendly error reporting.
-
-## How to use this boilerplate
-
-Content lives inside the `src/` folder. If you do not want to change the configuration or are unsure about what you are doing, do not edit files outside the `src/` folder.
-
-Always run the following commands during the development stage and for production builds. Please note that it is expected that all projects built with this boilerplate are compiled using `npm run build` before they are published.
-
-### Commands
-
-| Command         | Description                                                                                                                                                                                                                                                                                                                                                         |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run dev`   | Runs a local web server for development and opens the browser to display it. Automatically compiles styles and scripts whenever a file in `src/` is changed, and live reloads the browser. This is what _must be run_ on the development stage.                                                                                                                     |
-| `npm run build` | Compiles and minifies and optimizes the files in the assets folder. The generated compiled and optimized files are located in the `dist/` folder. This is what _must be run_ before publishing the project. This is also the build command to be run by external deployment services such as Netlify. The publishable files are then located in the `dist/` folder. |
-| `npm run clean` | Deletes the current `/dist` folder and cache folders.                                                                                                                                                                                                                                                                                                               |
-| `npm run test`  | Displays a success message if everything is working as expected.                                                                                                                                                                                                                                                                                                    |
-
-## Need help? / Want to help out?
-
-Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
-
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
+- **Accessibilitat**: es respecta `prefers-reduced-motion` a totes les animacions (hero, revelats en scroll, scroll suau), es fa servir HTML semàntic abans que ARIA, i els components interactius (menú, slider) són navegables per teclat.
+- **Responsive**: mobile-first, amb breakpoints centralitzats a `_variables.scss`.
+- **Rendiment**: imatges en WebP, fonts self-hosted amb `font-display: swap`, i JS/CSS només per als navegadors reals del target (`browserslist`).
+- No es modifiquen fitxers fora de `src/` tret que calgui tocar la configuració del bundler.
