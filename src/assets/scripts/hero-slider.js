@@ -1,5 +1,3 @@
-import { shouldPlayHeroVideo } from "./hero-video.js";
-
 // Única font de veritat per a la cadència de l'autoplay — vegeu la
 // instrucció explícita de mantenir-ho en una sola constant fàcil de tocar.
 const SLIDE_DURATION = 10000;
@@ -27,7 +25,6 @@ export default function initHeroSlider() {
   const dots = hero.querySelectorAll("[data-hero-dot]");
   const progressBar = hero.querySelector("[data-hero-progress]");
   const announce = hero.querySelector("[data-hero-announce]");
-  const video = hero.querySelector(".hero__bg-video");
 
   if (!bgLayers.length || slideCopies.length < SLIDE_COUNT) {
     return;
@@ -71,34 +68,27 @@ export default function initHeroSlider() {
     progressBar.classList.add("is-running");
   }
 
-  function syncVideo(targetIndex, previousIndex) {
-    if (!video) {
-      return;
-    }
-
-    if (targetIndex === 0) {
-      video.currentTime = 0;
-
-      if (shouldPlayHeroVideo()) {
-        video.play().catch(() => {});
-      }
-    } else if (previousIndex === 0) {
-      video.pause();
-    }
-  }
-
   function goToSlide(index) {
     if (index === current || isTransitioning) {
       return;
     }
 
     const previous = current;
+    // Sentit del parallax: amb 3 diapositives, la distància circular +1
+    // sempre és "endavant" i l'altra sempre és "enrere" (vegeu .hero--dir-*
+    // a _hero.scss, que decideixen cap a quin costat es desplacen fons i
+    // contingut).
+    const forward = (index - current + SLIDE_COUNT) % SLIDE_COUNT === 1;
+    hero.classList.toggle("hero--dir-forward", forward);
+    hero.classList.toggle("hero--dir-backward", !forward);
+
     current = index;
     isTransitioning = true;
 
-    bgFor(previous)?.classList.remove("hero__bg-group--active");
+    const previousBg = bgFor(previous);
+    previousBg?.classList.remove("hero__bg-group--active");
+    previousBg?.classList.add("hero__bg-group--exit");
     bgFor(index)?.classList.add("hero__bg-group--active");
-    syncVideo(index, previous);
     updateIndicators(index);
     // Únic cicle temporal: cada canvi de diapositiva (automàtic o manual)
     // reinicia la barra de progrés, mai al revés.
@@ -110,13 +100,15 @@ export default function initHeroSlider() {
 
       if (previousCopy) {
         previousCopy.classList.remove("hero__slide-copy--current", "hero__slide-copy--active");
+        previousCopy.classList.add("hero__slide-copy--exit");
       }
 
       if (nextCopy) {
+        nextCopy.classList.remove("hero__slide-copy--exit");
         nextCopy.classList.add("hero__slide-copy--current");
         // Reflow abans d'afegir --active perquè la transició opacity/
-        // translateY dels fills arrenqui des de l'estat inicial en comptes
-        // de saltar directament al final.
+        // translateX(/Y) arrenqui des de l'estat inicial en comptes de
+        // saltar directament al final.
         // eslint-disable-next-line no-unused-expressions
         nextCopy.offsetWidth;
         requestAnimationFrame(() => nextCopy.classList.add("hero__slide-copy--active"));
@@ -131,6 +123,12 @@ export default function initHeroSlider() {
 
     window.setTimeout(() => {
       isTransitioning = false;
+      // Un cop acabat el desplaçament de sortida, treu --exit: torna la
+      // capa al repòs invisible (visibility: hidden) en comptes de deixar-
+      // la "visible" (encara que transparent) indefinidament, cosa que la
+      // mantindria enfocable per teclat sense necessitat.
+      previousBg?.classList.remove("hero__bg-group--exit");
+      copyFor(previous)?.classList.remove("hero__slide-copy--exit");
     }, BG_DURATION_MS);
   }
 

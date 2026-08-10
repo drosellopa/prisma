@@ -42,7 +42,7 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
   display: block;
   width: 0%;
   height: 100%;
-  background-color: variables.$color-brand-navy;
+  background-color: variables.$color-brand-indigo;
 
   &.is-running {
     animation-name: hero-progress;
@@ -72,10 +72,38 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 // ---------------------------------------------------------------------------
+// Parallax horitzontal — sensació de càmera desplaçant-se lateralment sobre
+// l'escena: el fons recorre més distància que el contingut de text (vegeu
+// .hero__slide-copy més avall), no simplement "surt/entra" com un slider
+// convencional. .hero--dir-forward/--dir-backward (afegides per
+// hero-slider.js just abans de cada canvi) decideixen el sentit del
+// desplaçament; --enter és la posició de repòs abans d'aparèixer i --exit
+// cap on continua movent-se en sortir (mai torna cap enrere).
+// ---------------------------------------------------------------------------
+.hero {
+  --hero-bg-shift: 54px;
+  --hero-content-shift: 16px;
+}
+
+.hero--dir-forward {
+  --hero-bg-enter-x: var(--hero-bg-shift);
+  --hero-bg-exit-x: calc(-1 * var(--hero-bg-shift));
+  --hero-content-enter-x: var(--hero-content-shift);
+  --hero-content-exit-x: calc(-1 * var(--hero-content-shift));
+}
+
+.hero--dir-backward {
+  --hero-bg-enter-x: calc(-1 * var(--hero-bg-shift));
+  --hero-bg-exit-x: var(--hero-bg-shift);
+  --hero-content-enter-x: calc(-1 * var(--hero-content-shift));
+  --hero-content-exit-x: var(--hero-content-shift);
+}
+
+// ---------------------------------------------------------------------------
 // Escenari de fons — 3 grups apilats (imatge+vídeo del slide 1, imatge dels
-// slides 2 i 3) que es creuen amb una transició d'opacitat + zoom + retall
-// geomètric (inspirat subtilment en les facetes triangulars del logotip).
-// Només un grup té --active en cada moment; la resta esperen invisibles.
+// slides 2 i 3). Només un grup té --active en cada moment; el que acaba de
+// perdre'l passa per --exit (segueix desplaçant-se en el mateix sentit,
+// mai torna cap al punt d'entrada) abans de tornar al repòs invisible.
 // ---------------------------------------------------------------------------
 .hero__stage {
   position: absolute;
@@ -87,35 +115,36 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
   position: absolute;
   inset: 0;
   opacity: 0;
-  transform: scale(1.08) translateY(10px);
-  // Petita facet a la cantonada superior dreta, referència subtil al
-  // triangle del logotip: es "desplega" cap al rectangle complet en activar.
-  clip-path: polygon(0% 0%, 82% 0%, 100% 22%, 100% 100%, 0% 100%);
+  // scale(1.05) evita que es vegi cap vora buida mentre es desplaça
+  // horitzontalment.
+  transform: translateX(var(--hero-bg-enter-x, 54px)) scale(1.05);
   transition:
     opacity $hero-bg-duration $hero-ease,
-    transform $hero-bg-duration $hero-ease,
-    clip-path $hero-bg-duration $hero-ease;
+    transform $hero-bg-duration $hero-ease;
   pointer-events: none;
+  will-change: transform, opacity;
 }
 
-.hero__bg-image,
-.hero__bg-video {
+.hero__bg-image {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   // Evita qualsevol color de reserva del navegador (p. ex. un placeholder
-  // groguenc/beix) mentre el vídeo o la imatge encara no han pintat.
+  // groguenc/beix) mentre la imatge encara no ha pintat.
   background-color: variables.$color-background;
   object-fit: cover;
   object-position: right center;
 }
 
+.hero__bg-group--exit {
+  transform: translateX(var(--hero-bg-exit-x, -54px)) scale(1.05);
+}
+
 .hero__bg-group--active {
   z-index: 1;
   opacity: 0.16;
-  transform: scale(1) translateY(0);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transform: translateX(0) scale(1);
 
   @media (min-width: variables.$breakpoint-hero-image) {
     opacity: 1;
@@ -123,15 +152,12 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero__bg-group {
-    transform: none;
-    clip-path: none;
-    transition: opacity 0.3s ease;
-  }
 
+  .hero__bg-group,
+  .hero__bg-group--exit,
   .hero__bg-group--active {
     transform: none;
-    clip-path: none;
+    transition: opacity 0.3s ease;
   }
 }
 
@@ -331,11 +357,19 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 // Diapositives de contingut — apilades amb CSS Grid (totes ocupen la mateixa
 // cel·la), així l'alçada del bloc la fixa el contingut més alt de les tres i
 // mai canvia en passar d'una diapositiva a una altra, encara que sigui més
-// curta. Només la diapositiva --current és visible; les altres hi són
-// (visibility: hidden, no display: none) precisament perquè segueixin
-// comptant per a l'alçada de la graella.
-// Sense JS, el slide 1 ja porta --current i --active al HTML: es veu
-// complet i estàtic, exactament com abans del slider.
+// curta.
+//
+// El bloc sencer viatja horitzontalment (parallax: molta menys distància
+// que el fons, vegeu --hero-content-shift) i s'esvaeix molt subtilment
+// alhora. --current/--exit controlen la visibilitat: en sortir, es manté
+// visible fins que acaba el desplaçament (transition-delay a la propietat
+// visibility) perquè es vegi fugir en comptes de desaparèixer de cop; en
+// entrar, es fa visible a l'instant. Sense JS, el slide 1 ja porta
+// --current i --active al HTML: es veu complet i estàtic.
+//
+// Per sobre d'aquest moviment de bloc, cada línia (títol, subtítol, text,
+// CTA) continua apareixent en cascada amb el seu propi opacity + translateY
+// vertical (--active), igual que abans.
 // ---------------------------------------------------------------------------
 .hero__slides {
   display: grid;
@@ -344,6 +378,14 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 .hero__slide-copy {
   grid-area: 1 / 1;
   visibility: hidden;
+  opacity: 0;
+  transform: translateX(var(--hero-content-enter-x, 16px));
+  transition:
+    opacity $hero-bg-duration $hero-ease,
+    transform $hero-bg-duration $hero-ease,
+    // Retarda l'ocultació fins que el desplaçament ha acabat, així es veu
+    // fugir en comptes de tallar-se de cop.
+    visibility 0s linear $hero-bg-duration;
 
   .hero__subtitle,
   .hero__tagline,
@@ -374,8 +416,20 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
   }
 }
 
+.hero__slide-copy--exit {
+  visibility: visible;
+  opacity: 0;
+  transform: translateX(var(--hero-content-exit-x, -16px));
+}
+
 .hero__slide-copy--current {
   visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+  transition:
+    opacity $hero-bg-duration $hero-ease,
+    transform $hero-bg-duration $hero-ease,
+    visibility 0s linear 0s;
 }
 
 .hero__slide-copy--active {
@@ -390,6 +444,20 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @media (prefers-reduced-motion: reduce) {
+
+  .hero__slide-copy,
+  .hero__slide-copy--exit,
+  .hero__slide-copy--current {
+    transform: none;
+    transition:
+      opacity 0.3s ease,
+      visibility 0s linear 0.3s;
+  }
+
+  .hero__slide-copy--current {
+    transition: opacity 0.3s ease, visibility 0s linear 0s;
+  }
+
   .hero__slide-copy {
 
     .hero__subtitle,
@@ -416,18 +484,22 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
   transform: translateX(-50%);
 }
 
+// Triangle equilàter (mateixa empremta 10×9px que abans el cercle) fet amb
+// la tècnica de vores: sense box ni border-radius, la "forma" la donen les
+// tres vores del propi element.
 .hero__dot {
-  width: 10px;
-  height: 10px;
+  width: 0;
+  height: 0;
   padding: 0;
-  border: 0;
-  border-radius: 50%;
-  background-color: color.change(variables.$color-text-heading, $alpha: 0.22);
+  border-style: solid;
+  border-width: 0 5px 9px;
+  border-color: transparent transparent color.change(variables.$color-text-heading, $alpha: 0.22);
+  background-color: transparent;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: border-bottom-color 0.2s ease, transform 0.2s ease;
 
   &:hover {
-    background-color: color.change(variables.$color-primary, $alpha: 0.6);
+    border-bottom-color: color.change(variables.$color-primary, $alpha: 0.6);
   }
 
   &:focus-visible {
@@ -437,7 +509,7 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .hero__dot--active {
-  background-color: variables.$color-primary;
+  border-bottom-color: variables.$color-primary;
   transform: scale(1.2);
 }
 

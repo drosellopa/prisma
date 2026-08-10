@@ -70,6 +70,10 @@
 }
 
 .course-card__header {
+  position: relative;
+  // Per sobre de la imatge (vegeu z-index més avall): en créixer amb el
+  // zoom de hover, la imatge no ha de tapar mai el títol.
+  z-index: 1;
   display: flex;
   align-items: center;
   gap: 0.625rem;
@@ -78,6 +82,7 @@
   // més baixa i la foto hi guanyi protagonisme.
   min-height: 68px;
   padding: 0.875rem 1rem;
+  background-color: variables.$color-background;
 
   .icon-badge {
     flex-shrink: 0;
@@ -98,9 +103,24 @@
 }
 
 .course-card img {
+  position: relative;
+  z-index: 0;
   display: block;
   width: 100%;
   aspect-ratio: 800 / 533;
   object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.course-card:hover img {
+  // .course-card__header té z-index per sobre (vegeu amunt): el títol es
+  // manté sempre visible encara que la imatge creixi cap a la seva zona.
+  transform: scale(1.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .course-card img {
+    transition: none;
+  }
 }
 

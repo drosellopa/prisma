@@ -7,7 +7,6 @@
 // import SomeModule from 'some-node-module';
 
 import initHeaderNav from "./header-nav.js";
-import initHeroVideo from "./hero-video.js";
 import initHeroSlider from "./hero-slider.js";
 import initPillarsReveal from "./pillars-reveal.js";
 
@@ -24,6 +23,5 @@ import initPillarsReveal from "./pillars-reveal.js";
 })();
 
 initHeaderNav();
-initHeroVideo();
 initHeroSlider();
 initPillarsReveal();
