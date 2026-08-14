@@ -220,6 +220,7 @@
 // Principis d'actuació — graella numerada.
 // ---------------------------------------------------------------------------
 .qui-som__principles {
+  display: none;
   margin: 3rem 0;
 }
 
@@ -284,7 +285,6 @@
   position: relative;
   left: 50%;
   width: 100vw;
-  margin-top: 3rem;
   margin-left: -50vw;
   background-color: variables.$color-text-heading;
   background-image: url("../images/fons_territori.webp");

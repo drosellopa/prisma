@@ -25,6 +25,7 @@ export default function initHeroSlider() {
   const dots = hero.querySelectorAll("[data-hero-dot]");
   const progressBar = hero.querySelector("[data-hero-progress]");
   const announce = hero.querySelector("[data-hero-announce]");
+  const content = hero.querySelector(".hero__content");
 
   if (!bgLayers.length || slideCopies.length < SLIDE_COUNT) {
     return;
@@ -226,8 +227,13 @@ export default function initHeroSlider() {
     startTimer();
   }
 
-  hero.addEventListener("pointerenter", pause);
-  hero.addEventListener("pointerleave", resume);
+  // El hover amb ratolí només pausa dins .hero__content (títol + text +
+  // CTA): passar per sobre de la imatge de fons, les fletxes o els punts
+  // no atura l'autoplay. El focus de teclat, en canvi, es manté a tot el
+  // hero perquè fletxes i punts (fora de .hero__content) segueixin
+  // complint WCAG 2.2.2 en navegar-hi amb Tab.
+  content?.addEventListener("pointerenter", pause);
+  content?.addEventListener("pointerleave", resume);
   hero.addEventListener("focusin", pause);
   hero.addEventListener("focusout", (event) => {
     if (!hero.contains(event.relatedTarget)) {
