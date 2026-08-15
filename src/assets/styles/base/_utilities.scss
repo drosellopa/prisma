@@ -16,3 +16,23 @@
   font-style: italic;
   opacity: 0.7;
 }
+
+// Fos d'entrada en fer scroll (vegeu scroll-reveal.js): l'element hi porta
+// aquesta classe des de l'HTML, però només fa alguna cosa quan JS hi afegeix
+// .js-fade abans d'observar-lo — sense JS es veu normal des del principi,
+// mai depèn del JS per ser visible.
+.reveal-fade.js-fade {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.reveal-fade.js-fade.is-visible {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-fade.js-fade {
+    opacity: 1;
+    transition: none;
+  }
+}

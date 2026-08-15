@@ -1,16 +1,69 @@
+@use "sass:color";
 @use "../variables";
 
 .acreditacio {
+  position: relative;
+  overflow: hidden;
   background-color: variables.$color-background-alt;
+
+  // Imatge de fons a opacitat plena — la llegibilitat la dona el vel clar
+  // de sota (::after), no pas enfosquir/esvair la imatge en si.
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url("../images/back_acreditat.png?as=webp&width=1920");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  // Vel clar per sobre de tota la imatge: només a mòbil/tauleta, on la
+  // imatge hi queda molt subtil i el text n'és el protagonista. A partir
+  // d'ordinador es desactiva del tot — la imatge s'hi veu a tota potència,
+  // i és la targeta de .acreditacio__inner (vegeu més avall) qui garanteix
+  // la llegibilitat del text sense haver de rebaixar la imatge sencera.
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-color: color.change(variables.$color-background, $alpha: 0.8);
+
+    @media (min-width: variables.$breakpoint-nav-desktop) {
+      content: none;
+    }
+  }
 }
 
 .acreditacio__inner {
+  position: relative;
+  z-index: 1;
   max-width: 1280px;
   margin-inline: auto;
   padding: 4rem 1.25rem;
 
   @media (min-width: variables.$breakpoint-hero-image) {
     padding-block: 6rem;
+  }
+}
+
+// La imatge de fons (::before, a tota potència a partir d'ordinador) té una
+// zona llisa i clara al 45% esquerre; el contingut s'hi encabeix a sobre
+// sense cap targeta ni vel — el mateix fons ja dona prou contrast al text
+// fosc. Per sota d'ordinador la imatge no té aquesta zona garantida (es
+// retalla diferent), per això el vel de .acreditacio segueix cobrint tota
+// l'amplada i el contingut hi torna a ocupar tota l'amplada disponible.
+@media (min-width: variables.$breakpoint-nav-desktop) {
+  .acreditacio__content {
+    max-width: 30rem;
+  }
+
+  // Les 3 columnes pensades per a l'amplada completa queden massa
+  // atapeïdes en aquesta columna estreta.
+  .acreditacio__content .check-list {
+    grid-template-columns: 1fr;
   }
 }
 

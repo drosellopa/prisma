@@ -109,6 +109,13 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
   position: absolute;
   inset: 0;
   z-index: 0;
+  // Entrada esglaonada en carregar la pàgina (només el primer cop: és una
+  // animation, no una transition, així que mai interfereix amb les
+  // transicions pròpies del slider quan canvia de diapositiva més tard).
+  // El contenidor s'esvaeix, no cada capa de fons individualment, perquè
+  // .hero__bg-group--active ja porta la seva pròpia opacity (0.16/1 segons
+  // el breakpoint) que no s'ha de tocar.
+  animation: hero-intro-fade 1s ease-out 0.5s backwards;
 }
 
 .hero__bg-group {
@@ -283,6 +290,9 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
   letter-spacing: variables.$letter-spacing-heading;
   font-size: clamp(2.25rem, 5vw, 3.5rem);
   line-height: 1.1;
+  // Entrada esglaonada en carregar la pàgina: 0.5s després del fons (vegeu
+  // .hero__stage).
+  animation: hero-intro-fade 0.8s ease-out 1s backwards;
 
   // El doble de gran en escriptori (abans topava a 3.5rem; ara a 7rem).
   @media (min-width: variables.$breakpoint-hero-image) {
@@ -373,6 +383,30 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 // ---------------------------------------------------------------------------
 .hero__slides {
   display: grid;
+  // Entrada esglaonada en carregar la pàgina: 0.5s després del títol (1s
+  // després del fons). Anima el contenidor, no .hero__slide-copy (que ja
+  // porta la seva pròpia opacity/transform per als canvis de diapositiva),
+  // així no hi ha cap interferència entre els dos mecanismes.
+  animation: hero-intro-fade 0.8s ease-out 1.5s backwards;
+}
+
+@keyframes hero-intro-fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .hero__stage,
+  .hero__title,
+  .hero__slides {
+    animation: none;
+  }
 }
 
 .hero__slide-copy {
