@@ -9,6 +9,7 @@
 import initHeaderNav from "./header-nav.js";
 import initHeroSlider from "./hero-slider.js";
 import initPillarsReveal from "./pillars-reveal.js";
+import initFlipCards from "./flip-cards.js";
 
 /**
  * Write any other JavaScript below
@@ -25,3 +26,4 @@ import initPillarsReveal from "./pillars-reveal.js";
 initHeaderNav();
 initHeroSlider();
 initPillarsReveal();
+initFlipCards();
