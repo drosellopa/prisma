@@ -552,11 +552,33 @@ $hero-ease: cubic-bezier(0.22, 1, 0.36, 1);
 // (opacitat mínima definida a .hero__bg-group--active), així que els
 // controls no necessiten cap ajust extra de contrast: ja hi ha prou blanc
 // darrere. Es redueixen lleugerament perquè no distreguin.
+//
+// Les fletxes deixen de centrar-se verticalment (a mòbil el contingut és
+// un bloc apilat molt alt: el 50% de l'alçada cau enmig del paràgraf, no
+// en cap zona buida) i baixen a formar un sol grup amb els punts, com un
+// clúster de controls de carrusel: ‹ ●○○ ›. Com que .hero__arrow ja és
+// position: absolute respecte a .hero (l'avantpassat posicionat més
+// proper — el contenidor nou que agrupa fletxes+punts no té position:
+// relative), calen només left/right calculats des del centre.
 // ---------------------------------------------------------------------------
 @media (max-width: #{variables.$breakpoint-hero-image - 1px}) {
   .hero__arrow {
+    top: auto;
+    bottom: 1rem;
+    transform: none;
     width: 40px;
     height: 40px;
+  }
+
+  .hero__arrow--prev {
+    right: auto;
+    // Centre - (radi dels punts + separació + ample de la fletxa).
+    left: calc(50% - 77px);
+  }
+
+  .hero__arrow--next {
+    left: auto;
+    right: calc(50% - 77px);
   }
 
   .hero__dots {

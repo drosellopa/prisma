@@ -129,6 +129,15 @@
   justify-content: flex-start;
   gap: 0.875rem;
   transform: rotateY(180deg);
+  // Vel blanc per sobre del mapa (segona capa del fons, la que es pinta a
+  // sobre) perquè les dades de contacte es llegeixin bé.
+  background-image:
+    linear-gradient(color.change(variables.$color-background, $alpha: 0.7),
+      color.change(variables.$color-background, $alpha: 0.7)),
+    url("../images/mapa_fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .centres-membres__back-header {
