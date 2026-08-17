@@ -15,7 +15,12 @@
     "web": {
       "context": "browser",
       "publicUrl": "./",
-      "source": "src/index.html",
+      "source": [
+        "src/index.html",
+        "src/avis-legal.html",
+        "src/politica-privacitat.html",
+        "src/politica-cookies.html"
+      ],
       "engines": {
         "browsers": "last 2 versions, > 0.5%, not dead"
       }

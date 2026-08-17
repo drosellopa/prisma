@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "../variables";
 
 // Avís reutilitzable per a contingut pendent (Oferta formativa, Projectes de
@@ -18,6 +19,18 @@
 
 .notice--pending {
   color: variables.$color-text-muted;
+}
+
+// Variant per a confirmacions positives (p. ex. "aquesta web no usa
+// cookies"), tenyida amb el color primari en lloc del neutre per defecte.
+.notice--info {
+  border-color: color.change(variables.$color-primary, $alpha: 0.25);
+  background-color: color.change(variables.$color-primary, $alpha: 0.06);
+  color: variables.$color-text-body;
+
+  .notice__icon {
+    color: variables.$color-primary;
+  }
 }
 
 .notice__icon {
